@@ -1,0 +1,2582 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_SkillDescText_Common",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/L10N/pt-BR/Pal/DataTable/Text/DT_SkillDescText_Common",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "ACTION_SKILL_Human_Punch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Human_Punch_TextData",
+          "SourceString": "Acreditando na força do próprio punho, você dá um soco.",
+          "LocalizedString": "Acreditando na força do próprio punho, você dá um soco."
+        }
+      },
+      "ACTION_SKILL_Throw": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Throw_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "ACTION_SKILL_Scratch": {
+        "TextData": {
+          "CultureInvariantString": null
+        }
+      },
+      "ACTION_SKILL_EnergyShot": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_EnergyShot_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "ACTION_SKILL_HyperBeam": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_HyperBeam_TextData",
+          "SourceString": "Carrega uma energia destruidora para disparar\r\num raio superpoderoso contra uma grande área à sua frente.",
+          "LocalizedString": "Carrega uma energia destruidora para disparar\r\num raio superpoderoso contra uma grande área à sua frente."
+        }
+      },
+      "ACTION_SKILL_PowerShot": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_PowerShot_TextData",
+          "SourceString": "Carrega energia\r\npara dispará-la como um projétil.",
+          "LocalizedString": "Carrega energia\r\npara dispará-la como um projétil."
+        }
+      },
+      "ACTION_SKILL_PowerBall": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_PowerBall_TextData",
+          "SourceString": "Carrega grande quantidade de energia\r\npara dispará-la como uma esfera gigantesca.",
+          "LocalizedString": "Carrega grande quantidade de energia\r\npara dispará-la como uma esfera gigantesca."
+        }
+      },
+      "ACTION_SKILL_AirCanon": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_AirCanon_TextData",
+          "SourceString": "Dispara uma massa de ar que voa a grande velocidade.",
+          "LocalizedString": "Dispara uma massa de ar que voa a grande velocidade."
+        }
+      },
+      "ACTION_SKILL_StardustArrow": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_StardustArrow_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "ACTION_SKILL_Intimidate": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Intimidate_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "ACTION_SKILL_StarMine": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_StarMine_TextData",
+          "SourceString": "Gera estrelas ao redor do inimigo que explodem ao contato.\r\nAs estrelas também explodem depois de passado algum tempo.",
+          "LocalizedString": "Gera estrelas ao redor do inimigo que explodem ao contato.\r\nAs estrelas também explodem depois de passado algum tempo."
+        }
+      },
+      "ACTION_SKILL_AirBlade": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_AirBlade_TextData",
+          "SourceString": "Lança uma lâmina de ar cortante em forma de leque.",
+          "LocalizedString": "Lança uma lâmina de ar cortante em forma de leque."
+        }
+      },
+      "ACTION_SKILL_HolyBlast": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_HolyBlast_TextData",
+          "SourceString": "Causa explosões de luz em grande área\r\nno local do inimigo e seus arredores.",
+          "LocalizedString": "Causa explosões de luz em grande área\r\nno local do inimigo e seus arredores."
+        }
+      },
+      "ACTION_SKILL_Weapon_Use": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Weapon_Use_TextData",
+          "SourceString": "Ataca usando a arma que tiver em mãos.",
+          "LocalizedString": "Ataca usando a arma que tiver em mãos."
+        }
+      },
+      "ACTION_SKILL_RadiantBarrage": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_RadiantBarrage_TextData",
+          "SourceString": "Dispara uma bola de luz que persegue o inimigo lentamente.\r\nQuando se aproxima do alvo, ela se parte em inúmeros projéteis luminosos para atacá-lo.",
+          "LocalizedString": "Dispara uma bola de luz que persegue o inimigo lentamente.\r\nQuando se aproxima do alvo, ela se parte em inúmeros projéteis luminosos para atacá-lo."
+        }
+      },
+      "ACTION_SKILL_Unique_Anubis_LowRoundKick": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Anubis_LowRoundKick_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|Anubis|/>.\r\nEle executa um chute giratório com suas pernas poderosas para aniquilar todos em uma grande área ao redor.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|Anubis|/>.\r\nEle executa um chute giratório com suas pernas poderosas para aniquilar todos em uma grande área ao redor."
+        }
+      },
+      "ACTION_SKILL_Unique_Anubis_GroundPunch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Anubis_GroundPunch_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|Anubis|/>.\r\nEle salta às alturas e desce com um soco contra o chão.\r\nO choque se espalha pelo solo, causando dano em grande área.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|Anubis|/>.\r\nEle salta às alturas e desce com um soco contra o chão.\r\nO choque se espalha pelo solo, causando dano em grande área."
+        }
+      },
+      "ACTION_SKILL_Unique_Anubis_Tackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Anubis_Tackle_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|Anubis|/>.\r\nEle persegue o inimigo em alta velocidade,\r\nliberando energia para executar um soco poderoso.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|Anubis|/>.\r\nEle persegue o inimigo em alta velocidade,\r\nliberando energia para executar um soco poderoso."
+        }
+      },
+      "ACTION_SKILL_Unique_Deer_PushupHorn": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Deer_PushupHorn_TextData",
+          "SourceString": "Habilidade exclusiva de Eikthyrdeer e subespécies.\r\nEle investe contra o inimigo e ataca com uma chifrada para cima.\r\nQuando ativada durante a montaria, permite controlar a direção da investida.",
+          "LocalizedString": "Habilidade exclusiva de Eikthyrdeer e subespécies.\r\nEle investe contra o inimigo e ataca com uma chifrada para cima.\r\nQuando ativada durante a montaria, permite controlar a direção da investida."
+        }
+      },
+      "ACTION_SKILL_Unique_Garm_Bite": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Garm_Bite_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|Garm|/>.\r\nEle salta rapidamente contra o inimigo, atacando com uma mordida.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|Garm|/>.\r\nEle salta rapidamente contra o inimigo, atacando com uma mordida."
+        }
+      },
+      "ACTION_SKILL_Unique_Boar_Tackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Boar_Tackle_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|Boar|/>.\r\nEle fixa os olhos no inimigo e se lança contra ele com um ímpeto ensandecido.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|Boar|/>.\r\nEle fixa os olhos no inimigo e se lança contra ele com um ímpeto ensandecido."
+        }
+      },
+      "ACTION_SKILL_Unique_PinkCat_CatPunch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_PinkCat_CatPunch_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|PinkCat|/>.\r\nEle persegue o inimigo enquanto gira ambos os braços,\r\nexecutando socos consecutivos.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|PinkCat|/>.\r\nEle persegue o inimigo enquanto gira ambos os braços,\r\nexecutando socos consecutivos."
+        }
+      },
+      "ACTION_SKILL_Unique_FlowerDinosaur_Whip": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_FlowerDinosaur_Whip_TextData",
+          "SourceString": "Habilidade exclusiva de Dinossom e subespécies.\r\nEle usa sua grande cauda para golpear o solo à frente,\r\ncausando um choque em linha reta.",
+          "LocalizedString": "Habilidade exclusiva de Dinossom e subespécies.\r\nEle usa sua grande cauda para golpear o solo à frente,\r\ncausando um choque em linha reta."
+        }
+      },
+      "ACTION_SKILL_Unique_SheepBall_Roll": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_SheepBall_Roll_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|SheepBall|/>.\r\nEla persegue o inimigo enquanto sai rolando pelo solo.\r\nApós o ataque, acaba ficando tonta e incapaz de se mover.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|SheepBall|/>.\r\nEla persegue o inimigo enquanto sai rolando pelo solo.\r\nApós o ataque, acaba ficando tonta e incapaz de se mover."
+        }
+      },
+      "ACTION_SKILL_Unique_ChickenPal_ChickenPeck": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ChickenPal_ChickenPeck_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|ChickenPal|/>.\r\nEla salta na direção do inimigo para atacá-lo com seu bico afiado.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|ChickenPal|/>.\r\nEla salta na direção do inimigo para atacá-lo com seu bico afiado."
+        }
+      },
+      "ACTION_SKILL_Unique_Horus_FlareBird": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Horus_FlareBird_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|Horus|/>.\r\nDepois de gerar um redemoinho escaldante,\r\nele envolve seu corpo em chamas infernais e se arremete numa investida rasante.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|Horus|/>.\r\nDepois de gerar um redemoinho escaldante,\r\nele envolve seu corpo em chamas infernais e se arremete numa investida rasante."
+        }
+      },
+      "ACTION_SKILL_Unique_Horus_Water_AquaStorm": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Horus_Water_AquaStorm_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|Horus_Water|/>.\r\nDepois de gerar um redemoinho turbulento,\r\nele envolve seu corpo em água e se arremete numa investida rasante.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|Horus_Water|/>.\r\nDepois de gerar um redemoinho turbulento,\r\nele envolve seu corpo em água e se arremete numa investida rasante."
+        }
+      },
+      "ACTION_SKILL_Unique_ElecPanda_ElecScratch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ElecPanda_ElecScratch_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|ElecPanda|/>.\r\nEle salta contra o inimigo para fatiá-lo com suas garras carregadas de eletricidade.\r\nApós o segundo salto, termina colocando as garras sobre o solo\r\ne espalhando um ataque elétrico por uma grande área.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|ElecPanda|/>.\r\nEle salta contra o inimigo para fatiá-lo com suas garras carregadas de eletricidade.\r\nApós o segundo salto, termina colocando as garras sobre o solo\r\ne espalhando um ataque elétrico por uma grande área."
+        }
+      },
+      "ACTION_SKILL_Unique_FairyDragon_FairyTornado": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_FairyDragon_FairyTornado_TextData",
+          "SourceString": "Habilidade exclusiva de Elphidran e subespécies.\r\nEle dispara dois redemoinhos carregados com uma força misteriosa\r\npara perseguir os inimigos.",
+          "LocalizedString": "Habilidade exclusiva de Elphidran e subespécies.\r\nEle dispara dois redemoinhos carregados com uma força misteriosa\r\npara perseguir os inimigos."
+        }
+      },
+      "ACTION_SKILL_Unique_Gorilla_GroundPunch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Gorilla_GroundPunch_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|Gorilla|/> e subespécies.\r\nEle salta depois de golpear o solo duas vezes,\r\ndesferindo então um soco violento.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|Gorilla|/> e subespécies.\r\nEle salta depois de golpear o solo duas vezes,\r\ndesferindo então um soco violento."
+        }
+      },
+      "ACTION_SKILL_Unique_Grassmammoth_Earthquake": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Grassmammoth_Earthquake_TextData",
+          "SourceString": "Habilidade exclusiva de Mammorest e subespécies.\r\nEle faz estremecer a terra com seu corpo colossal,\r\ncausando dano em uma grande área ao redor de si.",
+          "LocalizedString": "Habilidade exclusiva de Mammorest e subespécies.\r\nEle faz estremecer a terra com seu corpo colossal,\r\ncausando dano em uma grande área ao redor de si."
+        }
+      },
+      "ACTION_SKILL_Unique_GrassPanda_MusclePunch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GrassPanda_MusclePunch_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|GrassPanda|/>.\r\nEle gira o braço direito antes de desferir um soco violento para a frente.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|GrassPanda|/>.\r\nEle gira o braço direito antes de desferir um soco violento para a frente."
+        }
+      },
+      "ACTION_SKILL_Unique_GrassPanda_Electric_ElectricPunch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GrassPanda_Electric_ElectricPunch_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|GrassPanda_Electric|/>.\r\nEle gira o braço direito antes de desferir um soco violento para a frente.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|GrassPanda_Electric|/>.\r\nEle gira o braço direito antes de desferir um soco violento para a frente."
+        }
+      },
+      "ACTION_SKILL_Unique_Alpaca_Tackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Alpaca_Tackle_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|Alpaca|/>.\r\nEla investe contra o inimigo envolta por uma aura de fofura.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|Alpaca|/>.\r\nEla investe contra o inimigo envolta por uma aura de fofura."
+        }
+      },
+      "ACTION_SKILL_Unique_AmaterasuWolf_FireCharge": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_AmaterasuWolf_FireCharge_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|AmaterasuWolf|/>.\r\nEle envolve o corpo inteiro com uma chama azul e investe com grande ímpeto.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|AmaterasuWolf|/>.\r\nEle envolve o corpo inteiro com uma chama azul e investe com grande ímpeto."
+        }
+      },
+      "ACTION_SKILL_Unique_AmaterasuWolf_Dark_DarkCharge": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_AmaterasuWolf_Dark_DarkCharge_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|AmaterasuWolf_Dark|/>.\r\nEle envolve o corpo inteiro com uma chama roxa e investe com grande ímpeto.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|AmaterasuWolf_Dark|/>.\r\nEle envolve o corpo inteiro com uma chama roxa e investe com grande ímpeto."
+        }
+      },
+      "ACTION_SKILL_Unique_Baphomet_SwallowKite": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Baphomet_SwallowKite_TextData",
+          "SourceString": "Habilidade exclusiva de Incineram e subespécies.\r\nEle se aproxima e lança o inimigo para cima com um corte da garra esquerda,\r\nlogo saltando para derrubá-lo rapidamente com a garra direita.",
+          "LocalizedString": "Habilidade exclusiva de Incineram e subespécies.\r\nEle se aproxima e lança o inimigo para cima com um corte da garra esquerda,\r\nlogo saltando para derrubá-lo rapidamente com a garra direita."
+        }
+      },
+      "ACTION_SKILL_Unique_BirdDragon_FireBreath": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BirdDragon_FireBreath_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|BirdDragon|/>.\r\nAvança enquanto cospe fogo pela boca.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|BirdDragon|/>.\r\nAvança enquanto cospe fogo pela boca."
+        }
+      },
+      "ACTION_SKILL_Unique_BirdDragon_Ice_IceBreath": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BirdDragon_Ice_IceBreath_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|BirdDragon_Ice|/>.\r\nAvança enquanto cospe gelo pela boca.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|BirdDragon_Ice|/>.\r\nAvança enquanto cospe gelo pela boca."
+        }
+      },
+      "ACTION_SKILL_Unique_BlackCentaur_TwoSpearRushes": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BlackCentaur_TwoSpearRushes_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|BlackCentaur|/>.\r\nEle investe contra o inimigo com uma lança em cada mão,\r\nambas envoltas em um redemoinho.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|BlackCentaur|/>.\r\nEle investe contra o inimigo com uma lança em cada mão,\r\nambas envoltas em um redemoinho."
+        }
+      },
+      "ACTION_SKILL_Unique_BlackFurDragon_RotationalSlash": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BlackFurDragon_RotationalSlash_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "ACTION_SKILL_Unique_BlackGriffon_TackleLaser": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BlackGriffon_TackleLaser_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|BlackGriffon|/>.\r\nEle emite uma esfera de luz enquanto dá uma arremetida.\r\nA esfera persegue o inimigo automaticamente e emite inúmeros lasers.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|BlackGriffon|/>.\r\nEle emite uma esfera de luz enquanto dá uma arremetida.\r\nA esfera persegue o inimigo automaticamente e emite inúmeros lasers."
+        }
+      },
+      "ACTION_SKILL_Unique_BlackMetalDragon_FirePunch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BlackMetalDragon_FirePunch_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|BlackMetalDragon|/>.\r\nDepois de desferir dois socos à sua frente,\r\nvolta-se para baixo e emite uma baforada dracônica.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|BlackMetalDragon|/>.\r\nDepois de desferir dois socos à sua frente,\r\nvolta-se para baixo e emite uma baforada dracônica."
+        }
+      },
+      "ACTION_SKILL_Unique_DarkCrow_TelePoke": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_DarkCrow_TelePoke_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|DarkCrow|/>.\r\nEle ataca com bicadas após\r\nse teletransportar até o inimigo.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|DarkCrow|/>.\r\nEle ataca com bicadas após\r\nse teletransportar até o inimigo."
+        }
+      },
+      "ACTION_SKILL_Unique_DarkMutant_DarkTackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_DarkMutant_DarkTackle_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "ACTION_SKILL_Unique_DarkScorpion_Pierce": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_DarkScorpion_Pierce_TextData",
+          "SourceString": "Habilidade exclusiva de Menasting e subespécies.\r\nEle salta às alturas e perfura sua presa com ímpeto\r\nusando a cauda peçonhenta.",
+          "LocalizedString": "Habilidade exclusiva de Menasting e subespécies.\r\nEle salta às alturas e perfura sua presa com ímpeto\r\nusando a cauda peçonhenta."
+        }
+      },
+      "ACTION_SKILL_Unique_DrillGame_ShellAttack": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_DrillGame_ShellAttack_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|DrillGame|/>.\r\nEla se desloca enquanto faz o corpo inteiro girar em alta velocidade,\r\ncausando dano contínuo ao triturar o inimigo com sua broca.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|DrillGame|/>.\r\nEla se desloca enquanto faz o corpo inteiro girar em alta velocidade,\r\ncausando dano contínuo ao triturar o inimigo com sua broca."
+        }
+      },
+      "ACTION_SKILL_Unique_Eagle_GlidingNail": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Eagle_GlidingNail_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|Eagle|/>.\r\nEla realiza uma impetuosa investida aérea\r\ncom as garras apontadas para a frente.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|Eagle|/>.\r\nEla realiza uma impetuosa investida aérea\r\ncom as garras apontadas para a frente."
+        }
+      },
+      "ACTION_SKILL_Unique_FengyunDeeper_CloudTempest": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_FengyunDeeper_CloudTempest_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|FengyunDeeper|/>.\r\nEle controla a atmosfera para arremeter com o corpo envolto pela pressão do ar.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|FengyunDeeper|/>.\r\nEle controla a atmosfera para arremeter com o corpo envolto pela pressão do ar."
+        }
+      },
+      "ACTION_SKILL_Unique_FengyunDeeper_Electric_ThunderTempest": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_FengyunDeeper_Electric_ThunderTempest_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|FengyunDeeper_Electric|/>.\r\nEle controla a atmosfera para arremeter com o corpo envolto por nuvens trovejantes.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|FengyunDeeper_Electric|/>.\r\nEle controla a atmosfera para arremeter com o corpo envolto por nuvens trovejantes."
+        }
+      },
+      "ACTION_SKILL_Unique_FireKirin_Tackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_FireKirin_Tackle_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|FireKirin|/>.\r\nEla investe com o corpo envolto em chamas,\r\nincendiando tudo em seu trajeto.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|FireKirin|/>.\r\nEla investe com o corpo envolto em chamas,\r\nincendiando tudo em seu trajeto."
+        }
+      },
+      "ACTION_SKILL_Unique_FireKirin_Dark_DarkTossin": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_FireKirin_Dark_DarkTossin_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|FireKirin_Dark|/>.\r\nEle investe com o corpo envolto em chamas negras,\r\nincendiando tudo em seu trajeto.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|FireKirin_Dark|/>.\r\nEle investe com o corpo envolto em chamas negras,\r\nincendiando tudo em seu trajeto."
+        }
+      },
+      "ACTION_SKILL_Unique_FlameBuffalo_FlameHorn": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_FlameBuffalo_FlameHorn_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|FlameBuffalo|/>.\r\nDepois de fixar a mira no inimigo,\r\nele arremete com um ímpeto ensandecido enquanto golpeia com os chifres para o alto.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|FlameBuffalo|/>.\r\nDepois de fixar a mira no inimigo,\r\nele arremete com um ímpeto ensandecido enquanto golpeia com os chifres para o alto."
+        }
+      },
+      "ACTION_SKILL_Unique_GhostBeast_Tossin": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GhostBeast_Tossin_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|GhostBeast|/>.\r\nCorre sem pressa enquanto vai fazendo\r\nvoarem bolas de fogo tremulantes contra o inimigo.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|GhostBeast|/>.\r\nCorre sem pressa enquanto vai fazendo\r\nvoarem bolas de fogo tremulantes contra o inimigo."
+        }
+      },
+      "ACTION_SKILL_Unique_GrassRabbitMan_GrassRoundKick": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GrassRabbitMan_GrassRoundKick_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|GrassRabbitMan|/>.\r\nDá um pulo para a frente e executa um chute giratório\r\npara aniquilar todos ao redor.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|GrassRabbitMan|/>.\r\nDá um pulo para a frente e executa um chute giratório\r\npara aniquilar todos ao redor."
+        }
+      },
+      "ACTION_SKILL_Unique_HawkBird_Storm": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_HawkBird_Storm_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|HawkBird|/>.\r\nDepois de gerar um redemoinho à sua frente,\r\nele desliza pelos ares para investir contra o inimigo.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|HawkBird|/>.\r\nDepois de gerar um redemoinho à sua frente,\r\nele desliza pelos ares para investir contra o inimigo."
+        }
+      },
+      "ACTION_SKILL_Unique_HerculesBeetle_BeetleTackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_HerculesBeetle_BeetleTackle_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|HerculesBeetle|/>.\r\nEle faz espetinho do inimigo usando seus quatro chifres inquebráveis.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|HerculesBeetle|/>.\r\nEle faz espetinho do inimigo usando seus quatro chifres inquebráveis."
+        }
+      },
+      "ACTION_SKILL_Unique_IceDeer_IceHorn": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_IceDeer_IceHorn_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|IceDeer|/>.\r\nEle dá uma investida e manda o inimigo para o alto com sua majestosa galhada de gelo.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|IceDeer|/>.\r\nEle dá uma investida e manda o inimigo para o alto com sua majestosa galhada de gelo."
+        }
+      },
+      "ACTION_SKILL_Unique_IceHorse_IceBladeAttack": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_IceHorse_IceBladeAttack_TextData",
+          "SourceString": "Habilidade exclusiva de Frostallion e subespécies.\r\nEle condensa o ar frio para cobrir as asas de gelo\r\ne então as usa para dilacerar o inimigo enquanto passa por ele a galope.",
+          "LocalizedString": "Habilidade exclusiva de Frostallion e subespécies.\r\nEle condensa o ar frio para cobrir as asas de gelo\r\ne então as usa para dilacerar o inimigo enquanto passa por ele a galope."
+        }
+      },
+      "ACTION_SKILL_Unique_JetDragon_JumpBeam": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_JetDragon_JumpBeam_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|JetDragon|/>.\r\nFazendo suas asas brilharem,\r\nele voa enquanto dispara incontáveis raios contra o inimigo,\r\nos quais causam explosões ao fazerem contato.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|JetDragon|/>.\r\nFazendo suas asas brilharem,\r\nele voa enquanto dispara incontáveis raios contra o inimigo,\r\nos quais causam explosões ao fazerem contato."
+        }
+      },
+      "ACTION_SKILL_Unique_KingAlpaca_BodyPress": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_KingAlpaca_BodyPress_TextData",
+          "SourceString": "Habilidade exclusiva de Kingpaca e subespécies.\r\nEle dá um grande salto e esmaga o inimigo\r\ncom seu gigantesco corpo rechonchudo.",
+          "LocalizedString": "Habilidade exclusiva de Kingpaca e subespécies.\r\nEle dá um grande salto e esmaga o inimigo\r\ncom seu gigantesco corpo rechonchudo."
+        }
+      },
+      "ACTION_SKILL_Unique_KingBahamut_AirCrash": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_KingBahamut_AirCrash_TextData",
+          "SourceString": "Habilidade exclusiva de Blazamut Ryu.\r\nEle dá um grande salto e se move em alta velocidade pelo céu\r\nenquanto concentra energia para desferir um soco com todas as suas forças.",
+          "LocalizedString": "Habilidade exclusiva de Blazamut Ryu.\r\nEle dá um grande salto e se move em alta velocidade pelo céu\r\nenquanto concentra energia para desferir um soco com todas as suas forças."
+        }
+      },
+      "ACTION_SKILL_Unique_Kirin_LightningTackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Kirin_LightningTackle_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|Kirin|/>.\r\nEla investe contra o inimigo enquanto faz\r\ncair raios ao redor de si mesma.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|Kirin|/>.\r\nEla investe contra o inimigo enquanto faz\r\ncair raios ao redor de si mesma."
+        }
+      },
+      "ACTION_SKILL_Unique_Manticore_InfernoStrike": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Manticore_InfernoStrike_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|Manticore|/> e subespécies.\r\nVoa em uma investida sem piedade contra os inimigos,\r\nfazendo suas chamas estourarem ao se aproximar.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|Manticore|/> e subespécies.\r\nVoa em uma investida sem piedade contra os inimigos,\r\nfazendo suas chamas estourarem ao se aproximar."
+        }
+      },
+      "ACTION_SKILL_Unique_NaughtyCat_CatPress": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_NaughtyCat_CatPress_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|NaughtyCat|/>.\r\nCom um sorriso ousado, ele salta para o alto\r\ne esmaga o inimigo usando seu corpo inteiro.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|NaughtyCat|/>.\r\nCom um sorriso ousado, ele salta para o alto\r\ne esmaga o inimigo usando seu corpo inteiro."
+        }
+      },
+      "ACTION_SKILL_Unique_QueenBee_SpinLance": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_QueenBee_SpinLance_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|QueenBee|/>.\r\nEla concentra força em seu cetro e então a libera em um movimento rodopiante.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|QueenBee|/>.\r\nEla concentra força em seu cetro e então a libera em um movimento rodopiante."
+        }
+      },
+      "ACTION_SKILL_Unique_RedArmorBird_TriplePeck": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_RedArmorBird_TriplePeck_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|RedArmorBird|/>.\r\nBate as asas para a frente e dá bicadas\r\npela dianteira, direita e esquerda,\r\nacendendo chamas para causar uma pequena explosão.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|RedArmorBird|/>.\r\nBate as asas para a frente e dá bicadas\r\npela dianteira, direita e esquerda,\r\nacendendo chamas para causar uma pequena explosão."
+        }
+      },
+      "ACTION_SKILL_Unique_RobinHood_BowSnipe": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_RobinHood_BowSnipe_TextData",
+          "SourceString": "Habilidade exclusiva de Robinquill e subespécies.\r\nEle estira o arco e afina a pontaria\r\nantes de disparar contra o inimigo.",
+          "LocalizedString": "Habilidade exclusiva de Robinquill e subespécies.\r\nEle estira o arco e afina a pontaria\r\nantes de disparar contra o inimigo."
+        }
+      },
+      "ACTION_SKILL_Unique_Ronin_Iai": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Ronin_Iai_TextData",
+          "SourceString": "Habilidade exclusiva de espécies de <characterName id=|Ronin|/> e subespécies.\r\nLevando a mão à espada, ele surge na frente do inimigo\r\nnum piscar de olhos e desfere um único golpe de velocidade impressionante.",
+          "LocalizedString": "Habilidade exclusiva de espécies de <characterName id=|Ronin|/> e subespécies.\r\nLevando a mão à espada, ele surge na frente do inimigo\r\nnum piscar de olhos e desfere um único golpe de velocidade impressionante."
+        }
+      },
+      "ACTION_SKILL_Unique_SaintCentaur_OneSpearRushes": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_SaintCentaur_OneSpearRushes_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|SaintCentaur|/>.\r\nEle envolve o corpo em força sagrada\r\ne então investe com a lança na mão esquerda apontada adiante.\r\nO escudo na mão direita o protege de todo e qualquer ataque durante a investida.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|SaintCentaur|/>.\r\nEle envolve o corpo em força sagrada\r\ne então investe com a lança na mão esquerda apontada adiante.\r\nO escudo na mão direita o protege de todo e qualquer ataque durante a investida."
+        }
+      },
+      "ACTION_SKILL_Unique_SakuraSaurus_SideTackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_SakuraSaurus_SideTackle_TextData",
+          "SourceString": "Habilidade exclusiva de Broncherry e subespécies.\r\nEle se posiciona de lado e toma impulso para dar\r\num encontrão adiante e lançar o inimigo longe.",
+          "LocalizedString": "Habilidade exclusiva de Broncherry e subespécies.\r\nEle se posiciona de lado e toma impulso para dar\r\num encontrão adiante e lançar o inimigo longe."
+        }
+      },
+      "ACTION_SKILL_Unique_SoldierBee_NeedleLance": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_SoldierBee_NeedleLance_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|SoldierBee|/>.\r\nAvança em grande velocidade contra o inimigo\r\ne termina por espetá-lo com uma lança, só por garantia.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|SoldierBee|/>.\r\nAvança em grande velocidade contra o inimigo\r\ne termina por espetá-lo com uma lança, só por garantia."
+        }
+      },
+      "ACTION_SKILL_Unique_ThunderBird_ThunderStorm": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ThunderBird_ThunderStorm_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|ThunderBird|/>.\r\nPrimeiro faz cair um raio no local onde o inimigo se encontra,\r\npara então realizar uma investida aérea e continuar soltando raios para os lados.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|ThunderBird|/>.\r\nPrimeiro faz cair um raio no local onde o inimigo se encontra,\r\npara então realizar uma investida aérea e continuar soltando raios para os lados."
+        }
+      },
+      "ACTION_SKILL_Unique_ThunderDog_InazumaShorai": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ThunderDog_InazumaShorai_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|ThunderDog|/>.\r\nInvoca relâmpagos em sequência à sua frente,\r\ninvestindo em alta velocidade por entre eles.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|ThunderDog|/>.\r\nInvoca relâmpagos em sequência à sua frente,\r\ninvestindo em alta velocidade por entre eles."
+        }
+      },
+      "ACTION_SKILL_Unique_Umihebi_WindingTackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Umihebi_WindingTackle_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|Umihebi|/>.\r\nSoltando um berro, serpenteia o corpo envolvido pela água e avança na direção do inimigo.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|Umihebi|/>.\r\nSoltando um berro, serpenteia o corpo envolvido pela água e avança na direção do inimigo."
+        }
+      },
+      "ACTION_SKILL_Unique_Umihebi_Fire_FireWindingTackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Umihebi_Fire_FireWindingTackle_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|Umihebi_Fire|/>.\r\nSoltando um berro, serpenteia o corpo envolvido pelo fogo e avança na direção do inimigo.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|Umihebi_Fire|/>.\r\nSoltando um berro, serpenteia o corpo envolvido pelo fogo e avança na direção do inimigo."
+        }
+      },
+      "ACTION_SKILL_Unique_VolcanicMonster_MagmaAttack": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_VolcanicMonster_MagmaAttack_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|VolcanicMonster|/>.\r\nEle ergue as patas dianteiras e golpeia o solo,\r\ncriando uma erupção de chamas junto ao inimigo.\r\nDurante a erupção, também chovem bombas vulcânicas nos arredores.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|VolcanicMonster|/>.\r\nEle ergue as patas dianteiras e golpeia o solo,\r\ncriando uma erupção de chamas junto ao inimigo.\r\nDurante a erupção, também chovem bombas vulcânicas nos arredores."
+        }
+      },
+      "ACTION_SKILL_Unique_VolcanicMonster_Ice_IceAttack": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_VolcanicMonster_Ice_IceAttack_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|VolcanicMonster_Ice|/>.\r\nEle ergue as patas dianteiras e golpeia o solo,\r\ncriando uma erupção de neve junto ao inimigo.\r\nDurante a erupção, também chovem bolas de neve nos arredores.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|VolcanicMonster_Ice|/>.\r\nEle ergue as patas dianteiras e golpeia o solo,\r\ncriando uma erupção de neve junto ao inimigo.\r\nDurante a erupção, também chovem bolas de neve nos arredores."
+        }
+      },
+      "ACTION_SKILL_Unique_WeaselDragon_FlyingTackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_WeaselDragon_FlyingTackle_TextData",
+          "SourceString": "Habilidade exclusiva de Chillet e subespécies.\r\nEle salta para a frente depois de concentrar um pouco de energia.\r\nComo tem muito medo, parece que sempre fecha os olhos no momento da aterrissagem.",
+          "LocalizedString": "Habilidade exclusiva de Chillet e subespécies.\r\nEle salta para a frente depois de concentrar um pouco de energia.\r\nComo tem muito medo, parece que sempre fecha os olhos no momento da aterrissagem."
+        }
+      },
+      "ACTION_SKILL_Unique_Werewolf_Scratch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Werewolf_Scratch_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|WereWolf|/>.\r\nEle salta para a frente e dá dois arranhões velozes,\r\num ataque lancinante que contém a força da escuridão.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|WereWolf|/>.\r\nEle salta para a frente e dá dois arranhões velozes,\r\num ataque lancinante que contém a força da escuridão."
+        }
+      },
+      "ACTION_SKILL_Unique_Werewolf_Ice_SnowScratch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Werewolf_Ice_SnowScratch_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|WereWolf_Ice|/>.\r\nEle salta para a frente e dá dois arranhões velozes,\r\num ataque lancinante que contém a força do gelo.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|WereWolf_Ice|/>.\r\nEle salta para a frente e dá dois arranhões velozes,\r\num ataque lancinante que contém a força do gelo."
+        }
+      },
+      "ACTION_SKILL_Unique_WhiteTiger_IceScratch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_WhiteTiger_IceScratch_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|WhiteTiger|/>.\r\nDilacera o inimigo com as garras no primeiro e segundo ataques\r\ne por último usa o corpo inteiro para rasgá-lo em pedaços.\r\nQuando golpeia com as garras, lança 3 pilares de gelo para a frente em forma de leque.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|WhiteTiger|/>.\r\nDilacera o inimigo com as garras no primeiro e segundo ataques\r\ne por último usa o corpo inteiro para rasgá-lo em pedaços.\r\nQuando golpeia com as garras, lança 3 pilares de gelo para a frente em forma de leque."
+        }
+      },
+      "ACTION_SKILL_Unique_WhiteTiger_Ground_IronScratch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_WhiteTiger_Ground_IronScratch_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|WhiteTiger_Ground|/>.\r\nDilacera o inimigo com as garras no primeiro e segundo ataques\r\n, e por último usa o corpo inteiro para rasgá-lo em pedaços.\r\nQuando golpeia com as garras, lança 3 rochas para a frente em forma de leque.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|WhiteTiger_Ground|/>.\r\nDilacera o inimigo com as garras no primeiro e segundo ataques\r\n, e por último usa o corpo inteiro para rasgá-lo em pedaços.\r\nQuando golpeia com as garras, lança 3 rochas para a frente em forma de leque."
+        }
+      },
+      "ACTION_SKILL_Unique_Yeti_SnowBall": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Yeti_SnowBall_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|Yeti|/>.\r\nFaz rolar uma bola de neve enquanto avança,\r\nlançando-a para que estoure contra o inimigo quando está grande o bastante.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|Yeti|/>.\r\nFaz rolar uma bola de neve enquanto avança,\r\nlançando-a para que estoure contra o inimigo quando está grande o bastante."
+        }
+      },
+      "ACTION_SKILL_Unique_Yeti_Grass_GrassBall": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Yeti_Grass_GrassBall_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|Yeti_Grass|/>.\r\nFaz rolar uma bola de mato enquanto avança,\r\nlançando-a para que estoure contra o inimigo quando está grande o bastante.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|Yeti_Grass|/>.\r\nFaz rolar uma bola de mato enquanto avança,\r\nlançando-a para que estoure contra o inimigo quando está grande o bastante."
+        }
+      },
+      "ACTION_SKILL_Unique_ThunderDragonMan_ThunderSwordAttack": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ThunderDragonMan_ThunderSwordAttack_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|ThunderDragonMan|/>.\r\nEle salta e invoca uma lança de trovão,\r\narremessando-a contra o inimigo.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|ThunderDragonMan|/>.\r\nEle salta e invoca uma lança de trovão,\r\narremessando-a contra o inimigo."
+        }
+      },
+      "ACTION_SKILL_Unique_CaptainPenguin_BodySlide": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_CaptainPenguin_BodySlide_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|CaptainPenguin|/>.\r\nEle se deita de barriga no chão e sai deslizando contra o inimigo\r\nenquanto emana um ar gelado do corpo inteiro.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|CaptainPenguin|/>.\r\nEle se deita de barriga no chão e sai deslizando contra o inimigo\r\nenquanto emana um ar gelado do corpo inteiro."
+        }
+      },
+      "ACTION_SKILL_Unique_NightLady_WarpBeam_Straight": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_NightLady_WarpBeam_Straight_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|NightLady|/>.\r\nDesaparece de súbito e libera incontáveis raios de luz no instante que volta a surgir.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|NightLady|/>.\r\nDesaparece de súbito e libera incontáveis raios de luz no instante que volta a surgir."
+        }
+      },
+      "ACTION_SKILL_Unique_NightLady_WarpBeam": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_NightLady_WarpBeam_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|NightLady_Dark|/>.\r\nDesaparece de súbito e libera incontáveis raios de luz no instante que volta a surgir.\r\nOs raios se espalham como uma flor que desabrocha.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|NightLady_Dark|/>.\r\nDesaparece de súbito e libera incontáveis raios de luz no instante que volta a surgir.\r\nOs raios se espalham como uma flor que desabrocha."
+        }
+      },
+      "ACTION_SKILL_Unique_NightLady_FlameNightmare": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_NightLady_FlameNightmare_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|NightLady_Dark|/>.\r\nEnquanto dança lentamente,\r\nemite um anel de fogo que se espalha pelos arredores.\r\nDispara ainda uma chama fantástica que persegue os inimigos.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|NightLady_Dark|/>.\r\nEnquanto dança lentamente,\r\nemite um anel de fogo que se espalha pelos arredores.\r\nDispara ainda uma chama fantástica que persegue os inimigos."
+        }
+      },
+      "ACTION_SKILL_Unique_KingBahamut_ArmSmash": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_KingBahamut_ArmSmash_TextData",
+          "SourceString": "Habilidade exclusiva de Blazamut e subespécies.\r\nEle ergue os braços e, depois de expandi-los,\r\nbatendo um contra o outro para criar uma grande explosão nos arredores.",
+          "LocalizedString": "Habilidade exclusiva de Blazamut e subespécies.\r\nEle ergue os braços e, depois de expandi-los,\r\nbatendo um contra o outro para criar uma grande explosão nos arredores."
+        }
+      },
+      "ACTION_SKILL_Unique_MoonQueen_MoonBeam": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_MoonQueen_MoonBeam_TextData",
+          "SourceString": "Habilidade exclusiva de Selyne e subespécies.\r\nEla concentra energia na lua em suas costas\r\ne dispara um raio em forma de crescente adiante.",
+          "LocalizedString": "Habilidade exclusiva de Selyne e subespécies.\r\nEla concentra energia na lua em suas costas\r\ne dispara um raio em forma de crescente adiante."
+        }
+      },
+      "ACTION_SKILL_Unique_MoonQueen_MoonBlade": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_MoonQueen_MoonBlade_TextData",
+          "SourceString": "Habilidade exclusiva de Selyne e subespécies.\r\nEla lança em sequência duas lâminas velozes que abrigam o poder do luar.",
+          "LocalizedString": "Habilidade exclusiva de Selyne e subespécies.\r\nEla lança em sequência duas lâminas velozes que abrigam o poder do luar."
+        }
+      },
+      "ACTION_SKILL_Unique_WingGolem_RoundCutter": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_WingGolem_RoundCutter_TextData",
+          "SourceString": "Habilidade exclusiva de Knocklem e subespécies.\r\nEle ergue a roda em suas costas bastante alto para então arremessá-la,\r\nfazendo com que trace um círculo nos ares.",
+          "LocalizedString": "Habilidade exclusiva de Knocklem e subespécies.\r\nEle ergue a roda em suas costas bastante alto para então arremessá-la,\r\nfazendo com que trace um círculo nos ares."
+        }
+      },
+      "ACTION_SKILL_Unique_FeatherOstrich_Tossin": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_FeatherOstrich_Tossin_TextData",
+          "SourceString": "Habilidade exclusiva de Dazemu e subespécies.\r\nEle acelera de súbito, avançando em alta velocidade.",
+          "LocalizedString": "Habilidade exclusiva de Dazemu e subespécies.\r\nEle acelera de súbito, avançando em alta velocidade."
+        }
+      },
+      "ACTION_SKILL_Unique_DarkAlien_JumpScractch": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_DarkAlien_JumpScractch_TextData",
+          "SourceString": "Habilidade exclusiva de Xenovader e subespécies.\r\nEle salta agilmente e dilacera o inimigo com a mão esquerda.",
+          "LocalizedString": "Habilidade exclusiva de Xenovader e subespécies.\r\nEle salta agilmente e dilacera o inimigo com a mão esquerda."
+        }
+      },
+      "ACTION_SKILL_Unique_ScorpionMan_UpperCut": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ScorpionMan_UpperCut_TextData",
+          "SourceString": "Habilidade exclusiva de Prixter e subespécies.\r\nEle encurta rapidamente a distância até o inimigo\r\ne desfere um golpe com a pinça sem piedade.",
+          "LocalizedString": "Habilidade exclusiva de Prixter e subespécies.\r\nEle encurta rapidamente a distância até o inimigo\r\ne desfere um golpe com a pinça sem piedade."
+        }
+      },
+      "ACTION_SKILL_Unique_SifuDog_Counter": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_SifuDog_Counter_TextData",
+          "SourceString": "Habilidade exclusiva de Dogen e subespécies.\r\nEle se prepara para receber o inimigo. Enquanto está concentrado, anula qualquer ataque\r\ne se aproxima de seu agressor em um só instante, desferindo um golpe fulminante com o pulso.",
+          "LocalizedString": "Habilidade exclusiva de Dogen e subespécies.\r\nEle se prepara para receber o inimigo. Enquanto está concentrado, anula qualquer ataque\r\ne se aproxima de seu agressor em um só instante, desferindo um golpe fulminante com o pulso."
+        }
+      },
+      "ACTION_SKILL_Unique_ElecPanda_GatlingAttack": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ElecPanda_GatlingAttack_TextData",
+          "SourceString": "Habilidade exclusiva de Grizzbolt e subespécies.\r\nEle descarrega no inimigo a Minigun que saca sabe-se lá de onde.\r\nAo final, depois de concentrar um pouco o ataque, dispara um último tiro poderoso.",
+          "LocalizedString": "Habilidade exclusiva de Grizzbolt e subespécies.\r\nEle descarrega no inimigo a Minigun que saca sabe-se lá de onde.\r\nAo final, depois de concentrar um pouco o ataque, dispara um último tiro poderoso."
+        }
+      },
+      "ACTION_SKILL_Unique_LilyQueen_LilyHealing": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_LilyQueen_LilyHealing_TextData",
+          "SourceString": "Habilidade exclusiva de Lyleen.\r\nEla restaura o PV de todos os companheiros ao redor graças aos seus poderes terapêuticos.",
+          "LocalizedString": "Habilidade exclusiva de Lyleen.\r\nEla restaura o PV de todos os companheiros ao redor graças aos seus poderes terapêuticos."
+        }
+      },
+      "ACTION_SKILL_Unique_ThunderDragonMan_NumerousSwordAttack": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_ThunderDragonMan_NumerousSwordAttack_TextData",
+          "SourceString": "Habilidade exclusiva de Orserk e subespécies.\r\nEle invoca inúmeras lanças elétricas para arremessá-las contra o inimigo.\r\nA primeira lança contém poder elétrico concentrado, explodindo após alguns segundos.",
+          "LocalizedString": "Habilidade exclusiva de Orserk e subespécies.\r\nEle invoca inúmeras lanças elétricas para arremessá-las contra o inimigo.\r\nA primeira lança contém poder elétrico concentrado, explodindo após alguns segundos."
+        }
+      },
+      "ACTION_SKILL_Unique_Horus_PerfectStorm": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Horus_PerfectStorm_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|Horus|/>.\r\nDepois de produzir vários redemoinhos incandescentes, avança planando pelo ar.\r\nOs redemoinhos então se reúnem ao centro, acabando por formar um único furacão gigantesco.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|Horus|/>.\r\nDepois de produzir vários redemoinhos incandescentes, avança planando pelo ar.\r\nOs redemoinhos então se reúnem ao centro, acabando por formar um único furacão gigantesco."
+        }
+      },
+      "ACTION_SKILL_Unique_BlackGriffon_TackleLaser2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BlackGriffon_TackleLaser2_TextData",
+          "SourceString": "Habilidade exclusiva de Shadowbeak e subespécies.\r\nEle avança enquanto emite incontáveis raios de luz azul de seu halo.\r\nOs feixes luminosos detectam e perseguem o inimigo automaticamente.",
+          "LocalizedString": "Habilidade exclusiva de Shadowbeak e subespécies.\r\nEle avança enquanto emite incontáveis raios de luz azul de seu halo.\r\nOs feixes luminosos detectam e perseguem o inimigo automaticamente."
+        }
+      },
+      "ACTION_SKILL_Unique_MoonQueen_IceMoonBlade": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_MoonQueen_IceMoonBlade_TextData",
+          "SourceString": "Habilidade exclusiva de Selyne e subespécies.\r\nEla lança em sequência três lâminas velozes que abrigam o poder do luar.",
+          "LocalizedString": "Habilidade exclusiva de Selyne e subespécies.\r\nEla lança em sequência três lâminas velozes que abrigam o poder do luar."
+        }
+      },
+      "ACTION_SKILL_Unique_LilyQueen_WindBarrier": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_LilyQueen_WindBarrier_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "ACTION_SKILL_Unique_DarkMechaDragon_WarpComet": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_DarkMechaDragon_WarpComet_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|DarkMechaDragon|/>.\r\nSobe até os céus na velocidade da luz e dispara inúmeros meteoros.\r\nEm seguida ele mesmo se torna um cometa para realizar uma investida,\r\ncausando uma enorme explosão no ponto de impacto.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|DarkMechaDragon|/>.\r\nSobe até os céus na velocidade da luz e dispara inúmeros meteoros.\r\nEm seguida ele mesmo se torna um cometa para realizar uma investida,\r\ncausando uma enorme explosão no ponto de impacto."
+        }
+      },
+      "ACTION_SKILL_Unique_DarkMechaDragon_BeamSlash": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_DarkMechaDragon_BeamSlash_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|DarkMechaDragon|/>.\r\nCria uma espada de elevada potência com a mão direita\r\ne se desloca em alta velocidade enquanto realiza dois cortes.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|DarkMechaDragon|/>.\r\nCria uma espada de elevada potência com a mão direita\r\ne se desloca em alta velocidade enquanto realiza dois cortes."
+        }
+      },
+      "ACTION_SKILL_Unique_DarkMechaDragon_SetFunnel": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_DarkMechaDragon_SetFunnel_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|DarkMechaDragon|/>.\r\nCria quatro asas satélite com capacidade de ataque automático.\r\nNo momento de executar o próximo golpe,\r\nas asas perseguem o inimigo de modo autônomo para atingi-lo.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|DarkMechaDragon|/>.\r\nCria quatro asas satélite com capacidade de ataque automático.\r\nNo momento de executar o próximo golpe,\r\nas asas perseguem o inimigo de modo autônomo para atingi-lo."
+        }
+      },
+      "ACTION_SKILL_Unique_DarkMechaDragon_ConvergentBeam": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_DarkMechaDragon_ConvergentBeam_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|DarkMechaDragon|/>.\r\nConcentra energia repleta de escuridão\r\ne a dispara de uma só vez em linha reta.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|DarkMechaDragon|/>.\r\nConcentra energia repleta de escuridão\r\ne a dispara de uma só vez em linha reta."
+        }
+      },
+      "ACTION_SKILL_Unique_DarkMechaDragon_FunnelLaser": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_DarkMechaDragon_FunnelLaser_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|DarkMechaDragon|/>.\r\nDispara de forma indiscriminada\r\numa luz aniquiladora trazida do hiperespaço,\r\nreduzindo a cinzas tudo aquilo que sua vista alcança.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|DarkMechaDragon|/>.\r\nDispara de forma indiscriminada\r\numa luz aniquiladora trazida do hiperespaço,\r\nreduzindo a cinzas tudo aquilo que sua vista alcança."
+        }
+      },
+      "ACTION_SKILL_Unique_SnowTigerBeastman_TrampleSlash": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_SnowTigerBeastman_TrampleSlash_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|SnowTigerBeastman|/>.\r\nPisoteia o solo\r\npara gerar uma fenda de gelo à frente.\r\nEm seguida se aproxima de súbito do inimigo e o dilacera com a mão direita.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|SnowTigerBeastman|/>.\r\nPisoteia o solo\r\npara gerar uma fenda de gelo à frente.\r\nEm seguida se aproxima de súbito do inimigo e o dilacera com a mão direita."
+        }
+      },
+      "ACTION_SKILL_Unique_SnowTigerBeastman_SnowImpact": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_SnowTigerBeastman_SnowImpact_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|SnowTigerBeastman|/>.\r\nDepois de soltar um grande rugido e pular para o alto,\r\nenterra ambos os braços no chão e cria rachaduras de gelo gigantescas.\r\nEm seguida concentra sua força no solo\r\ne termina o golpe causando uma enorme explosão gélida.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|SnowTigerBeastman|/>.\r\nDepois de soltar um grande rugido e pular para o alto,\r\nenterra ambos os braços no chão e cria rachaduras de gelo gigantescas.\r\nEm seguida concentra sua força no solo\r\ne termina o golpe causando uma enorme explosão gélida."
+        }
+      },
+      "ACTION_SKILL_Unique_PurpleSpider_SpiderRaid": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_PurpleSpider_SpiderRaid_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|PurpleSpider|/>.\r\nCospe uma bola de teia que captura sua presa.\r\nEm seguida corre a toda velocidade para cima da vítima\r\ne a rasga três vezes para acabar com seu sofrimento.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|PurpleSpider|/>.\r\nCospe uma bola de teia que captura sua presa.\r\nEm seguida corre a toda velocidade para cima da vítima\r\ne a rasga três vezes para acabar com seu sofrimento."
+        }
+      },
+      "ACTION_SKILL_Unique_MysteryMask_LifeSteal": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_MysteryMask_LifeSteal_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|MysteryMask|/>.\r\nSurge de repente perto do inimigo e o aprisiona firmemente com ambos os braços,\r\ndrenando o PV da vítima imobilizada.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|MysteryMask|/>.\r\nSurge de repente perto do inimigo e o aprisiona firmemente com ambos os braços,\r\ndrenando o PV da vítima imobilizada."
+        }
+      },
+      "ACTION_SKILL_Unique_GrimGirl_BrutalMachete": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GrimGirl_BrutalMachete_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|GrimGirl|/>.\r\nTeleporta-se e lança um ataque cortante\r\npara então teleportar-se novamente sobre o inimigo\r\ne fincar sua arma, gerando uma onda de escuridão.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|GrimGirl|/>.\r\nTeleporta-se e lança um ataque cortante\r\npara então teleportar-se novamente sobre o inimigo\r\ne fincar sua arma, gerando uma onda de escuridão."
+        }
+      },
+      "ACTION_SKILL_Unique_WhiteShieldDragon_ShieldTackle": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_WhiteShieldDragon_ShieldTackle_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|WhiteShieldDragon|/>.\r\nCria um escudo capaz de atenuar todo e qualquer ataque à sua frente\r\ne investe contra o inimigo para esmagá-lo.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|WhiteShieldDragon|/>.\r\nCria um escudo capaz de atenuar todo e qualquer ataque à sua frente\r\ne investe contra o inimigo para esmagá-lo."
+        }
+      },
+      "ACTION_SKILL_Unique_NightBlueHorse_DeathStep": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_NightBlueHorse_DeathStep_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|NightBlueHorse|/>.\r\nFaz pouco do inimigo com um passo vacilante\r\ne então lança um ataque cortante com seu chifre afiado.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|NightBlueHorse|/>.\r\nFaz pouco do inimigo com um passo vacilante\r\ne então lança um ataque cortante com seu chifre afiado."
+        }
+      },
+      "ACTION_SKILL_Unique_BlueThunderHorse_FlashDash": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_BlueThunderHorse_FlashDash_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|BlueThunderHorse|/>.\r\nMove-se tão rápido quanto um relâmpago,\r\nenvolvendo no ataque tudo que estiver no seu caminho.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|BlueThunderHorse|/>.\r\nMove-se tão rápido quanto um relâmpago,\r\nenvolvendo no ataque tudo que estiver no seu caminho."
+        }
+      },
+      "ACTION_SKILL_Unique_WhiteDeer_HolyPillar": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_WhiteDeer_HolyPillar_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|WhiteDeer|/>.\r\nDepois de causar uma explosão de luz sagrada numa grande área à sua frente,\r\ngera mais luz sagrada ao seu redor enquanto caminha.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|WhiteDeer|/>.\r\nDepois de causar uma explosão de luz sagrada numa grande área à sua frente,\r\ngera mais luz sagrada ao seu redor enquanto caminha."
+        }
+      },
+      "ACTION_SKILL_Unique_GoldenHorse_StoneDash": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GoldenHorse_StoneDash_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|GoldenHorse|/>.\r\nRealiza uma investida enquanto faz voarem rochas com grande ímpeto para os lados.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|GoldenHorse|/>.\r\nRealiza uma investida enquanto faz voarem rochas com grande ímpeto para os lados."
+        }
+      },
+      "ACTION_SKILL_Unique_TentacleTurtle_HydroSpin": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_TentacleTurtle_HydroSpin_TextData",
+          "SourceString": "Habilidade exclusiva de espécies de <characterName id=|TentacleTurtle|/> e subespécies.\r\nUtiliza a força de propulsão do jato emitido\r\npara voar contra o inimigo enquanto gira em alta velocidade.",
+          "LocalizedString": "Habilidade exclusiva de espécies de <characterName id=|TentacleTurtle|/> e subespécies.\r\nUtiliza a força de propulsão do jato emitido\r\npara voar contra o inimigo enquanto gira em alta velocidade."
+        }
+      },
+      "ACTION_SKILL_Unique_PoseidonOrca_TorrentLaser": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_PoseidonOrca_TorrentLaser_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|PoseidonOrca|/>.\r\nColeta água na boca enquanto boia levemente.\r\nEm seguida, devasta os arredores com três jatos d’água pressurizados,\r\ncriando rachaduras que começam a jorrar água nos pontos atingidos.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|PoseidonOrca|/>.\r\nColeta água na boca enquanto boia levemente.\r\nEm seguida, devasta os arredores com três jatos d’água pressurizados,\r\ncriando rachaduras que começam a jorrar água nos pontos atingidos."
+        }
+      },
+      "ACTION_SKILL_Unique_IceNarwhal_JumpingHorn": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_IceNarwhal_JumpingHorn_TextData",
+          "SourceString": "Habilidade exclusiva de espécies de <characterName id=|IceNarwhal|/> e subespécies.\r\nDepois de avançar e mergulhar por um instante,\r\nsalta até as alturas para atacar.\r\nCria uma explosão de gelo assim que inicia o salto.",
+          "LocalizedString": "Habilidade exclusiva de espécies de <characterName id=|IceNarwhal|/> e subespécies.\r\nDepois de avançar e mergulhar por um instante,\r\nsalta até as alturas para atacar.\r\nCria uma explosão de gelo assim que inicia o salto."
+        }
+      },
+      "ACTION_SKILL_Unique_GhostAnglerfish_SweepBait": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GhostAnglerfish_SweepBait_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|GhostAnglerfish|/>.\r\nVarre a área à sua frente com um grande movimento da longa lanterna em sua cabeça.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|GhostAnglerfish|/>.\r\nVarre a área à sua frente com um grande movimento da longa lanterna em sua cabeça."
+        }
+      },
+      "ACTION_SKILL_Unique_GhostAnglerfish_Fire_SweepBait_Fire": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_GhostAnglerfish_Fire_SweepBait_Fire_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|GhostAnglerfish_Fire|/>.\r\nVarre a área à sua frente com um grande movimento da lanterna flamejante em sua cabeça.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|GhostAnglerfish_Fire|/>.\r\nVarre a área à sua frente com um grande movimento da lanterna flamejante em sua cabeça."
+        }
+      },
+      "ACTION_SKILL_Unique_OctopursGirl_Inkjet": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_OctopursGirl_Inkjet_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|OctopusGirl|/>.\r\nGera fumaça à sua frente para se ocultar\r\ne então realiza uma cabeçada poderosa enquanto está escondida.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|OctopusGirl|/>.\r\nGera fumaça à sua frente para se ocultar\r\ne então realiza uma cabeçada poderosa enquanto está escondida."
+        }
+      },
+      "ACTION_SKILL_Unique_StuffedShark_HiddenWeapon": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_StuffedShark_HiddenWeapon_TextData",
+          "SourceString": "Habilidade exclusiva de espécies de <characterName id=|StuffedShark|/> e subespécies.\r\nRevela os dois hidrocanhões que possui dentro da boca\r\ne dispara seis projéteis de água alternadamente de cada lado.\r\nPor último, une os dois canhões para executar um poderoso tiro final.",
+          "LocalizedString": "Habilidade exclusiva de espécies de <characterName id=|StuffedShark|/> e subespécies.\r\nRevela os dois hidrocanhões que possui dentro da boca\r\ne dispara seis projéteis de água alternadamente de cada lado.\r\nPor último, une os dois canhões para executar um poderoso tiro final."
+        }
+      },
+      "ACTION_SKILL_Unique_IceCrocodile_SpitAttack": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_IceCrocodile_SpitAttack_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|IceCrocodile|/>.\r\nAtaca cuspindo em sequência três granadas\r\nque mantinha resfriadas dentro do corpo, sem digerir.\r\nParece que, às vezes, também cospe algo ainda mais perigoso...",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|IceCrocodile|/>.\r\nAtaca cuspindo em sequência três granadas\r\nque mantinha resfriadas dentro do corpo, sem digerir.\r\nParece que, às vezes, também cospe algo ainda mais perigoso..."
+        }
+      },
+      "ACTION_SKILL_Unique_LeafMomonga_SomerSault": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_LeafMomonga_SomerSault_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|LeafMomonga|/>.\r\nDepois de se preparar na pose adequada,\r\nrealiza um salto mortal enquanto vai se chocando em alta velocidade contra o inimigo.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|LeafMomonga|/>.\r\nDepois de se preparar na pose adequada,\r\nrealiza um salto mortal enquanto vai se chocando em alta velocidade contra o inimigo."
+        }
+      },
+      "ACTION_SKILL_Unique_Plesiosaur_LongBreath": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Plesiosaur_LongBreath_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|Plesiosaur|/>.\r\nFaz um sopro de grama ir se expandindo gradualmente\r\ndesde a base até o alto do seu comprido pescoço.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|Plesiosaur|/>.\r\nFaz um sopro de grama ir se expandindo gradualmente\r\ndesde a base até o alto do seu comprido pescoço."
+        }
+      },
+      "ACTION_SKILL_Unique_TropicalOstrich_DashKick": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_TropicalOstrich_DashKick_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|TropicalOstrich|/>.\r\nGanha impulso com uma corrida\r\ne então castiga o inimigo com um chute voador violento.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|TropicalOstrich|/>.\r\nGanha impulso com uma corrida\r\ne então castiga o inimigo com um chute voador violento."
+        }
+      },
+      "ACTION_SKILL_Unique_CaptainPenguin_Black_BodySlide_Electric": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_CaptainPenguin_Black_BodySlide_Electric_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|CaptainPenguin_Black|/>.\r\nEle se deita de barriga no chão e sai deslizando contra o inimigo\r\nenquanto libera eletricidade de todo o seu corpo.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|CaptainPenguin_Black|/>.\r\nEle se deita de barriga no chão e sai deslizando contra o inimigo\r\nenquanto libera eletricidade de todo o seu corpo."
+        }
+      },
+      "ACTION_SKILL_Unique_Yakushima_EyeTossin": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Yakushima_EyeTossin_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|YakushimaBoss001|/>.\r\nAvança várias vezes contra o inimigo.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|YakushimaBoss001|/>.\r\nAvança várias vezes contra o inimigo."
+        }
+      },
+      "ACTION_SKILL_Unique_Yakushima_MouthTossin": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Yakushima_MouthTossin_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|YakushimaBoss001|/>.\r\nAvança várias vezes contra o inimigo a uma velocidade alucinante.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|YakushimaBoss001|/>.\r\nAvança várias vezes contra o inimigo a uma velocidade alucinante."
+        }
+      },
+      "ACTION_SKILL_Unique_Yakushima_SummonServant": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Yakushima_SummonServant_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|YakushimaBoss001|/>.\r\nChama quatro servos que seguem na direção do inimigo e se chocam contra ele para causar dano. Os servos desaparecem ao serem atacados ou após um certo tempo.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|YakushimaBoss001|/>.\r\nChama quatro servos que seguem na direção do inimigo e se chocam contra ele para causar dano. Os servos desaparecem ao serem atacados ou após um certo tempo."
+        }
+      },
+      "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Normal": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Normal_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|YakushimaMonster001_Pink|/>.\r\nSalta contra o inimigo para atacá-lo.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|YakushimaMonster001_Pink|/>.\r\nSalta contra o inimigo para atacá-lo."
+        }
+      },
+      "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Leaf": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Leaf_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|YakushimaMonster001|/>.\r\nSalta contra o inimigo para atacá-lo.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|YakushimaMonster001|/>.\r\nSalta contra o inimigo para atacá-lo."
+        }
+      },
+      "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Water": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Water_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|YakushimaMonster001_Blue|/>.\r\nSalta contra o inimigo para atacá-lo.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|YakushimaMonster001_Blue|/>.\r\nSalta contra o inimigo para atacá-lo."
+        }
+      },
+      "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Fire": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Fire_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|YakushimaMonster001_Red|/>.\r\nSalta contra o inimigo para atacá-lo.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|YakushimaMonster001_Red|/>.\r\nSalta contra o inimigo para atacá-lo."
+        }
+      },
+      "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Dark": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Dark_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|YakushimaMonster001_Purple|/>.\r\nSalta contra o inimigo para atacá-lo.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|YakushimaMonster001_Purple|/>.\r\nSalta contra o inimigo para atacá-lo."
+        }
+      },
+      "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Rainbow": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_YakushimaMonster001_SlimePress_Rainbow_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|YakushimaMonster001_Rainbow|/>.\r\nSalta contra o inimigo para atacá-lo.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|YakushimaMonster001_Rainbow|/>.\r\nSalta contra o inimigo para atacá-lo."
+        }
+      },
+      "ACTION_SKILL_Unique_YakushimaBoss001_Small_DemonEyeCharge": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_YakushimaBoss001_Small_DemonEyeCharge_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|YakushimaBoss001_Small|/>.\r\nAvança na direção do inimigo. Ricocheteia quando atinge o solo ou uma parede.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|YakushimaBoss001_Small|/>.\r\nAvança na direção do inimigo. Ricocheteia quando atinge o solo ou uma parede."
+        }
+      },
+      "ACTION_SKILL_Unique_YakushimaMonster002_SwordCharge": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_YakushimaMonster002_SwordCharge_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|YakushimaMonster002|/>.\r\nRealiza um ataque perfurante direcionado ao inimigo.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|YakushimaMonster002|/>.\r\nRealiza um ataque perfurante direcionado ao inimigo."
+        }
+      },
+      "ACTION_SKILL_Unique_YakushimaMonster003_BatCharge": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_YakushimaMonster003_BatCharge_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|YakushimaMonster003|/>.\r\nJoga-se em um ataque de corpo inteiro contra o inimigo. Ricocheteia quando atinge o solo ou uma parede.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|YakushimaMonster003|/>.\r\nJoga-se em um ataque de corpo inteiro contra o inimigo. Ricocheteia quando atinge o solo ou uma parede."
+        }
+      },
+      "ACTION_SKILL_Unique_LegendDeer_WarpPillarBurst": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_LegendDeer_WarpPillarBurst_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|LegendDeer|/>.\r\nDepois de desaparecer por um instante, faz chover diversos pilares de luz numa grande área ao seu redor.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|LegendDeer|/>.\r\nDepois de desaparecer por um instante, faz chover diversos pilares de luz numa grande área ao seu redor."
+        }
+      },
+      "ACTION_SKILL_Unique_LegendDeer_RadiantWingRush": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_LegendDeer_RadiantWingRush_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|LegendDeer|/>.\r\nSalta para trás e cria asas luminosas nas costas,\r\navançando contra o inimigo desde os ares.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|LegendDeer|/>.\r\nSalta para trás e cria asas luminosas nas costas,\r\navançando contra o inimigo desde os ares."
+        }
+      },
+      "ACTION_SKILL_Unique_LegendDeer_RadiantPurge_Otomo": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_LegendDeer_RadiantPurge_Otomo_TextData",
+          "SourceString": "Habilidade exclusiva de <characterName id=|LegendDeer|/>.\r\nSalta às alturas e concentra uma energia imensa para dispará-la contra o solo.\r\nA esfera de luz que cai do céu purifica tudo que estiver abaixo.",
+          "LocalizedString": "Habilidade exclusiva de <characterName id=|LegendDeer|/>.\r\nSalta às alturas e concentra uma energia imensa para dispará-la contra o solo.\r\nA esfera de luz que cai do céu purifica tudo que estiver abaixo."
+        }
+      },
+      "ACTION_SKILL_PoisonFog": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_PoisonFog_TextData",
+          "SourceString": "Cria uma neblina tóxica à sua frente\r\nque deixa o adversário envenenado.",
+          "LocalizedString": "Cria uma neblina tóxica à sua frente\r\nque deixa o adversário envenenado."
+        }
+      },
+      "ACTION_SKILL_SelfDestruct": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_SelfDestruct_TextData",
+          "SourceString": "Arrisca a própria vida para causar uma explosão,\r\nficando incapacitado.",
+          "LocalizedString": "Arrisca a própria vida para causar uma explosão,\r\nficando incapacitado."
+        }
+      },
+      "ACTION_SKILL_SelfDestruct_Bee": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_SelfDestruct_Bee_TextData",
+          "SourceString": "Arrisca a própria vida para causar uma explosão.\r\nTécnica honrada de quem se sacrifica pelo próprio dever.",
+          "LocalizedString": "Arrisca a própria vida para causar uma explosão.\r\nTécnica honrada de quem se sacrifica pelo próprio dever."
+        }
+      },
+      "ACTION_SKILL_SelfExplosion": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_SelfExplosion_TextData",
+          "SourceString": "Causa uma grande explosão suicida.\r\nExtingue a própria vida e torna-se uma estrelinha brilhante no céu noturno.",
+          "LocalizedString": "Causa uma grande explosão suicida.\r\nExtingue a própria vida e torna-se uma estrelinha brilhante no céu noturno."
+        }
+      },
+      "ACTION_SKILL_FireBlast": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_FireBlast_TextData",
+          "SourceString": "Dispara um projétil de fogo\r\nque voa em linha reta na direção do inimigo.",
+          "LocalizedString": "Dispara um projétil de fogo\r\nque voa em linha reta na direção do inimigo."
+        }
+      },
+      "ACTION_SKILL_Flamethrower": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Flamethrower_TextData",
+          "SourceString": "Lança contra o inimigo uma chama\r\nque causa dano contínuo.",
+          "LocalizedString": "Lança contra o inimigo uma chama\r\nque causa dano contínuo."
+        }
+      },
+      "ACTION_SKILL_FireBall": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_FireBall_TextData",
+          "SourceString": "Cria uma bola de fogo gigantesca sobre sua cabeça e a dispara contra o inimigo.\r\nAo fazer contato, ela explode e espalha sua rajada por uma grande área.",
+          "LocalizedString": "Cria uma bola de fogo gigantesca sobre sua cabeça e a dispara contra o inimigo.\r\nAo fazer contato, ela explode e espalha sua rajada por uma grande área."
+        }
+      },
+      "ACTION_SKILL_FlareArrow": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_FlareArrow_TextData",
+          "SourceString": "Dispara três flechas de fogo contínuas\r\nque perseguem o inimigo em alta velocidade.",
+          "LocalizedString": "Dispara três flechas de fogo contínuas\r\nque perseguem o inimigo em alta velocidade."
+        }
+      },
+      "ACTION_SKILL_FireSeed": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_FireSeed_TextData",
+          "SourceString": "Dispara uma bola de fogo contra o inimigo.\r\nEla estoura depois de avançar certa distância,\r\nespalhando bolas de fogo menores pela frente.",
+          "LocalizedString": "Dispara uma bola de fogo contra o inimigo.\r\nEla estoura depois de avançar certa distância,\r\nespalhando bolas de fogo menores pela frente."
+        }
+      },
+      "ACTION_SKILL_FlareTornado": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_FlareTornado_TextData",
+          "SourceString": "Gera redemoinhos escaldantes para os lados,\r\nlançando-os contra o inimigo.",
+          "LocalizedString": "Gera redemoinhos escaldantes para os lados,\r\nlançando-os contra o inimigo."
+        }
+      },
+      "ACTION_SKILL_Inferno": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Inferno_TextData",
+          "SourceString": "Estimula o solo ao redor do inimigo,\r\nfazendo-o explodir após certo tempo.",
+          "LocalizedString": "Estimula o solo ao redor do inimigo,\r\nfazendo-o explodir após certo tempo."
+        }
+      },
+      "ACTION_SKILL_FlameWall": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_FlameWall_TextData",
+          "SourceString": "Gera uma parede de fogo ardente no local do inimigo.\r\nA parede de fogo continua queimando por algum tempo,\r\ncausando dano nos inimigos que a tocarem.",
+          "LocalizedString": "Gera uma parede de fogo ardente no local do inimigo.\r\nA parede de fogo continua queimando por algum tempo,\r\ncausando dano nos inimigos que a tocarem."
+        }
+      },
+      "ACTION_SKILL_Eruption": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Eruption_TextData",
+          "SourceString": "Dispara incontáveis bombas vulcânicas rumo ao céu.\r\nDepois de passado algum tempo, as bombas\r\nretornam chovendo ao redor de quem as lançou.",
+          "LocalizedString": "Dispara incontáveis bombas vulcânicas rumo ao céu.\r\nDepois de passado algum tempo, as bombas\r\nretornam chovendo ao redor de quem as lançou."
+        }
+      },
+      "ACTION_SKILL_FlameFunnel": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_FlameFunnel_TextData",
+          "SourceString": "Cria esferas contendo energia flamejante e as usa\r\npara disparar inúmeros projéteis de fogo contra o inimigo.",
+          "LocalizedString": "Cria esferas contendo energia flamejante e as usa\r\npara disparar inúmeros projéteis de fogo contra o inimigo."
+        }
+      },
+      "ACTION_SKILL_FlareTwister": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_FlareTwister_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "ACTION_SKILL_WaterGun": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_WaterGun_TextData",
+          "SourceString": "Dispara um projétil de água\r\nque voa em linha reta contra o alvo.",
+          "LocalizedString": "Dispara um projétil de água\r\nque voa em linha reta contra o alvo."
+        }
+      },
+      "ACTION_SKILL_WaterWave": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_WaterWave_TextData",
+          "SourceString": "Usa um redemoinho de água para criar um paredão à frente,\r\nfazendo-o avançar lentamente.",
+          "LocalizedString": "Usa um redemoinho de água para criar um paredão à frente,\r\nfazendo-o avançar lentamente."
+        }
+      },
+      "ACTION_SKILL_HydroPump": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_HydroPump_TextData",
+          "SourceString": "Lança água com um ímpeto incrível,\r\ndevastando uma grande área à sua frente.",
+          "LocalizedString": "Lança água com um ímpeto incrível,\r\ndevastando uma grande área à sua frente."
+        }
+      },
+      "ACTION_SKILL_WaterBall": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_WaterBall_TextData",
+          "SourceString": "Cria uma bola de água gigantesca sobre sua cabeça\r\ne a dispara na direção do inimigo.",
+          "LocalizedString": "Cria uma bola de água gigantesca sobre sua cabeça\r\ne a dispara na direção do inimigo."
+        }
+      },
+      "ACTION_SKILL_TidalWave": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_TidalWave_TextData",
+          "SourceString": "Cria pequenas ondulações em grande área\r\npara atrasar o movimento do inimigo\r\ne então o ataca com uma grande onda.",
+          "LocalizedString": "Cria pequenas ondulações em grande área\r\npara atrasar o movimento do inimigo\r\ne então o ataca com uma grande onda."
+        }
+      },
+      "ACTION_SKILL_AquaJet": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_AquaJet_TextData",
+          "SourceString": "Dispara projéteis de água a alta velocidade\r\ncontra o inimigo.",
+          "LocalizedString": "Dispara projéteis de água a alta velocidade\r\ncontra o inimigo."
+        }
+      },
+      "ACTION_SKILL_BubbleShot": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_BubbleShot_TextData",
+          "SourceString": "Dispara uma grande quantidade de bolhas\r\nque perseguem o inimigo lentamente.",
+          "LocalizedString": "Dispara uma grande quantidade de bolhas\r\nque perseguem o inimigo lentamente."
+        }
+      },
+      "ACTION_SKILL_AcidRain": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_AcidRain_TextData",
+          "SourceString": "Cria nuvens ácidas e faz\r\ncair uma chuva corrosiva sobre a cabeça do inimigo.",
+          "LocalizedString": "Cria nuvens ácidas e faz\r\ncair uma chuva corrosiva sobre a cabeça do inimigo."
+        }
+      },
+      "ACTION_SKILL_LineGeyser": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_LineGeyser_TextData",
+          "SourceString": "Gera um pilar de água que avança em linha reta.",
+          "LocalizedString": "Gera um pilar de água que avança em linha reta."
+        }
+      },
+      "ACTION_SKILL_WallSplash": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_WallSplash_TextData",
+          "SourceString": "Gera contínuas paredes formadas por colunas de água no local do inimigo.",
+          "LocalizedString": "Gera contínuas paredes formadas por colunas de água no local do inimigo."
+        }
+      },
+      "ACTION_SKILL_SeaGush": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_SeaGush_TextData",
+          "SourceString": "Faz jorrar uma grande quantidade de colunas de água\r\nno local do inimigo e seus arredores.",
+          "LocalizedString": "Faz jorrar uma grande quantidade de colunas de água\r\nno local do inimigo e seus arredores."
+        }
+      },
+      "ACTION_SKILL_RipTide": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_RipTide_TextData",
+          "SourceString": "Gera ondas esmagadoras nos arredores do inimigo.\r\nNo final, as ondas explodem ao centro e fazem com que se erga uma coluna de água.",
+          "LocalizedString": "Gera ondas esmagadoras nos arredores do inimigo.\r\nNo final, as ondas explodem ao centro e fazem com que se erga uma coluna de água."
+        }
+      },
+      "ACTION_SKILL_DiversionLaser": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DiversionLaser_TextData",
+          "SourceString": "Dispara um jato d’água em alta pressão para a frente.\r\nApós algum tempo, o jato também se divide para os lados.",
+          "LocalizedString": "Dispara um jato d’água em alta pressão para a frente.\r\nApós algum tempo, o jato também se divide para os lados."
+        }
+      },
+      "ACTION_SKILL_HydroSlicer": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_HydroSlicer_TextData",
+          "SourceString": "Devasta a área em frente com uma corrente de água pressurizada.\r\nApós algum tempo, mais água começa a jorrar do local atingido.",
+          "LocalizedString": "Devasta a área em frente com uma corrente de água pressurizada.\r\nApós algum tempo, mais água começa a jorrar do local atingido."
+        }
+      },
+      "ACTION_SKILL_WindCutter": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_WindCutter_TextData",
+          "SourceString": "Dispara uma lâmina de vento ultraveloz\r\nque voa em linha reta na direção do inimigo.",
+          "LocalizedString": "Dispara uma lâmina de vento ultraveloz\r\nque voa em linha reta na direção do inimigo."
+        }
+      },
+      "ACTION_SKILL_GrassTornado": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_GrassTornado_TextData",
+          "SourceString": "Gera redemoinhos para os lados,\r\nlançando-os contra o inimigo.",
+          "LocalizedString": "Gera redemoinhos para os lados,\r\nlançando-os contra o inimigo."
+        }
+      },
+      "ACTION_SKILL_SolarBeam": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_SolarBeam_TextData",
+          "SourceString": "Carrega energia solar para disparar\r\num raio poderoso contra o inimigo.",
+          "LocalizedString": "Carrega energia solar para disparar\r\num raio poderoso contra o inimigo."
+        }
+      },
+      "ACTION_SKILL_SeedMachinegun": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_SeedMachinegun_TextData",
+          "SourceString": "Lança diversas sementes rígidas\r\npara atacar o inimigo à frente.",
+          "LocalizedString": "Lança diversas sementes rígidas\r\npara atacar o inimigo à frente."
+        }
+      },
+      "ACTION_SKILL_SeedMine": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_SeedMine_TextData",
+          "SourceString": "Dispara sementes perigosas\r\nque explodem em contato com o inimigo.",
+          "LocalizedString": "Dispara sementes perigosas\r\nque explodem em contato com o inimigo."
+        }
+      },
+      "ACTION_SKILL_SpecialCutter": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_SpecialCutter_TextData",
+          "SourceString": "Dispara três lâminas de vento ultravelozes\r\nque voam em linha reta na direção do inimigo.",
+          "LocalizedString": "Dispara três lâminas de vento ultravelozes\r\nque voam em linha reta na direção do inimigo."
+        }
+      },
+      "ACTION_SKILL_RootAttack": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_RootAttack_TextData",
+          "SourceString": "Raízes afiadas enterradas no solo perseguem o inimigo\r\ne então o perfuram quando chegam aos seus pés.",
+          "LocalizedString": "Raízes afiadas enterradas no solo perseguem o inimigo\r\ne então o perfuram quando chegam aos seus pés."
+        }
+      },
+      "ACTION_SKILL_RootLance": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_RootLance_TextData",
+          "SourceString": "Projeta raízes afiadas contra\r\no local do inimigo e seus arredores.",
+          "LocalizedString": "Projeta raízes afiadas contra\r\no local do inimigo e seus arredores."
+        }
+      },
+      "ACTION_SKILL_RaidCutter": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_RaidCutter_TextData",
+          "SourceString": "Dispara inúmeras lâminas de vento\r\nque voam na direção do inimigo.",
+          "LocalizedString": "Dispara inúmeras lâminas de vento\r\nque voam na direção do inimigo."
+        }
+      },
+      "ACTION_SKILL_WindEdge": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_WindEdge_TextData",
+          "SourceString": "Lança uma lâmina de vento afiada em forma de leque.",
+          "LocalizedString": "Lança uma lâmina de vento afiada em forma de leque."
+        }
+      },
+      "ACTION_SKILL_CrossWind": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_CrossWind_TextData",
+          "SourceString": "Ataca cruzando as lâminas de vento\r\nque cria na frente do inimigo.",
+          "LocalizedString": "Ataca cruzando as lâminas de vento\r\nque cria na frente do inimigo."
+        }
+      },
+      "ACTION_SKILL_ReflectiveShuriken": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ReflectiveShuriken_TextData",
+          "SourceString": "Lança uma lâmina de vento capaz de criar uma série de ataques\r\nao ricochetear em inimigos ou árvores.\r\nA lâmina pode ricochetear um máximo de quatro vezes.",
+          "LocalizedString": "Lança uma lâmina de vento capaz de criar uma série de ataques\r\nao ricochetear em inimigos ou árvores.\r\nA lâmina pode ricochetear um máximo de quatro vezes."
+        }
+      },
+      "ACTION_SKILL_ThunderRain": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ThunderRain_TextData",
+          "SourceString": "Invoca uma tormenta para fulminar o inimigo\r\ncom vários raios após certo tempo.",
+          "LocalizedString": "Invoca uma tormenta para fulminar o inimigo\r\ncom vários raios após certo tempo."
+        }
+      },
+      "ACTION_SKILL_ThunderBall": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ThunderBall_TextData",
+          "SourceString": "Dispara uma bola elétrica\r\nque persegue o inimigo lentamente.",
+          "LocalizedString": "Dispara uma bola elétrica\r\nque persegue o inimigo lentamente."
+        }
+      },
+      "ACTION_SKILL_LineThunder": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_LineThunder_TextData",
+          "SourceString": "Gera um ataque elétrico que avança em linha reta.",
+          "LocalizedString": "Gera um ataque elétrico que avança em linha reta."
+        }
+      },
+      "ACTION_SKILL_CrossThunder": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_CrossThunder_TextData",
+          "SourceString": "Gera um ataque elétrico que avança em duas direções\r\npara bloquear o movimento do inimigo pelos flancos.",
+          "LocalizedString": "Gera um ataque elétrico que avança em duas direções\r\npara bloquear o movimento do inimigo pelos flancos."
+        }
+      },
+      "ACTION_SKILL_ThreeThunder": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ThreeThunder_TextData",
+          "SourceString": "Gera três raios que fulminam o inimigo a partir dos céus.",
+          "LocalizedString": "Gera três raios que fulminam o inimigo a partir dos céus."
+        }
+      },
+      "ACTION_SKILL_ElecWave": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ElecWave_TextData",
+          "SourceString": "Descarrega energia rapidamente\r\npara causar um choque nos arredores.",
+          "LocalizedString": "Descarrega energia rapidamente\r\npara causar um choque nos arredores."
+        }
+      },
+      "ACTION_SKILL_Thunderbolt": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Thunderbolt_TextData",
+          "SourceString": "Carrega energia elétrica para lançar\r\num ataque de eletricidade poderoso contra o inimigo.",
+          "LocalizedString": "Carrega energia elétrica para lançar\r\num ataque de eletricidade poderoso contra o inimigo."
+        }
+      },
+      "ACTION_SKILL_ThunderFunnel": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ThunderFunnel_TextData",
+          "SourceString": "Cria duas esferas contendo energia elétrica e as usa\r\npara disparar inúmeros projéteis de eletricidade contra o inimigo.",
+          "LocalizedString": "Cria duas esferas contendo energia elétrica e as usa\r\npara disparar inúmeros projéteis de eletricidade contra o inimigo."
+        }
+      },
+      "ACTION_SKILL_SpreadPulse": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_SpreadPulse_TextData",
+          "SourceString": "Dispara uma bola elétrica\r\nque se espalha em forma de leque.",
+          "LocalizedString": "Dispara uma bola elétrica\r\nque se espalha em forma de leque."
+        }
+      },
+      "ACTION_SKILL_LockonLaser": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_LockonLaser_TextData",
+          "SourceString": "Depois de fixar a mira no inimigo,\r\ndispara um laser de eletricidade ultraveloz.",
+          "LocalizedString": "Depois de fixar a mira no inimigo,\r\ndispara um laser de eletricidade ultraveloz."
+        }
+      },
+      "ACTION_SKILL_LightningStrike": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_LightningStrike_TextData",
+          "SourceString": "Servindo de para-raios para causar a queda de um relâmpago,\r\ncria uma descarga elétrica explosiva no local.",
+          "LocalizedString": "Servindo de para-raios para causar a queda de um relâmpago,\r\ncria uma descarga elétrica explosiva no local."
+        }
+      },
+      "ACTION_SKILL_TriSpark": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_TriSpark_TextData",
+          "SourceString": "Dispara projéteis de eletricidade velozes que voam em linha reta e,\r\nao mesmo tempo, outros mais lentos que perseguem o inimigo.",
+          "LocalizedString": "Dispara projéteis de eletricidade velozes que voam em linha reta e,\r\nao mesmo tempo, outros mais lentos que perseguem o inimigo."
+        }
+      },
+      "ACTION_SKILL_ThunderStorm": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ThunderStorm_TextData",
+          "SourceString": "Gera um redemoinho elétrico gigantesco\r\nque se move lentamente rumo ao inimigo.",
+          "LocalizedString": "Gera um redemoinho elétrico gigantesco\r\nque se move lentamente rumo ao inimigo."
+        }
+      },
+      "ACTION_SKILL_RangeThunder": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_RangeThunder_TextData",
+          "SourceString": "Gera um ataque elétrico que avança em linha reta em todas as direções.",
+          "LocalizedString": "Gera um ataque elétrico que avança em linha reta em todas as direções."
+        }
+      },
+      "ACTION_SKILL_Railbolt": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Railbolt_TextData",
+          "SourceString": "Carrega energia elétrica até o limite para disparar\r\nsimultaneamente vários ataques de eletricidade poderosos contra o inimigo.",
+          "LocalizedString": "Carrega energia elétrica até o limite para disparar\r\nsimultaneamente vários ataques de eletricidade poderosos contra o inimigo."
+        }
+      },
+      "ACTION_SKILL_ShokeiLaser": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ShokeiLaser_TextData",
+          "SourceString": "Depois de fixar a mira no inimigo,\r\ndispara vários lasers de eletricidade ultravelozes.",
+          "LocalizedString": "Depois de fixar a mira no inimigo,\r\ndispara vários lasers de eletricidade ultravelozes."
+        }
+      },
+      "ACTION_SKILL_ThunderSpear": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ThunderSpear_TextData",
+          "SourceString": "Dispara uma lança relâmpago em linha reta\r\ne alta velocidade na direção do inimigo.",
+          "LocalizedString": "Dispara uma lança relâmpago em linha reta\r\ne alta velocidade na direção do inimigo."
+        }
+      },
+      "ACTION_SKILL_IceMissile": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_IceMissile_TextData",
+          "SourceString": "Produz um volume afiado de gelo em pleno ar\r\ne o dispara contra o inimigo.",
+          "LocalizedString": "Produz um volume afiado de gelo em pleno ar\r\ne o dispara contra o inimigo."
+        }
+      },
+      "ACTION_SKILL_BlizzardLance": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_BlizzardLance_TextData",
+          "SourceString": "Faz aparecer uma lâmina de gelo afiada\r\nsob os pés do inimigo.",
+          "LocalizedString": "Faz aparecer uma lâmina de gelo afiada\r\nsob os pés do inimigo."
+        }
+      },
+      "ACTION_SKILL_Snowstorm": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Snowstorm_TextData",
+          "SourceString": "Concentra uma força congelante nos arredores e,\r\ndepois de atacar quem estiver ao redor,\r\nlança uma nevasca contra o inimigo.",
+          "LocalizedString": "Concentra uma força congelante nos arredores e,\r\ndepois de atacar quem estiver ao redor,\r\nlança uma nevasca contra o inimigo."
+        }
+      },
+      "ACTION_SKILL_IcicleThrow": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_IcicleThrow_TextData",
+          "SourceString": "Cria um aglomerado de gelo gigantesco\r\ne o dispara em alta velocidade na direção do inimigo.\r\nAo fazer contato, o gelo cria um choque nos arredores.",
+          "LocalizedString": "Cria um aglomerado de gelo gigantesco\r\ne o dispara em alta velocidade na direção do inimigo.\r\nAo fazer contato, o gelo cria um choque nos arredores."
+        }
+      },
+      "ACTION_SKILL_IceBlade": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_IceBlade_TextData",
+          "SourceString": "Cria uma lâmina de gelo na forma da lua crescente\r\ne a dispara para a frente.",
+          "LocalizedString": "Cria uma lâmina de gelo na forma da lua crescente\r\ne a dispara para a frente."
+        }
+      },
+      "ACTION_SKILL_FrostBreath": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_FrostBreath_TextData",
+          "SourceString": "Expele um ar gélido na direção do inimigo,\r\ncausando dano contínuo.",
+          "LocalizedString": "Expele um ar gélido na direção do inimigo,\r\ncausando dano contínuo."
+        }
+      },
+      "ACTION_SKILL_DiamondFall": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DiamondFall_TextData",
+          "SourceString": "Cria aglomerados de gelo sobre a cabeça do inimigo\r\ne faz com que caiam sobre este um após o outro.",
+          "LocalizedString": "Cria aglomerados de gelo sobre a cabeça do inimigo\r\ne faz com que caiam sobre este um após o outro."
+        }
+      },
+      "ACTION_SKILL_IcicleLine": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_IcicleLine_TextData",
+          "SourceString": "Gera pilares de gelo que avançam em linha reta em três direções.",
+          "LocalizedString": "Gera pilares de gelo que avançam em linha reta em três direções."
+        }
+      },
+      "ACTION_SKILL_DoubleIcicleThrow": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DoubleIcicleThrow_TextData",
+          "SourceString": "Cria dois aglomerados de gelo gigantescos\r\ne os dispara um após o outro na direção do inimigo.\r\nAo fazer contato, o gelo cria um choque nos arredores.",
+          "LocalizedString": "Cria dois aglomerados de gelo gigantescos\r\ne os dispara um após o outro na direção do inimigo.\r\nAo fazer contato, o gelo cria um choque nos arredores."
+        }
+      },
+      "ACTION_SKILL_IceAge": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_IceAge_TextData",
+          "SourceString": "Faz sincelos perfurarem o chão em grande área ao redor dos pés do inimigo.",
+          "LocalizedString": "Faz sincelos perfurarem o chão em grande área ao redor dos pés do inimigo."
+        }
+      },
+      "ACTION_SKILL_IciclePierce": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_IciclePierce_TextData",
+          "SourceString": "Produz vários volumes afiados de gelo em pleno ar\r\ne os dispara contra o inimigo.",
+          "LocalizedString": "Produz vários volumes afiados de gelo em pleno ar\r\ne os dispara contra o inimigo."
+        }
+      },
+      "ACTION_SKILL_IceWall": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_IceWall_TextData",
+          "SourceString": "Faz surgir uma muralha de gelo do solo.\r\nA muralha permanece por algum tempo,\r\nmas se rompe depois de sofrer certo dano.",
+          "LocalizedString": "Faz surgir uma muralha de gelo do solo.\r\nA muralha permanece por algum tempo,\r\nmas se rompe depois de sofrer certo dano."
+        }
+      },
+      "ACTION_SKILL_SandTornado": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_SandTornado_TextData",
+          "SourceString": "Gera redemoinhos de areia para os lados,\r\nlançando-os contra o inimigo.",
+          "LocalizedString": "Gera redemoinhos de areia para os lados,\r\nlançando-os contra o inimigo."
+        }
+      },
+      "ACTION_SKILL_ThrowRock": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ThrowRock_TextData",
+          "SourceString": "Retira uma rocha do solo à sua frente\r\ne a dispara na direção do inimigo.",
+          "LocalizedString": "Retira uma rocha do solo à sua frente\r\ne a dispara na direção do inimigo."
+        }
+      },
+      "ACTION_SKILL_RockLance": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_RockLance_TextData",
+          "SourceString": "Faz aparecer uma lança de rocha afiada\r\nsob os pés do inimigo.",
+          "LocalizedString": "Faz aparecer uma lança de rocha afiada\r\nsob os pés do inimigo."
+        }
+      },
+      "ACTION_SKILL_MudShot": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_MudShot_TextData",
+          "SourceString": "Dispara uma lama pegajosa\r\nna direção do inimigo.",
+          "LocalizedString": "Dispara uma lama pegajosa\r\nna direção do inimigo."
+        }
+      },
+      "ACTION_SKILL_StoneShotgun": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_StoneShotgun_TextData",
+          "SourceString": "Dispara inúmeras pedras pequenas\r\npara a frente.",
+          "LocalizedString": "Dispara inúmeras pedras pequenas\r\npara a frente."
+        }
+      },
+      "ACTION_SKILL_Tremor": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Tremor_TextData",
+          "SourceString": "Estremece a terra e faz voar\r\num grande aglomerado de rochas pelos arredores.",
+          "LocalizedString": "Estremece a terra e faz voar\r\num grande aglomerado de rochas pelos arredores."
+        }
+      },
+      "ACTION_SKILL_SandTwister": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_SandTwister_TextData",
+          "SourceString": "Gera vários redemoinhos de areia\r\nque rodopiam continuamente como que traçando um círculo no ar.",
+          "LocalizedString": "Gera vários redemoinhos de areia\r\nque rodopiam continuamente como que traçando um círculo no ar."
+        }
+      },
+      "ACTION_SKILL_RockBeat": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_RockBeat_TextData",
+          "SourceString": "Estremece o solo\r\ne faz levitar uma rocha gigantesca.",
+          "LocalizedString": "Estremece o solo\r\ne faz levitar uma rocha gigantesca."
+        }
+      },
+      "ACTION_SKILL_DarkLaser": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DarkLaser_TextData",
+          "SourceString": "Carrega a energia das trevas\r\npara disparar um raio poderoso contra o inimigo.",
+          "LocalizedString": "Carrega a energia das trevas\r\npara disparar um raio poderoso contra o inimigo."
+        }
+      },
+      "ACTION_SKILL_DarkWave": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DarkWave_TextData",
+          "SourceString": "Libera uma força de escuridão rapidamente\r\npara causar um choque nos arredores.",
+          "LocalizedString": "Libera uma força de escuridão rapidamente\r\npara causar um choque nos arredores."
+        }
+      },
+      "ACTION_SKILL_Psychokinesis": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Psychokinesis_TextData",
+          "SourceString": "Usa a telecinesia para impedir o movimento dos inimigos ao redor\r\ne golpeá-los contra o chão desde as alturas.",
+          "LocalizedString": "Usa a telecinesia para impedir o movimento dos inimigos ao redor\r\ne golpeá-los contra o chão desde as alturas."
+        }
+      },
+      "ACTION_SKILL_ShadowBall": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ShadowBall_TextData",
+          "SourceString": "Cria uma grande bola de escuridão\r\ne a dispara em alta velocidade na direção do inimigo.",
+          "LocalizedString": "Cria uma grande bola de escuridão\r\ne a dispara em alta velocidade na direção do inimigo."
+        }
+      },
+      "ACTION_SKILL_GhostFlame": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_GhostFlame_TextData",
+          "SourceString": "Dispara três rancores\r\nque perseguem o inimigo de forma obstinada.",
+          "LocalizedString": "Dispara três rancores\r\nque perseguem o inimigo de forma obstinada."
+        }
+      },
+      "ACTION_SKILL_PoisonShot": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_PoisonShot_TextData",
+          "SourceString": "Dispara lodo contendo um poder venenoso\r\nna direção do inimigo.",
+          "LocalizedString": "Dispara lodo contendo um poder venenoso\r\nna direção do inimigo."
+        }
+      },
+      "ACTION_SKILL_DarkBall": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DarkBall_TextData",
+          "SourceString": "Dispara uma bola de escuridão\r\nque persegue o inimigo lentamente.",
+          "LocalizedString": "Dispara uma bola de escuridão\r\nque persegue o inimigo lentamente."
+        }
+      },
+      "ACTION_SKILL_DarkLegion": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DarkLegion_TextData",
+          "SourceString": "Dispara várias bolas de escuridão que perseguem o inimigo.",
+          "LocalizedString": "Dispara várias bolas de escuridão que perseguem o inimigo."
+        }
+      },
+      "ACTION_SKILL_DarkCanon": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DarkCanon_TextData",
+          "SourceString": "Dispara um projétil de energia contendo força de escuridão\r\nem alta velocidade na direção do inimigo.",
+          "LocalizedString": "Dispara um projétil de energia contendo força de escuridão\r\nem alta velocidade na direção do inimigo."
+        }
+      },
+      "ACTION_SKILL_DarkArrow": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DarkArrow_TextData",
+          "SourceString": "Dispara de forma contínua e em alta velocidade várias flechas\r\nque perseguem o inimigo com a força da escuridão.",
+          "LocalizedString": "Dispara de forma contínua e em alta velocidade várias flechas\r\nque perseguem o inimigo com a força da escuridão."
+        }
+      },
+      "ACTION_SKILL_DarkPulse": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DarkPulse_TextData",
+          "SourceString": "Dispara uma rápida bola de escuridão\r\nque se espalha em forma de leque.",
+          "LocalizedString": "Dispara uma rápida bola de escuridão\r\nque se espalha em forma de leque."
+        }
+      },
+      "ACTION_SKILL_Apocalypse": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Apocalypse_TextData",
+          "SourceString": "Cria vários redemoinhos de escuridão ao redor do inimigo.",
+          "LocalizedString": "Cria vários redemoinhos de escuridão ao redor do inimigo."
+        }
+      },
+      "ACTION_SKILL_ChaosLaser": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ChaosLaser_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "ACTION_SKILL_BubbleShower": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_BubbleShower_TextData",
+          "SourceString": "Concentra a própria força\r\ne faz voarem bolas de veneno em todas as direções.",
+          "LocalizedString": "Concentra a própria força\r\ne faz voarem bolas de veneno em todas as direções."
+        }
+      },
+      "ACTION_SKILL_GravityShot": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_GravityShot_TextData",
+          "SourceString": "Dispara um tiro de energia sombria\r\nque acelera até atingir o alvo.",
+          "LocalizedString": "Dispara um tiro de energia sombria\r\nque acelera até atingir o alvo."
+        }
+      },
+      "ACTION_SKILL_DragonMeteor": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DragonMeteor_TextData",
+          "SourceString": "Invoca um grande número de pequenos meteoritos\r\npara dispará-los contra o inimigo.",
+          "LocalizedString": "Invoca um grande número de pequenos meteoritos\r\npara dispará-los contra o inimigo."
+        }
+      },
+      "ACTION_SKILL_DragonBreath": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DragonBreath_TextData",
+          "SourceString": "Dispara um projétil de energia contendo\r\nforça dracônica na direção do inimigo.",
+          "LocalizedString": "Dispara um projétil de energia contendo\r\nforça dracônica na direção do inimigo."
+        }
+      },
+      "ACTION_SKILL_DragonWave": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DragonWave_TextData",
+          "SourceString": "Libera força dracônica rapidamente\r\npara causar um choque nos arredores.",
+          "LocalizedString": "Libera força dracônica rapidamente\r\npara causar um choque nos arredores."
+        }
+      },
+      "ACTION_SKILL_DragonCanon": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_DragonCanon_TextData",
+          "SourceString": "Dispara um projétil de energia contendo força dracônica\r\nna direção do inimigo.",
+          "LocalizedString": "Dispara um projétil de energia contendo força dracônica\r\nna direção do inimigo."
+        }
+      },
+      "ACTION_SKILL_BeamSlicer": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_BeamSlicer_TextData",
+          "SourceString": "Devasta a área em frente com raios de luz que concentram poder dracônico.\r\nO local devastado explode momentos depois.",
+          "LocalizedString": "Devasta a área em frente com raios de luz que concentram poder dracônico.\r\nO local devastado explode momentos depois."
+        }
+      },
+      "ACTION_SKILL_Commet": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Commet_TextData",
+          "SourceString": "Faz cair um meteorito verticalmente,\r\ngerando uma onda de choque nos arredores.",
+          "LocalizedString": "Faz cair um meteorito verticalmente,\r\ngerando uma onda de choque nos arredores."
+        }
+      },
+      "ACTION_SKILL_ThreeCommet": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ThreeCommet_TextData",
+          "SourceString": "Faz caírem meteoritos em sequência,\r\ngerando uma onda de choque nos arredores.",
+          "LocalizedString": "Faz caírem meteoritos em sequência,\r\ngerando uma onda de choque nos arredores."
+        }
+      },
+      "ACTION_SKILL_CommetRain": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_CommetRain_TextData",
+          "SourceString": "Faz caírem inúmeros meteoritos,\r\ngerando uma onda de choque nos arredores.",
+          "LocalizedString": "Faz caírem inúmeros meteoritos,\r\ngerando uma onda de choque nos arredores."
+        }
+      },
+      "ACTION_SKILL_BlastCanon": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_BlastCanon_TextData",
+          "SourceString": "Dispara um projétil de energia contendo força dracônica no local do inimigo.\r\nO projétil se expande ao fazer contato com o alvo,\r\ncausando uma explosão em grande área à frente.",
+          "LocalizedString": "Dispara um projétil de energia contendo força dracônica no local do inimigo.\r\nO projétil se expande ao fazer contato com o alvo,\r\ncausando uma explosão em grande área à frente."
+        }
+      },
+      "ACTION_SKILL_ChargeCanon": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_ChargeCanon_TextData",
+          "SourceString": "Dispara um projétil de energia com força dracônica acumulada\r\nna direção do inimigo. O projétil causa uma explosão\r\nem grande área ao fazer contato.",
+          "LocalizedString": "Dispara um projétil de energia com força dracônica acumulada\r\nna direção do inimigo. O projétil causa uma explosão\r\nem grande área ao fazer contato."
+        }
+      },
+      "ACTION_SKILL_TripleCanon": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_TripleCanon_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "PASSIVE_TrainerATK_UP_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_TrainerATK_UP_1_TextData",
+          "SourceString": "Aumenta seu ataque em {EffectValue1}%.",
+          "LocalizedString": "Aumenta seu ataque em {EffectValue1}%."
+        }
+      },
+      "PASSIVE_TrainerDEF_UP_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_TrainerDEF_UP_1_TextData",
+          "SourceString": "Aumenta sua defesa em {EffectValue1}%.",
+          "LocalizedString": "Aumenta sua defesa em {EffectValue1}%."
+        }
+      },
+      "PASSIVE_TrainerWorkSpeed_UP_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_TrainerWorkSpeed_UP_1_TextData",
+          "SourceString": "Aumenta sua velocidade de trabalho em {EffectValue1}%.",
+          "LocalizedString": "Aumenta sua velocidade de trabalho em {EffectValue1}%."
+        }
+      },
+      "PASSIVE_TrainerMining_up1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_TrainerMining_up1_TextData",
+          "SourceString": "Aumenta sua eficiência de garimpo em {EffectValue1}%.",
+          "LocalizedString": "Aumenta sua eficiência de garimpo em {EffectValue1}%."
+        }
+      },
+      "PASSIVE_TrainerLogging_up1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_TrainerLogging_up1_TextData",
+          "SourceString": "Aumenta sua eficiência ao cortar árvores em {EffectValue1}%.",
+          "LocalizedString": "Aumenta sua eficiência ao cortar árvores em {EffectValue1}%."
+        }
+      },
+      "PASSIVE_ElementResist_Normal_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementResist_Normal_1_PAL_TextData",
+          "SourceString": "Reduz o dano por ataques não elementais em {EffectValue1}%.",
+          "LocalizedString": "Reduz o dano por ataques não elementais em {EffectValue1}%."
+        }
+      },
+      "PASSIVE_ElementResist_Fire_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementResist_Fire_1_PAL_TextData",
+          "SourceString": "Reduz o dano por ataques de fogo em {EffectValue1}%.",
+          "LocalizedString": "Reduz o dano por ataques de fogo em {EffectValue1}%."
+        }
+      },
+      "PASSIVE_ElementResist_Aqua_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementResist_Aqua_1_PAL_TextData",
+          "SourceString": "Reduz o dano por ataques de água em {EffectValue1}%.",
+          "LocalizedString": "Reduz o dano por ataques de água em {EffectValue1}%."
+        }
+      },
+      "PASSIVE_ElementResist_Thunder_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementResist_Thunder_1_PAL_TextData",
+          "SourceString": "Reduz o dano por ataques elétricos em {EffectValue1}%.",
+          "LocalizedString": "Reduz o dano por ataques elétricos em {EffectValue1}%."
+        }
+      },
+      "PASSIVE_ElementResist_Leaf_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementResist_Leaf_1_PAL_TextData",
+          "SourceString": "Reduz o dano por ataques de grama em {EffectValue1}%.",
+          "LocalizedString": "Reduz o dano por ataques de grama em {EffectValue1}%."
+        }
+      },
+      "PASSIVE_ElementResist_Ice_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementResist_Ice_1_PAL_TextData",
+          "SourceString": "Reduz o dano por ataques de gelo em {EffectValue1}%.",
+          "LocalizedString": "Reduz o dano por ataques de gelo em {EffectValue1}%."
+        }
+      },
+      "PASSIVE_ElementResist_Earth_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementResist_Earth_1_PAL_TextData",
+          "SourceString": "Reduz o dano por ataques de terra em {EffectValue1}%.",
+          "LocalizedString": "Reduz o dano por ataques de terra em {EffectValue1}%."
+        }
+      },
+      "PASSIVE_ElementResist_Dark_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementResist_Dark_1_PAL_TextData",
+          "SourceString": "Reduz o dano por ataques de escuridão em {EffectValue1}%.",
+          "LocalizedString": "Reduz o dano por ataques de escuridão em {EffectValue1}%."
+        }
+      },
+      "PASSIVE_ElementResist_Dragon_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementResist_Dragon_1_PAL_TextData",
+          "SourceString": "Reduz o dano por ataques dracônicos em {EffectValue1}%.",
+          "LocalizedString": "Reduz o dano por ataques dracônicos em {EffectValue1}%."
+        }
+      },
+      "PASSIVE_ElementBoost_Normal_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Normal_1_PAL_TextData",
+          "SourceString": "Aumenta o dano de ataques não elementais em {EffectValue1}%.",
+          "LocalizedString": "Aumenta o dano de ataques não elementais em {EffectValue1}%."
+        }
+      },
+      "PASSIVE_ElementBoost_Fire_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Fire_1_PAL_TextData",
+          "SourceString": "Aumenta o dano de ataques de fogo em {EffectValue1}%.",
+          "LocalizedString": "Aumenta o dano de ataques de fogo em {EffectValue1}%."
+        }
+      },
+      "PASSIVE_ElementBoost_Aqua_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Aqua_1_PAL_TextData",
+          "SourceString": "Aumenta o dano de ataques de água em {EffectValue1}%.",
+          "LocalizedString": "Aumenta o dano de ataques de água em {EffectValue1}%."
+        }
+      },
+      "PASSIVE_ElementBoost_Thunder_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Thunder_1_PAL_TextData",
+          "SourceString": "Aumenta o dano de ataques elétricos em {EffectValue1}%.",
+          "LocalizedString": "Aumenta o dano de ataques elétricos em {EffectValue1}%."
+        }
+      },
+      "PASSIVE_ElementBoost_Leaf_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Leaf_1_PAL_TextData",
+          "SourceString": "Aumenta o dano de ataques de grama em {EffectValue1}%.",
+          "LocalizedString": "Aumenta o dano de ataques de grama em {EffectValue1}%."
+        }
+      },
+      "PASSIVE_ElementBoost_Ice_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Ice_1_PAL_TextData",
+          "SourceString": "Aumenta o dano de ataques de gelo em {EffectValue1}%.",
+          "LocalizedString": "Aumenta o dano de ataques de gelo em {EffectValue1}%."
+        }
+      },
+      "PASSIVE_ElementBoost_Earth_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Earth_1_PAL_TextData",
+          "SourceString": "Aumenta o dano de ataques de terra em {EffectValue1}%.",
+          "LocalizedString": "Aumenta o dano de ataques de terra em {EffectValue1}%."
+        }
+      },
+      "PASSIVE_ElementBoost_Dark_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Dark_1_PAL_TextData",
+          "SourceString": "Aumenta o dano de ataques de escuridão em {EffectValue1}%.",
+          "LocalizedString": "Aumenta o dano de ataques de escuridão em {EffectValue1}%."
+        }
+      },
+      "PASSIVE_ElementBoost_Dragon_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Dragon_1_PAL_TextData",
+          "SourceString": "Aumenta o dano de ataques dracônicos em {EffectValue1}%.",
+          "LocalizedString": "Aumenta o dano de ataques dracônicos em {EffectValue1}%."
+        }
+      },
+      "PASSIVE_ElementBoost_Dark_Ice_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Dark_Ice_1_PAL_TextData",
+          "SourceString": "Aumenta o dano de ataques de escuridão em {EffectValue1}%.\r\nAumenta o dano de ataques de gelo em {EffectValue1}%.",
+          "LocalizedString": "Aumenta o dano de ataques de escuridão em {EffectValue1}%.\r\nAumenta o dano de ataques de gelo em {EffectValue1}%."
+        }
+      },
+      "PASSIVE_PAL_FullStomach_Up_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_FullStomach_Up_1_TextData",
+          "SourceString": "Redução de Fartura <NumRed_13>+10.0%</>",
+          "LocalizedString": "Redução de Fartura <NumRed_13>+10.0%</>"
+        }
+      },
+      "PASSIVE_PAL_FullStomach_Up_2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_FullStomach_Up_2_TextData",
+          "SourceString": "Redução de Fartura <NumRed_13>+15.0%</>",
+          "LocalizedString": "Redução de Fartura <NumRed_13>+15.0%</>"
+        }
+      },
+      "PASSIVE_PAL_FullStomach_Down_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_FullStomach_Down_1_TextData",
+          "SourceString": "Manutenção de Fartura <NumBlue_13>+10.0%</>",
+          "LocalizedString": "Manutenção de Fartura <NumBlue_13>+10.0%</>"
+        }
+      },
+      "PASSIVE_PAL_FullStomach_Down_2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_FullStomach_Down_2_TextData",
+          "SourceString": "Manutenção de Fartura <NumBlue_13>+15.0%</>",
+          "LocalizedString": "Manutenção de Fartura <NumBlue_13>+15.0%</>"
+        }
+      },
+      "PASSIVE_PAL_FullStomach_Down_3": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_FullStomach_Down_3_TextData",
+          "SourceString": "Manutenção de Fartura <NumBlue_13>+20.0%</>",
+          "LocalizedString": "Manutenção de Fartura <NumBlue_13>+20.0%</>"
+        }
+      },
+      "PASSIVE_PAL_Sanity_Up_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_Sanity_Up_1_TextData",
+          "SourceString": "Redução de SAN <NumRed_13>+10.0%</>",
+          "LocalizedString": "Redução de SAN <NumRed_13>+10.0%</>"
+        }
+      },
+      "PASSIVE_PAL_Sanity_Up_2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_Sanity_Up_2_TextData",
+          "SourceString": "Redução de SAN <NumRed_13>+15.0%</>",
+          "LocalizedString": "Redução de SAN <NumRed_13>+15.0%</>"
+        }
+      },
+      "PASSIVE_PAL_Sanity_Down_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_Sanity_Down_1_TextData",
+          "SourceString": "Manutenção de SAN <NumBlue_13>+10.0%</>",
+          "LocalizedString": "Manutenção de SAN <NumBlue_13>+10.0%</>"
+        }
+      },
+      "PASSIVE_PAL_Sanity_Down_2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_Sanity_Down_2_TextData",
+          "SourceString": "Manutenção de SAN <NumBlue_13>+15.0%</>",
+          "LocalizedString": "Manutenção de SAN <NumBlue_13>+15.0%</>"
+        }
+      },
+      "PASSIVE_PAL_Sanity_Down_3": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_Sanity_Down_3_TextData",
+          "SourceString": "Manutenção de SAN <NumBlue_13>+20.0%</>",
+          "LocalizedString": "Manutenção de SAN <NumBlue_13>+20.0%</>"
+        }
+      },
+      "PASSIVE_PAL_MoveSpeed_up_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_MoveSpeed_up_1_TextData",
+          "SourceString": "Aumenta a velocidade de movimento em {EffectValue1}%.",
+          "LocalizedString": "Aumenta a velocidade de movimento em {EffectValue1}%."
+        }
+      },
+      "PASSIVE_PAL_MoveSpeed_up_2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_MoveSpeed_up_2_TextData",
+          "SourceString": "Aumenta a velocidade de movimento em {EffectValue1}%.",
+          "LocalizedString": "Aumenta a velocidade de movimento em {EffectValue1}%."
+        }
+      },
+      "PASSIVE_PAL_MoveSpeed_up_3": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_MoveSpeed_up_3_TextData",
+          "SourceString": "Aumenta a velocidade de movimento em {EffectValue1}%.",
+          "LocalizedString": "Aumenta a velocidade de movimento em {EffectValue1}%."
+        }
+      },
+      "PASSIVE_Legend_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Legend_DESC_TextData",
+          "SourceString": "Ataque +{EffectValue1}%\r\nDefesa +{EffectValue2}%\r\nVelocidade de movimento +{EffectValue3}%",
+          "LocalizedString": "Ataque +{EffectValue1}%\r\nDefesa +{EffectValue2}%\r\nVelocidade de movimento +{EffectValue3}%"
+        }
+      },
+      "PASSIVE_NonKilling_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_NonKilling_DESC_TextData",
+          "SourceString": "Pacifista.\r\nNão pode deixar os alvos de seus ataques com vida inferior a 1.",
+          "LocalizedString": "Pacifista.\r\nNão pode deixar os alvos de seus ataques com vida inferior a 1."
+        }
+      },
+      "PASSIVE_Nocturnal_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Nocturnal_DESC_TextData",
+          "SourceString": "Não dorme ao cair da noite, continuando a trabalhar.",
+          "LocalizedString": "Não dorme ao cair da noite, continuando a trabalhar."
+        }
+      },
+      "PASSIVE_CoolTimeReduction_Up_1_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_CoolTimeReduction_Up_1_DESC_TextData",
+          "SourceString": "Tempo de recarga de habilidades ativas reduzido em {EffectValue1}%\r\nAtaque +{EffectValue2}%",
+          "LocalizedString": "Tempo de recarga de habilidades ativas reduzido em {EffectValue1}%\r\nAtaque +{EffectValue2}%"
+        }
+      },
+      "PASSIVE_CoolTimeReduction_Up_2_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_CoolTimeReduction_Up_2_DESC_TextData",
+          "SourceString": "Tempo de recarga de habilidades ativas reduzido em {EffectValue1}%",
+          "LocalizedString": "Tempo de recarga de habilidades ativas reduzido em {EffectValue1}%"
+        }
+      },
+      "PASSIVE_CoolTimeReduction_Up_3_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_CoolTimeReduction_Up_3_DESC_TextData",
+          "SourceString": "Tempo de recarga de habilidades ativas reduzido em {EffectValue1}%\r\nAtaque +{EffectValue2}%",
+          "LocalizedString": "Tempo de recarga de habilidades ativas reduzido em {EffectValue1}%\r\nAtaque +{EffectValue2}%"
+        }
+      },
+      "PASSIVE_CoolTimeReduction_Down_1_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_CoolTimeReduction_Down_1_DESC_TextData",
+          "SourceString": "Tempo de recarga de habilidades ativas aumentado em {EffectValue1}%",
+          "LocalizedString": "Tempo de recarga de habilidades ativas aumentado em {EffectValue1}%"
+        }
+      },
+      "PASSIVE_Stamina_Up_1_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Stamina_Up_1_DESC_TextData",
+          "SourceString": "Fôlego máximo +{EffectValue1}%\r\n*Só funciona com Pals que servem de montaria",
+          "LocalizedString": "Fôlego máximo +{EffectValue1}%\r\n*Só funciona com Pals que servem de montaria"
+        }
+      },
+      "PASSIVE_Stamina_Up_2_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Stamina_Up_2_DESC_TextData",
+          "SourceString": "Fôlego máximo +{EffectValue1}%\r\n*Só funciona com Pals que servem de montaria",
+          "LocalizedString": "Fôlego máximo +{EffectValue1}%\r\n*Só funciona com Pals que servem de montaria"
+        }
+      },
+      "PASSIVE_Stamina_Up_3_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Stamina_Up_3_DESC_TextData",
+          "SourceString": "Fôlego máximo +{EffectValue1}%\r\n*Só funciona com Pals que servem de montaria",
+          "LocalizedString": "Fôlego máximo +{EffectValue1}%\r\n*Só funciona com Pals que servem de montaria"
+        }
+      },
+      "PASSIVE_Stamina_Down_1_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Stamina_Down_1_DESC_TextData",
+          "SourceString": "Fôlego máximo {EffectValue1}%\r\n*Só funciona com Pals que servem de montaria",
+          "LocalizedString": "Fôlego máximo {EffectValue1}%\r\n*Só funciona com Pals que servem de montaria"
+        }
+      },
+      "PASSIVE_SalePrice_Up_1_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_SalePrice_Up_1_DESC_TextData",
+          "SourceString": "Preço de venda melhorado: +{EffectValue1}%",
+          "LocalizedString": "Preço de venda melhorado: +{EffectValue1}%"
+        }
+      },
+      "PASSIVE_SalePrice_Up_2_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_SalePrice_Up_2_DESC_TextData",
+          "SourceString": "Preço de venda melhorado: +{EffectValue1}%",
+          "LocalizedString": "Preço de venda melhorado: +{EffectValue1}%"
+        }
+      },
+      "PASSIVE_SalePrice_Down_1_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_SalePrice_Down_1_DESC_TextData",
+          "SourceString": "Preço de venda piorado: -{EffectValue1}%",
+          "LocalizedString": "Preço de venda piorado: -{EffectValue1}%"
+        }
+      },
+      "PASSIVE_Alien_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Alien_DESC_TextData",
+          "SourceString": "Ataque +{EffectValue1}%\r\nReduz o dano por ataques de fogo em {EffectValue2}%\r\nReduz o dano por ataques elétricos em {EffectValue3}%",
+          "LocalizedString": "Ataque +{EffectValue1}%\r\nReduz o dano por ataques de fogo em {EffectValue2}%\r\nReduz o dano por ataques elétricos em {EffectValue3}%"
+        }
+      },
+      "PASSIVE_Test_PalEgg_HatchingSpeed_Up_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Test_PalEgg_HatchingSpeed_Up_DESC_TextData",
+          "SourceString": "Enquanto estiver em uma fazenda de acasalamento, a velocidade de produção de ovos é aumentada em {EffectValue1}%",
+          "LocalizedString": "Enquanto estiver em uma fazenda de acasalamento, a velocidade de produção de ovos é aumentada em {EffectValue1}%"
+        }
+      },
+      "PASSIVE_ElementBoost_Fire_Electric_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Fire_Electric_1_PAL_TextData",
+          "SourceString": "Aumenta o dano de ataques de fogo em {EffectValue1}%.\r\nAumenta o dano de ataques elétricos em {EffectValue1}%.",
+          "LocalizedString": "Aumenta o dano de ataques de fogo em {EffectValue1}%.\r\nAumenta o dano de ataques elétricos em {EffectValue1}%."
+        }
+      },
+      "PASSIVE_Vampire_DESC": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Vampire_DESC_TextData",
+          "SourceString": "Absorve parte do dano causado\r\ne restaura seu <uiCommon id=|COMMON_STATUS_HP|/>.\r\nNão dorme ao cair da noite, continuando a trabalhar.",
+          "LocalizedString": "Absorve parte do dano causado\r\ne restaura seu <uiCommon id=|COMMON_STATUS_HP|/>.\r\nNão dorme ao cair da noite, continuando a trabalhar."
+        }
+      },
+      "PASSIVE_JumpPower_Increase": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_JumpPower_Increase_TextData",
+          "SourceString": "Pulo melhorado",
+          "LocalizedString": "Pulo melhorado"
+        }
+      },
+      "PASSIVE_JumpCount_Increase1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_JumpCount_Increase1_TextData",
+          "SourceString": "Número de pulos +1",
+          "LocalizedString": "Número de pulos +1"
+        }
+      },
+      "PASSIVE_JumpCount_Increase2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_JumpCount_Increase2_TextData",
+          "SourceString": "Número de pulos +2",
+          "LocalizedString": "Número de pulos +2"
+        }
+      },
+      "PASSIVE_JumpCount_Increase3": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_JumpCount_Increase3_TextData",
+          "SourceString": "Número de pulos +3",
+          "LocalizedString": "Número de pulos +3"
+        }
+      },
+      "PASSIVE_AirDash_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_AirDash_1_TextData",
+          "SourceString": "Corrida no ar +1",
+          "LocalizedString": "Corrida no ar +1"
+        }
+      },
+      "PASSIVE_AirDash_2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_AirDash_2_TextData",
+          "SourceString": "Corrida no ar +2",
+          "LocalizedString": "Corrida no ar +2"
+        }
+      },
+      "PASSIVE_AirDash_3": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_AirDash_3_TextData",
+          "SourceString": "Corrida no ar +3",
+          "LocalizedString": "Corrida no ar +3"
+        }
+      },
+      "PASSIVE_AirDash_4": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_AirDash_4_TextData",
+          "SourceString": "Corrida no ar +4",
+          "LocalizedString": "Corrida no ar +4"
+        }
+      },
+      "PASSIVE_ElementBoost_Dark_Dragon_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Dark_Dragon_1_PAL_TextData",
+          "SourceString": "Aumenta o dano de ataques de escuridão em {EffectValue1}%.\r\nAumenta o dano de ataques dracônicos em {EffectValue1}%.",
+          "LocalizedString": "Aumenta o dano de ataques de escuridão em {EffectValue1}%.\r\nAumenta o dano de ataques dracônicos em {EffectValue1}%."
+        }
+      },
+      "PASSIVE_Nushi": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Nushi_TextData",
+          "SourceString": "Aumenta o dano de ataques de água em {EffectValue1}%.\r\nAumenta o dano de ataques de gelo em {EffectValue1}%.\r\nAumenta a defesa em {EffectValue1}%.",
+          "LocalizedString": "Aumenta o dano de ataques de água em {EffectValue1}%.\r\nAumenta o dano de ataques de gelo em {EffectValue1}%.\r\nAumenta a defesa em {EffectValue1}%."
+        }
+      },
+      "PASSIVE_PAL_SwimSpeed_up_1": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_PAL_SwimSpeed_up_1_TextData",
+          "SourceString": "Aumenta a velocidade de movimento sobre a água em {EffectValue1}%.",
+          "LocalizedString": "Aumenta a velocidade de movimento sobre a água em {EffectValue1}%."
+        }
+      },
+      "PASSIVE_GYM_NAME_Meadow": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_GYM_NAME_Meadow_TextData",
+          "SourceString": "Ataque +{EffectValue1}%\r\nVelocidade de movimento +{EffectValue2}%",
+          "LocalizedString": "Ataque +{EffectValue1}%\r\nVelocidade de movimento +{EffectValue2}%"
+        }
+      },
+      "PASSIVE_ElementBoost_Normal_Leaf_1_PAL": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_ElementBoost_Normal_Leaf_1_PAL_TextData",
+          "SourceString": "Aumenta o dano de ataques não elementais em {EffectValue1}%.\r\nAumenta o dano de ataques de grama em {EffectValue1}%.",
+          "LocalizedString": "Aumenta o dano de ataques não elementais em {EffectValue1}%.\r\nAumenta o dano de ataques de grama em {EffectValue1}%."
+        }
+      },
+      "ACTION_SKILL_Unique_Ronin_Iai_PartnerSkill": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "ACTION_SKILL_Unique_Ronin_Iai_PartnerSkill_TextData",
+          "SourceString": "Habilidade exclusiva de espécies de <characterName id=|Ronin|/>.\r\nLevando a mão à espada, ele surge na frente do inimigo\r\nnum piscar de olhos e desfere um único golpe com velocidade impressionante.",
+          "LocalizedString": "Habilidade exclusiva de espécies de <characterName id=|Ronin|/>.\r\nLevando a mão à espada, ele surge na frente do inimigo\r\nnum piscar de olhos e desfere um único golpe com velocidade impressionante."
+        }
+      },
+      "PASSIVE_Deffence_up2_2": {
+        "TextData": {
+          "Namespace": "DT_SkillDescText_Common",
+          "Key": "PASSIVE_Deffence_up2_2_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      }
+    }
+  }
+]

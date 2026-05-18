@@ -1,0 +1,129 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CharacterTeamMissionText",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/L10N/pt-BR/Pal/DataTable/Text/DT_CharacterTeamMissionText",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "DUNGEON_GRASS": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_GRASS_TextData",
+          "SourceString": "Caverna das Planícies",
+          "LocalizedString": "Caverna das Planícies"
+        }
+      },
+      "DUNGEON_FOREST": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_FOREST_TextData",
+          "SourceString": "Ermo da Floresta",
+          "LocalizedString": "Ermo da Floresta"
+        }
+      },
+      "DUNGEON_VOLCANO": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_VOLCANO_TextData",
+          "SourceString": "Caverna Incandescente do Vulcão",
+          "LocalizedString": "Caverna Incandescente do Vulcão"
+        }
+      },
+      "DUNGEON_DESERT": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_DESERT_TextData",
+          "SourceString": "Ruínas Ocultas no Deserto",
+          "LocalizedString": "Ruínas Ocultas no Deserto"
+        }
+      },
+      "DUNGEON_SNOW": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_SNOW_TextData",
+          "SourceString": "Caverna Gélida da Montanha Nevada",
+          "LocalizedString": "Caverna Gélida da Montanha Nevada"
+        }
+      },
+      "DUNGEON_SAKURAJIMA": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_SAKURAJIMA_TextData",
+          "SourceString": "Caverna Flórea da Ilha das Cerejeiras",
+          "LocalizedString": "Caverna Flórea da Ilha das Cerejeiras"
+        }
+      },
+      "DUNGEON_DARKISLAND": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_DARKISLAND_TextData",
+          "SourceString": "Caverna Demoníaca Decaída",
+          "LocalizedString": "Caverna Demoníaca Decaída"
+        }
+      },
+      "DUNGEON_GRASSHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_GRASSHARD_TextData",
+          "SourceString": "Armazém dos Caçadores Clandestinos de Rayne",
+          "LocalizedString": "Armazém dos Caçadores Clandestinos de Rayne"
+        }
+      },
+      "DUNGEON_FORESTHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_FORESTHARD_TextData",
+          "SourceString": "Escritório Clandestino da Associação de Proteção aos Pals",
+          "LocalizedString": "Escritório Clandestino da Associação de Proteção aos Pals"
+        }
+      },
+      "DUNGEON_VOLCANOHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_VOLCANOHARD_TextData",
+          "SourceString": "Mercado Negro dos Amigos da Chama Eterna",
+          "LocalizedString": "Mercado Negro dos Amigos da Chama Eterna"
+        }
+      },
+      "DUNGEON_DESERTHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_DESERTHARD_TextData",
+          "SourceString": "Fábrica Ilegal da Milícia Popular",
+          "LocalizedString": "Fábrica Ilegal da Milícia Popular"
+        }
+      },
+      "DUNGEON_SNOWHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_SNOWHARD_TextData",
+          "SourceString": "Laboratório da Unidade de Pesquisas Genéticas",
+          "LocalizedString": "Laboratório da Unidade de Pesquisas Genéticas"
+        }
+      },
+      "DUNGEON_SAKURAJIMAHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_SAKURAJIMAHARD_TextData",
+          "SourceString": "Base Secreta do Bando das Flores e da Lua",
+          "LocalizedString": "Base Secreta do Bando das Flores e da Lua"
+        }
+      },
+      "DUNGEON_DARKISLANDHARD": {
+        "TextData": {
+          "Namespace": "DT_CharacterTeamMissionText",
+          "Key": "DUNGEON_DARKISLANDHARD_TextData",
+          "SourceString": "Ruínas Antigas do Povo Decaído",
+          "LocalizedString": "Ruínas Antigas do Povo Decaído"
+        }
+      }
+    }
+  }
+]

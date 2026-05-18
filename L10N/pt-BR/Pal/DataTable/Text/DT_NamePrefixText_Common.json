@@ -1,0 +1,2297 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_NamePrefixText_Common",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/L10N/pt-BR/Pal/DataTable/Text/DT_NamePrefixText_Common",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "PREFIX_NAME_LONELY": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "PREFIX_NAME_LONELY_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "PREFIX_NAME_PV5012": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "PREFIX_NAME_PV5012_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "PREFIX_NAME_PV5014": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "PREFIX_NAME_PV5014_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "PREFIX_NAME_PV6012": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "PREFIX_NAME_PV6012_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "PREFIX_NAME_PV6013": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "PREFIX_NAME_PV6013_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "PREFIX_NAME_ELECLION_BOSS": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "PREFIX_NAME_ELECLION_BOSS_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "PREFIX_NAME_LILYQUEEN_BOSS": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "PREFIX_NAME_LILYQUEEN_BOSS_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "PREFIX_NAME_AMATERASUWOLF_BOSS": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "PREFIX_NAME_AMATERASUWOLF_BOSS_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "PREFIX_NAME_SUZAKU_BOSS": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "PREFIX_NAME_SUZAKU_BOSS_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "PREFIX_NAME_FAIRYDRAGON_BOSS": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "PREFIX_NAME_FAIRYDRAGON_BOSS_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "PREFIX_NAME_FENGYUNDEEPER_BOSS": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "PREFIX_NAME_FENGYUNDEEPER_BOSS_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "BOSS_NAME_Alpaca": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Alpaca_TextData",
+          "SourceString": "Vaidosa das Belas Patas",
+          "LocalizedString": "Vaidosa das Belas Patas"
+        }
+      },
+      "BOSS_NAME_AmaterasuWolf": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_AmaterasuWolf_TextData",
+          "SourceString": "Deus Guardião da Chama Azul",
+          "LocalizedString": "Deus Guardião da Chama Azul"
+        }
+      },
+      "BOSS_NAME_Anubis": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Anubis_TextData",
+          "SourceString": "Protetor do Sol Sombrio",
+          "LocalizedString": "Protetor do Sol Sombrio"
+        }
+      },
+      "BOSS_NAME_Baphomet": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Baphomet_TextData",
+          "SourceString": "Hiena do Ermo",
+          "LocalizedString": "Hiena do Ermo"
+        }
+      },
+      "BOSS_NAME_Baphomet_Dark": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Baphomet_Dark_TextData",
+          "SourceString": "Hiena da Noite Negra",
+          "LocalizedString": "Hiena da Noite Negra"
+        }
+      },
+      "BOSS_NAME_Bastet": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Bastet_TextData",
+          "SourceString": "Lampejo de Nobreza",
+          "LocalizedString": "Lampejo de Nobreza"
+        }
+      },
+      "BOSS_NAME_Bastet_Ice": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Bastet_Ice_TextData",
+          "SourceString": "Lampejo de Limpidez",
+          "LocalizedString": "Lampejo de Limpidez"
+        }
+      },
+      "BOSS_NAME_BeardedDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BeardedDragon_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "BOSS_NAME_BerryGoat": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BerryGoat_TextData",
+          "SourceString": "Fazenda Ambulante",
+          "LocalizedString": "Fazenda Ambulante"
+        }
+      },
+      "BOSS_NAME_BirdDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BirdDragon_TextData",
+          "SourceString": "Atacante dos Céus",
+          "LocalizedString": "Atacante dos Céus"
+        }
+      },
+      "BOSS_NAME_BirdDragon_Ice": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BirdDragon_Ice_TextData",
+          "SourceString": "Atacante do Céu Congelado",
+          "LocalizedString": "Atacante do Céu Congelado"
+        }
+      },
+      "BOSS_NAME_BlackCentaur": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BlackCentaur_TextData",
+          "SourceString": "Lendário Cavaleiro Negro",
+          "LocalizedString": "Lendário Cavaleiro Negro"
+        }
+      },
+      "BOSS_NAME_BlackFurDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BlackFurDragon_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "BOSS_NAME_BlackGriffon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BlackGriffon_TextData",
+          "SourceString": "Forma de Vida Desconhecida",
+          "LocalizedString": "Forma de Vida Desconhecida"
+        }
+      },
+      "BOSS_NAME_BlackMetalDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BlackMetalDragon_TextData",
+          "SourceString": "Rei Dragão de Aço",
+          "LocalizedString": "Rei Dragão de Aço"
+        }
+      },
+      "BOSS_NAME_BlueDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BlueDragon_TextData",
+          "SourceString": "Rainha do Lago",
+          "LocalizedString": "Rainha do Lago"
+        }
+      },
+      "BOSS_NAME_BluePlatypus": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BluePlatypus_TextData",
+          "SourceString": "Surfistinha Endiabrado",
+          "LocalizedString": "Surfistinha Endiabrado"
+        }
+      },
+      "BOSS_NAME_Boar": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Boar_TextData",
+          "SourceString": "O Indômito da Floresta",
+          "LocalizedString": "O Indômito da Floresta"
+        }
+      },
+      "BOSS_NAME_BrownRabbit": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BrownRabbit_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "BOSS_NAME_CaptainPenguin": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_CaptainPenguin_TextData",
+          "SourceString": "Desbravador do Mar Gelado",
+          "LocalizedString": "Desbravador do Mar Gelado"
+        }
+      },
+      "BOSS_NAME_Carbunclo": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Carbunclo_TextData",
+          "SourceString": "O Medroso dos Pampas",
+          "LocalizedString": "O Medroso dos Pampas"
+        }
+      },
+      "BOSS_NAME_CatBat": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_CatBat_TextData",
+          "SourceString": "O Trapaceiro",
+          "LocalizedString": "O Trapaceiro"
+        }
+      },
+      "BOSS_NAME_CatMage": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_CatMage_TextData",
+          "SourceString": "Mago-Gato Negro",
+          "LocalizedString": "Mago-Gato Negro"
+        }
+      },
+      "BOSS_NAME_CatVampire": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_CatVampire_TextData",
+          "SourceString": "Vampiro da Sonoite",
+          "LocalizedString": "Vampiro da Sonoite"
+        }
+      },
+      "BOSS_NAME_ChickenPal": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_ChickenPal_TextData",
+          "SourceString": "Pronta para a Panela",
+          "LocalizedString": "Pronta para a Panela"
+        }
+      },
+      "BOSS_NAME_ColorfulBird": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_ColorfulBird_TextData",
+          "SourceString": "Explodir é Viver",
+          "LocalizedString": "Explodir é Viver"
+        }
+      },
+      "BOSS_NAME_CowPal": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_CowPal_TextData",
+          "SourceString": "Picanha de Primeira",
+          "LocalizedString": "Picanha de Primeira"
+        }
+      },
+      "BOSS_NAME_CuteButterfly": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_CuteButterfly_TextData",
+          "SourceString": "Bailarina Sonhadora",
+          "LocalizedString": "Bailarina Sonhadora"
+        }
+      },
+      "BOSS_NAME_CuteFox": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_CuteFox_TextData",
+          "SourceString": "Ídolo das Planícies",
+          "LocalizedString": "Ídolo das Planícies"
+        }
+      },
+      "BOSS_NAME_CuteMole": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_CuteMole_TextData",
+          "SourceString": "Explorador Subterrâneo",
+          "LocalizedString": "Explorador Subterrâneo"
+        }
+      },
+      "BOSS_NAME_DarkCrow": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_DarkCrow_TextData",
+          "SourceString": "Furtiva Ave Negra",
+          "LocalizedString": "Furtiva Ave Negra"
+        }
+      },
+      "BOSS_NAME_DarkMutant": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_DarkMutant_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "BOSS_NAME_DarkScorpion": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_DarkScorpion_TextData",
+          "SourceString": "Lança que Tudo Perfura",
+          "LocalizedString": "Lança que Tudo Perfura"
+        }
+      },
+      "BOSS_NAME_Deer": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Deer_TextData",
+          "SourceString": "Líder Defensor da Manada",
+          "LocalizedString": "Líder Defensor da Manada"
+        }
+      },
+      "BOSS_NAME_Deer_Ground": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Deer_Ground_TextData",
+          "SourceString": "Chifres Dourados",
+          "LocalizedString": "Chifres Dourados"
+        }
+      },
+      "BOSS_NAME_DreamDemon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_DreamDemon_TextData",
+          "SourceString": "Devorador de Sonhos",
+          "LocalizedString": "Devorador de Sonhos"
+        }
+      },
+      "BOSS_NAME_DrillGame": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_DrillGame_TextData",
+          "SourceString": "Broca Giratória",
+          "LocalizedString": "Broca Giratória"
+        }
+      },
+      "BOSS_NAME_Eagle": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Eagle_TextData",
+          "SourceString": "Mensageira Circunspecta",
+          "LocalizedString": "Mensageira Circunspecta"
+        }
+      },
+      "BOSS_NAME_ElecCat": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_ElecCat_TextData",
+          "SourceString": "Malhado Endiabrado",
+          "LocalizedString": "Malhado Endiabrado"
+        }
+      },
+      "BOSS_NAME_ElecLion": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_ElecLion_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "BOSS_NAME_ElecPanda": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_ElecPanda_TextData",
+          "SourceString": "Garras Trovejantes",
+          "LocalizedString": "Garras Trovejantes"
+        }
+      },
+      "BOSS_NAME_FairyDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FairyDragon_TextData",
+          "SourceString": "Dócil Dragão Celeste",
+          "LocalizedString": "Dócil Dragão Celeste"
+        }
+      },
+      "BOSS_NAME_FairyDragon_Water": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FairyDragon_Water_TextData",
+          "SourceString": "Monstro Turbilhão",
+          "LocalizedString": "Monstro Turbilhão"
+        }
+      },
+      "BOSS_NAME_FeatherOstrich": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FeatherOstrich_TextData",
+          "SourceString": "Passos Graciosos",
+          "LocalizedString": "Passos Graciosos"
+        }
+      },
+      "BOSS_NAME_FengyunDeeper": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FengyunDeeper_TextData",
+          "SourceString": "Nuvem Flutuante",
+          "LocalizedString": "Nuvem Flutuante"
+        }
+      },
+      "BOSS_NAME_FireKirin": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FireKirin_TextData",
+          "SourceString": "Corcel das Areias Escaldantes",
+          "LocalizedString": "Corcel das Areias Escaldantes"
+        }
+      },
+      "BOSS_NAME_FireKirin_Dark": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FireKirin_Dark_TextData",
+          "SourceString": "Corcel da Chama Negra",
+          "LocalizedString": "Corcel da Chama Negra"
+        }
+      },
+      "BOSS_NAME_FlameBuffalo": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FlameBuffalo_TextData",
+          "SourceString": "Ignicórnio",
+          "LocalizedString": "Ignicórnio"
+        }
+      },
+      "BOSS_NAME_FlowerDinosaur": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FlowerDinosaur_TextData",
+          "SourceString": "Dragão Protetor dos Jardins",
+          "LocalizedString": "Dragão Protetor dos Jardins"
+        }
+      },
+      "BOSS_NAME_FlowerDinosaur_Electric": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FlowerDinosaur_Electric_TextData",
+          "SourceString": "Dragão Protetor dos Relâmpagos",
+          "LocalizedString": "Dragão Protetor dos Relâmpagos"
+        }
+      },
+      "BOSS_NAME_FlowerDoll": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FlowerDoll_TextData",
+          "SourceString": "Princesa dos Jardins",
+          "LocalizedString": "Princesa dos Jardins"
+        }
+      },
+      "BOSS_NAME_FlowerRabbit": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FlowerRabbit_TextData",
+          "SourceString": "Ídolo dos Campos Floridos",
+          "LocalizedString": "Ídolo dos Campos Floridos"
+        }
+      },
+      "BOSS_NAME_FlyingManta": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FlyingManta_TextData",
+          "SourceString": "Peixe que Ondula nos Céus",
+          "LocalizedString": "Peixe que Ondula nos Céus"
+        }
+      },
+      "BOSS_NAME_FoxMage": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FoxMage_TextData",
+          "SourceString": "Maga-Raposa de Fogo",
+          "LocalizedString": "Maga-Raposa de Fogo"
+        }
+      },
+      "BOSS_NAME_Ganesha": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Ganesha_TextData",
+          "SourceString": "Útil Regador",
+          "LocalizedString": "Útil Regador"
+        }
+      },
+      "BOSS_NAME_Garm": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Garm_TextData",
+          "SourceString": "Caçador das Planícies",
+          "LocalizedString": "Caçador das Planícies"
+        }
+      },
+      "BOSS_NAME_GhostBeast": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_GhostBeast_TextData",
+          "SourceString": "Enviado do Além",
+          "LocalizedString": "Enviado do Além"
+        }
+      },
+      "BOSS_NAME_Gorilla": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Gorilla_TextData",
+          "SourceString": "Bom de Briga",
+          "LocalizedString": "Bom de Briga"
+        }
+      },
+      "BOSS_NAME_GrassDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_GrassDragon_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "BOSS_NAME_GrassMammoth": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_GrassMammoth_TextData",
+          "SourceString": "Presas Selvagens",
+          "LocalizedString": "Presas Selvagens"
+        }
+      },
+      "BOSS_NAME_GrassMammoth_Ice": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_GrassMammoth_Ice_TextData",
+          "SourceString": "Presas Congelantes",
+          "LocalizedString": "Presas Congelantes"
+        }
+      },
+      "BOSS_NAME_GrassPanda": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_GrassPanda_TextData",
+          "SourceString": "Excêntrico da Floresta",
+          "LocalizedString": "Excêntrico da Floresta"
+        }
+      },
+      "BOSS_NAME_GrassPanda_Electric": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_GrassPanda_Electric_TextData",
+          "SourceString": "Excêntrico Fulminado",
+          "LocalizedString": "Excêntrico Fulminado"
+        }
+      },
+      "BOSS_NAME_GrassRabbitMan": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_GrassRabbitMan_TextData",
+          "SourceString": "Ventania dos Bosques",
+          "LocalizedString": "Ventania dos Bosques"
+        }
+      },
+      "BOSS_NAME_GuardianDog": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_GuardianDog_TextData",
+          "SourceString": "Fiel Cão Rebelde",
+          "LocalizedString": "Fiel Cão Rebelde"
+        }
+      },
+      "BOSS_NAME_HadesBird": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_HadesBird_TextData",
+          "SourceString": "Asas do Outro Mundo",
+          "LocalizedString": "Asas do Outro Mundo"
+        }
+      },
+      "BOSS_NAME_HawkBird": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_HawkBird_TextData",
+          "SourceString": "Asas do Firmamento",
+          "LocalizedString": "Asas do Firmamento"
+        }
+      },
+      "BOSS_NAME_Hedgehog": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Hedgehog_TextData",
+          "SourceString": "Não-Me-Toque",
+          "LocalizedString": "Não-Me-Toque"
+        }
+      },
+      "BOSS_NAME_Hedgehog_Ice": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Hedgehog_Ice_TextData",
+          "SourceString": "Não-Me-Pise",
+          "LocalizedString": "Não-Me-Pise"
+        }
+      },
+      "BOSS_NAME_HerculesBeetle": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_HerculesBeetle_TextData",
+          "SourceString": "Guerreiro de Pesada Armadura",
+          "LocalizedString": "Guerreiro de Pesada Armadura"
+        }
+      },
+      "BOSS_NAME_Horus": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Horus_TextData",
+          "SourceString": "Conquistador do Céu de Chamas",
+          "LocalizedString": "Conquistador do Céu de Chamas"
+        }
+      },
+      "BOSS_NAME_IceDeer": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_IceDeer_TextData",
+          "SourceString": "Gelicórnio",
+          "LocalizedString": "Gelicórnio"
+        }
+      },
+      "BOSS_NAME_IceFox": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_IceFox_TextData",
+          "SourceString": "Raposa de Gelo Congelante",
+          "LocalizedString": "Raposa de Gelo Congelante"
+        }
+      },
+      "BOSS_NAME_IceHorse": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_IceHorse_TextData",
+          "SourceString": "Lendário Cavalo do Céu Congelado",
+          "LocalizedString": "Lendário Cavalo do Céu Congelado"
+        }
+      },
+      "BOSS_NAME_IceHorse_Dark": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_IceHorse_Dark_TextData",
+          "SourceString": "Lendário Cavalo do Céu Negro",
+          "LocalizedString": "Lendário Cavalo do Céu Negro"
+        }
+      },
+      "BOSS_NAME_JetDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_JetDragon_TextData",
+          "SourceString": "Lendário Dragão do Meteoro",
+          "LocalizedString": "Lendário Dragão do Meteoro"
+        }
+      },
+      "BOSS_NAME_Kelpie": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Kelpie_TextData",
+          "SourceString": "Filho Ilegítimo do Mar Profundo",
+          "LocalizedString": "Filho Ilegítimo do Mar Profundo"
+        }
+      },
+      "BOSS_NAME_Kelpie_Fire": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Kelpie_Fire_TextData",
+          "SourceString": "Filho Ilegítimo da Lava",
+          "LocalizedString": "Filho Ilegítimo da Lava"
+        }
+      },
+      "BOSS_NAME_KingAlpaca": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_KingAlpaca_TextData",
+          "SourceString": "Conquistador Felpudo",
+          "LocalizedString": "Conquistador Felpudo"
+        }
+      },
+      "BOSS_NAME_KingAlpaca_Ice": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_KingAlpaca_Ice_TextData",
+          "SourceString": "Conquistador Felpudo Azul",
+          "LocalizedString": "Conquistador Felpudo Azul"
+        }
+      },
+      "BOSS_NAME_KingBahamut": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_KingBahamut_TextData",
+          "SourceString": "Tirano do Purgatório",
+          "LocalizedString": "Tirano do Purgatório"
+        }
+      },
+      "BOSS_NAME_Kirin": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Kirin_TextData",
+          "SourceString": "Vendaval Relâmpago",
+          "LocalizedString": "Vendaval Relâmpago"
+        }
+      },
+      "BOSS_NAME_Kitsunebi": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Kitsunebi_TextData",
+          "SourceString": "Iluminadora de Caminhos",
+          "LocalizedString": "Iluminadora de Caminhos"
+        }
+      },
+      "BOSS_NAME_LazyDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_LazyDragon_TextData",
+          "SourceString": "Dragão Voraz",
+          "LocalizedString": "Dragão Voraz"
+        }
+      },
+      "BOSS_NAME_LazyDragon_Electric": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_LazyDragon_Electric_TextData",
+          "SourceString": "Dragão Voraz Trovejante",
+          "LocalizedString": "Dragão Voraz Trovejante"
+        }
+      },
+      "BOSS_NAME_LilyQueen": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_LilyQueen_TextData",
+          "SourceString": "Imperadora dos Lírios",
+          "LocalizedString": "Imperadora dos Lírios"
+        }
+      },
+      "BOSS_NAME_LilyQueen_Dark": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_LilyQueen_Dark_TextData",
+          "SourceString": "Imperadora do Abismo",
+          "LocalizedString": "Imperadora do Abismo"
+        }
+      },
+      "BOSS_NAME_LittleBriarRose": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_LittleBriarRose_TextData",
+          "SourceString": "Flor de Espinhos",
+          "LocalizedString": "Flor de Espinhos"
+        }
+      },
+      "BOSS_NAME_LizardMan": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_LizardMan_TextData",
+          "SourceString": "Gênio",
+          "LocalizedString": "Gênio"
+        }
+      },
+      "BOSS_NAME_LizardMan_Fire": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_LizardMan_Fire_TextData",
+          "SourceString": "Fashionista",
+          "LocalizedString": "Fashionista"
+        }
+      },
+      "BOSS_NAME_Manticore": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Manticore_TextData",
+          "SourceString": "Rei das Cem Labaredas",
+          "LocalizedString": "Rei das Cem Labaredas"
+        }
+      },
+      "BOSS_NAME_Manticore_Dark": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Manticore_Dark_TextData",
+          "SourceString": "Rei da Labareda Negra",
+          "LocalizedString": "Rei da Labareda Negra"
+        }
+      },
+      "BOSS_NAME_Monkey": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Monkey_TextData",
+          "SourceString": "Dedos Ligeiros",
+          "LocalizedString": "Dedos Ligeiros"
+        }
+      },
+      "BOSS_NAME_MopBaby": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_MopBaby_TextData",
+          "SourceString": "Maciez Misteriosa",
+          "LocalizedString": "Maciez Misteriosa"
+        }
+      },
+      "BOSS_NAME_MopKing": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_MopKing_TextData",
+          "SourceString": "Rei da Maciez Misteriosa",
+          "LocalizedString": "Rei da Maciez Misteriosa"
+        }
+      },
+      "BOSS_NAME_Mutant": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Mutant_TextData",
+          "SourceString": "Visitante Espacial",
+          "LocalizedString": "Visitante Espacial"
+        }
+      },
+      "BOSS_NAME_NaughtyCat": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_NaughtyCat_TextData",
+          "SourceString": "Corpo de Marshmallow",
+          "LocalizedString": "Corpo de Marshmallow"
+        }
+      },
+      "BOSS_NAME_NegativeKoala": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_NegativeKoala_TextData",
+          "SourceString": "Há Três Noites que Não Dorme",
+          "LocalizedString": "Há Três Noites que Não Dorme"
+        }
+      },
+      "BOSS_NAME_NegativeOctopus": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_NegativeOctopus_TextData",
+          "SourceString": "Desprovido de Emoções",
+          "LocalizedString": "Desprovido de Emoções"
+        }
+      },
+      "BOSS_NAME_NightFox": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_NightFox_TextData",
+          "SourceString": "Jovem Nobre da Noite",
+          "LocalizedString": "Jovem Nobre da Noite"
+        }
+      },
+      "BOSS_NAME_Penguin": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Penguin_TextData",
+          "SourceString": "Barriga Cheia",
+          "LocalizedString": "Barriga Cheia"
+        }
+      },
+      "BOSS_NAME_PinkCat": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_PinkCat_TextData",
+          "SourceString": "Fanfarrão",
+          "LocalizedString": "Fanfarrão"
+        }
+      },
+      "BOSS_NAME_PinkKangaroo": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_PinkKangaroo_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "BOSS_NAME_PinkLizard": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_PinkLizard_TextData",
+          "SourceString": "Pal que Cobiça o Amor",
+          "LocalizedString": "Pal que Cobiça o Amor"
+        }
+      },
+      "BOSS_NAME_PinkRabbit": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_PinkRabbit_TextData",
+          "SourceString": "Sorriso Cintilante",
+          "LocalizedString": "Sorriso Cintilante"
+        }
+      },
+      "BOSS_NAME_PlantSlime": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_PlantSlime_TextData",
+          "SourceString": "Mutação Espontânea",
+          "LocalizedString": "Mutação Espontânea"
+        }
+      },
+      "BOSS_NAME_QueenBee": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_QueenBee_TextData",
+          "SourceString": "Rainha do Grande Exército",
+          "LocalizedString": "Rainha do Grande Exército"
+        }
+      },
+      "BOSS_NAME_RaijinDaughter": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_RaijinDaughter_TextData",
+          "SourceString": "Descendente das Nuvens de Trovão",
+          "LocalizedString": "Descendente das Nuvens de Trovão"
+        }
+      },
+      "BOSS_NAME_RedArmorBird": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_RedArmorBird_TextData",
+          "SourceString": "Asas da Chama Vigorosa",
+          "LocalizedString": "Asas da Chama Vigorosa"
+        }
+      },
+      "BOSS_NAME_RobinHood": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_RobinHood_TextData",
+          "SourceString": "Arqueiro da Floresta",
+          "LocalizedString": "Arqueiro da Floresta"
+        }
+      },
+      "BOSS_NAME_RobinHood_Ground": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_RobinHood_Ground_TextData",
+          "SourceString": "Arqueiro do Deserto",
+          "LocalizedString": "Arqueiro do Deserto"
+        }
+      },
+      "BOSS_NAME_Ronin": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Ronin_TextData",
+          "SourceString": "Samurai Andarilho",
+          "LocalizedString": "Samurai Andarilho"
+        }
+      },
+      "BOSS_NAME_SaintCentaur": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SaintCentaur_TextData",
+          "SourceString": "Lendário Cavaleiro Sagrado",
+          "LocalizedString": "Lendário Cavaleiro Sagrado"
+        }
+      },
+      "BOSS_NAME_SakuraSaurus": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SakuraSaurus_TextData",
+          "SourceString": "Brisa Anunciadora da Primavera",
+          "LocalizedString": "Brisa Anunciadora da Primavera"
+        }
+      },
+      "BOSS_NAME_SakuraSaurus_Water": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SakuraSaurus_Water_TextData",
+          "SourceString": "Onda Anunciadora do Verão",
+          "LocalizedString": "Onda Anunciadora do Verão"
+        }
+      },
+      "BOSS_NAME_ScorpionMan": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_ScorpionMan_TextData",
+          "SourceString": "Garoto Malvado",
+          "LocalizedString": "Garoto Malvado"
+        }
+      },
+      "BOSS_NAME_Serpent": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Serpent_TextData",
+          "SourceString": "Encarnação do Bramido do Mar",
+          "LocalizedString": "Encarnação do Bramido do Mar"
+        }
+      },
+      "BOSS_NAME_Serpent_Ground": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Serpent_Ground_TextData",
+          "SourceString": "Encarnação da Nuvem de Poeira",
+          "LocalizedString": "Encarnação da Nuvem de Poeira"
+        }
+      },
+      "BOSS_NAME_SkyDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SkyDragon_TextData",
+          "SourceString": "Voador Imaculado",
+          "LocalizedString": "Voador Imaculado"
+        }
+      },
+      "BOSS_NAME_SharkKid": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SharkKid_TextData",
+          "SourceString": "Pavio-Curto dos Mares",
+          "LocalizedString": "Pavio-Curto dos Mares"
+        }
+      },
+      "BOSS_NAME_SharkKid_Fire": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SharkKid_Fire_TextData",
+          "SourceString": "Pavio-Curto dos Vulcões",
+          "LocalizedString": "Pavio-Curto dos Vulcões"
+        }
+      },
+      "BOSS_NAME_SheepBall": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SheepBall_TextData",
+          "SourceString": "Imensa Fofura",
+          "LocalizedString": "Imensa Fofura"
+        }
+      },
+      "BOSS_NAME_SifuDog": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SifuDog_TextData",
+          "SourceString": "Estado de Iluminação",
+          "LocalizedString": "Estado de Iluminação"
+        }
+      },
+      "BOSS_NAME_SoldierBee": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SoldierBee_TextData",
+          "SourceString": "Comandante da Guarda",
+          "LocalizedString": "Comandante da Guarda"
+        }
+      },
+      "BOSS_NAME_Suzaku": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Suzaku_TextData",
+          "SourceString": "Majestade Celeste",
+          "LocalizedString": "Majestade Celeste"
+        }
+      },
+      "BOSS_NAME_Suzaku_Water": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Suzaku_Water_TextData",
+          "SourceString": "Majestade Celeste Azul",
+          "LocalizedString": "Majestade Celeste Azul"
+        }
+      },
+      "BOSS_NAME_SweetsSheep": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SweetsSheep_TextData",
+          "SourceString": "Algodão-Doce Extragrande",
+          "LocalizedString": "Algodão-Doce Extragrande"
+        }
+      },
+      "BOSS_NAME_ThunderBird": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_ThunderBird_TextData",
+          "SourceString": "Asas Fulminantes",
+          "LocalizedString": "Asas Fulminantes"
+        }
+      },
+      "BOSS_NAME_ThunderDog": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_ThunderDog_TextData",
+          "SourceString": "Corredor Relâmpago",
+          "LocalizedString": "Corredor Relâmpago"
+        }
+      },
+      "BOSS_NAME_ThunderDragonMan": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_ThunderDragonMan_TextData",
+          "SourceString": "Troar Vertiginoso",
+          "LocalizedString": "Troar Vertiginoso"
+        }
+      },
+      "BOSS_NAME_Umihebi": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Umihebi_TextData",
+          "SourceString": "Conquistador dos Mares",
+          "LocalizedString": "Conquistador dos Mares"
+        }
+      },
+      "BOSS_NAME_Umihebi_Fire": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Umihebi_Fire_TextData",
+          "SourceString": "Conquistador dos Vulcões",
+          "LocalizedString": "Conquistador dos Vulcões"
+        }
+      },
+      "BOSS_NAME_VioletFairy": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_VioletFairy_TextData",
+          "SourceString": "Erva Mística de Negro Púrpura",
+          "LocalizedString": "Erva Mística de Negro Púrpura"
+        }
+      },
+      "BOSS_NAME_VolcanicMonster": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_VolcanicMonster_TextData",
+          "SourceString": "Besta que Cobiça a Lava",
+          "LocalizedString": "Besta que Cobiça a Lava"
+        }
+      },
+      "BOSS_NAME_VolcanicMonster_Ice": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_VolcanicMonster_Ice_TextData",
+          "SourceString": "Besta que Cobiça a Poeira de Gelo",
+          "LocalizedString": "Besta que Cobiça a Poeira de Gelo"
+        }
+      },
+      "BOSS_NAME_WaterLizard": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_WaterLizard_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "BOSS_NAME_WeaselDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_WeaselDragon_TextData",
+          "SourceString": "Dançarina das Planícies",
+          "LocalizedString": "Dançarina das Planícies"
+        }
+      },
+      "BOSS_NAME_Werewolf": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Werewolf_TextData",
+          "SourceString": "Movido pelo Luar",
+          "LocalizedString": "Movido pelo Luar"
+        }
+      },
+      "BOSS_NAME_WhiteMoth": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_WhiteMoth_TextData",
+          "SourceString": "Dama Imaculada",
+          "LocalizedString": "Dama Imaculada"
+        }
+      },
+      "BOSS_NAME_WhiteTiger": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_WhiteTiger_TextData",
+          "SourceString": "Predador da Montanha Nevada",
+          "LocalizedString": "Predador da Montanha Nevada"
+        }
+      },
+      "BOSS_NAME_WindChimes": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_WindChimes_TextData",
+          "SourceString": "Portador da Boa Fortuna",
+          "LocalizedString": "Portador da Boa Fortuna"
+        }
+      },
+      "BOSS_NAME_WindChimes_Ice": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_WindChimes_Ice_TextData",
+          "SourceString": "Portador do Rio Congelado",
+          "LocalizedString": "Portador do Rio Congelado"
+        }
+      },
+      "BOSS_NAME_WingGolem": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_WingGolem_TextData",
+          "SourceString": "Armadura Gigantesca Móvel",
+          "LocalizedString": "Armadura Gigantesca Móvel"
+        }
+      },
+      "BOSS_NAME_WizardOwl": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_WizardOwl_TextData",
+          "SourceString": "Pregadora da Sabedoria",
+          "LocalizedString": "Pregadora da Sabedoria"
+        }
+      },
+      "BOSS_NAME_Yeti": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Yeti_TextData",
+          "SourceString": "Colosso dos Campos Nevados",
+          "LocalizedString": "Colosso dos Campos Nevados"
+        }
+      },
+      "BOSS_NAME_Yeti_Grass": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Yeti_Grass_TextData",
+          "SourceString": "Colosso das Terras Meridionais",
+          "LocalizedString": "Colosso das Terras Meridionais"
+        }
+      },
+      "BOSS_NAME_WoolFox": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_WoolFox_TextData",
+          "SourceString": "Adorável Fofura",
+          "LocalizedString": "Adorável Fofura"
+        }
+      },
+      "BOSS_NAME_LazyCatfish": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_LazyCatfish_TextData",
+          "SourceString": "Procrastinador",
+          "LocalizedString": "Procrastinador"
+        }
+      },
+      "GYM_NAME_Meadow": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "GYM_NAME_Meadow_TextData",
+          "SourceString": "Dirigente dos Caçadores Clandestinos de Rayne",
+          "LocalizedString": "Dirigente dos Caçadores Clandestinos de Rayne"
+        }
+      },
+      "GYM_NAME_Forest": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "GYM_NAME_Forest_TextData",
+          "SourceString": "Fundadora da Associação de Proteção aos Pals",
+          "LocalizedString": "Fundadora da Associação de Proteção aos Pals"
+        }
+      },
+      "GYM_NAME_Desert": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "GYM_NAME_Desert_TextData",
+          "SourceString": "Dirigente da Milícia Popular de Palpagos",
+          "LocalizedString": "Dirigente da Milícia Popular de Palpagos"
+        }
+      },
+      "GYM_NAME_Volcano": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "GYM_NAME_Volcano_TextData",
+          "SourceString": "Líder Espiritual dos Amigos da Chama Eterna",
+          "LocalizedString": "Líder Espiritual dos Amigos da Chama Eterna"
+        }
+      },
+      "GYM_NAME_Snow": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "GYM_NAME_Snow_TextData",
+          "SourceString": "Chefe da Unidade de Pesquisas Genéticas",
+          "LocalizedString": "Chefe da Unidade de Pesquisas Genéticas"
+        }
+      },
+      "GYM_NAME_Sakurajima": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "GYM_NAME_Sakurajima_TextData",
+          "SourceString": "Chefe do Bando das Flores e da Lua",
+          "LocalizedString": "Chefe do Bando das Flores e da Lua"
+        }
+      },
+      "GYM_NAME_Viking": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "GYM_NAME_Viking_TextData",
+          "SourceString": "Chefe do Povo Decaído",
+          "LocalizedString": "Chefe do Povo Decaído"
+        }
+      },
+      "BOSS_NAME_LavaGirl": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_LavaGirl_TextData",
+          "SourceString": "Menina da Lava",
+          "LocalizedString": "Menina da Lava"
+        }
+      },
+      "BOSS_NAME_FlameBambi": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FlameBambi_TextData",
+          "SourceString": "Líder do Bando",
+          "LocalizedString": "Líder do Bando"
+        }
+      },
+      "BOSS_NAME_NightLady": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_NightLady_TextData",
+          "SourceString": "Donzela Desvairada",
+          "LocalizedString": "Donzela Desvairada"
+        }
+      },
+      "BOSS_NAME_NightLady_Dark": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_NightLady_Dark_TextData",
+          "SourceString": "Bruxa Enigmática",
+          "LocalizedString": "Bruxa Enigmática"
+        }
+      },
+      "RAID_NAME_NightLady": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "RAID_NAME_NightLady_TextData",
+          "SourceString": "Donzela Desvairada",
+          "LocalizedString": "Donzela Desvairada"
+        }
+      },
+      "RAID_NAME_NightLady_Dark": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "RAID_NAME_NightLady_Dark_TextData",
+          "SourceString": "Bruxa Enigmática",
+          "LocalizedString": "Bruxa Enigmática"
+        }
+      },
+      "RAID_NAME_NightLady_Dark_2": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "RAID_NAME_NightLady_Dark_2_TextData",
+          "SourceString": "Bruxa Enigmática (Suprema)",
+          "LocalizedString": "Bruxa Enigmática (Suprema)"
+        }
+      },
+      "RAID_NAME_KingBahamut_Dragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "RAID_NAME_KingBahamut_Dragon_TextData",
+          "SourceString": "Manifestação da Chama Eterna",
+          "LocalizedString": "Manifestação da Chama Eterna"
+        }
+      },
+      "RAID_NAME_KingBahamut_Dragon_2": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "RAID_NAME_KingBahamut_Dragon_2_TextData",
+          "SourceString": "Manifestação da Chama Eterna [Supremo]",
+          "LocalizedString": "Manifestação da Chama Eterna [Supremo]"
+        }
+      },
+      "BOSS_NAME_KingBahamut_Dragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_KingBahamut_Dragon_TextData",
+          "SourceString": "Manifestação da Chama Eterna",
+          "LocalizedString": "Manifestação da Chama Eterna"
+        }
+      },
+      "BOSS_NAME_MoonQueen": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_MoonQueen_TextData",
+          "SourceString": "Lua Suspensa na Noite Negra",
+          "LocalizedString": "Lua Suspensa na Noite Negra"
+        }
+      },
+      "BOSS_NAME_CandleGhost": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_CandleGhost_TextData",
+          "SourceString": "Chama Profunda e Remota",
+          "LocalizedString": "Chama Profunda e Remota"
+        }
+      },
+      "BOSS_NAME_DarkAlien": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_DarkAlien_TextData",
+          "SourceString": "Invasor de Outro Mundo",
+          "LocalizedString": "Invasor de Outro Mundo"
+        }
+      },
+      "BOSS_NAME_WhiteAlienDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_WhiteAlienDragon_TextData",
+          "SourceString": "Dragão Devorador de Planetas",
+          "LocalizedString": "Dragão Devorador de Planetas"
+        }
+      },
+      "BOSS_NAME_LeafPrincess": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_LeafPrincess_TextData",
+          "SourceString": "Causadora de Alergias",
+          "LocalizedString": "Causadora de Alergias"
+        }
+      },
+      "BOSS_NAME_SmallArmadillo": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SmallArmadillo_TextData",
+          "SourceString": "Armadura Total",
+          "LocalizedString": "Armadura Total"
+        }
+      },
+      "BOSS_NAME_KendoFrog": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_KendoFrog_TextData",
+          "SourceString": "Gosto pelo Harakiri",
+          "LocalizedString": "Gosto pelo Harakiri"
+        }
+      },
+      "BOSS_NAME_MimicDog": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_MimicDog_TextData",
+          "SourceString": "Tesouro à Beça",
+          "LocalizedString": "Tesouro à Beça"
+        }
+      },
+      "BOSS_NAME_MushroomDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_MushroomDragon_TextData",
+          "SourceString": "Cogumelo Relaxado",
+          "LocalizedString": "Cogumelo Relaxado"
+        }
+      },
+      "BOSS_NAME_MushroomDragon_Dark": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_MushroomDragon_Dark_TextData",
+          "SourceString": "Cogumelo Perigoso",
+          "LocalizedString": "Cogumelo Perigoso"
+        }
+      },
+      "BOSS_NAME_DarkScorpion_Ground": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_DarkScorpion_Ground_TextData",
+          "SourceString": "Lança Perfuradora de Ouro",
+          "LocalizedString": "Lança Perfuradora de Ouro"
+        }
+      },
+      "BOSS_NAME_WeaselDragon_Fire": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_WeaselDragon_Fire_TextData",
+          "SourceString": "Dançarina das Cerejeiras",
+          "LocalizedString": "Dançarina das Cerejeiras"
+        }
+      },
+      "BOSS_NAME_SkyDragon_Grass": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SkyDragon_Grass_TextData",
+          "SourceString": "Voador Verdejante",
+          "LocalizedString": "Voador Verdejante"
+        }
+      },
+      "BOSS_NAME_HerculesBeetle_Ground": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_HerculesBeetle_Ground_TextData",
+          "SourceString": "Guerreiro da Armadura de Ouro",
+          "LocalizedString": "Guerreiro da Armadura de Ouro"
+        }
+      },
+      "BOSS_NAME_Gorilla_Ground": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Gorilla_Ground_TextData",
+          "SourceString": "Gosto pela Violência",
+          "LocalizedString": "Gosto pela Violência"
+        }
+      },
+      "BOSS_NAME_HadesBird_Electric": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_HadesBird_Electric_TextData",
+          "SourceString": "Asas de Relâmpago Negro",
+          "LocalizedString": "Asas de Relâmpago Negro"
+        }
+      },
+      "BOSS_NAME_Ronin_Dark": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Ronin_Dark_TextData",
+          "SourceString": "Assassino da Noite Negra",
+          "LocalizedString": "Assassino da Noite Negra"
+        }
+      },
+      "BOSS_NAME_CatMage_Fire": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_CatMage_Fire_TextData",
+          "SourceString": "Mago-Gato Escaldante",
+          "LocalizedString": "Mago-Gato Escaldante"
+        }
+      },
+      "BOSS_NAME_FoxMage_Dark": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FoxMage_Dark_TextData",
+          "SourceString": "Maga-Raposa da Escuridão",
+          "LocalizedString": "Maga-Raposa da Escuridão"
+        }
+      },
+      "BOSS_NAME_Hunter_Rifle": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Hunter_Rifle_TextData",
+          "SourceString": "Caçador de Iniciantes",
+          "LocalizedString": "Caçador de Iniciantes"
+        }
+      },
+      "BOSS_NAME_Hunter_Fat_GatlingGun": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Hunter_Fat_GatlingGun_TextData",
+          "SourceString": "Entrevistador Opressivo",
+          "LocalizedString": "Entrevistador Opressivo"
+        }
+      },
+      "BOSS_NAME_Believer_CrossBow": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Believer_CrossBow_TextData",
+          "SourceString": "Esnobe Tagarela",
+          "LocalizedString": "Esnobe Tagarela"
+        }
+      },
+      "BOSS_NAME_Believer_Fat_GiantClub": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Believer_Fat_GiantClub_TextData",
+          "SourceString": "Fã Ardente",
+          "LocalizedString": "Fã Ardente"
+        }
+      },
+      "BOSS_NAME_Police_Rifle": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Police_Rifle_TextData",
+          "SourceString": "Déspota Incorrigível",
+          "LocalizedString": "Déspota Incorrigível"
+        }
+      },
+      "BOSS_NAME_FireCult_FlameThrower": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FireCult_FlameThrower_TextData",
+          "SourceString": "Amante de Magia Negra",
+          "LocalizedString": "Amante de Magia Negra"
+        }
+      },
+      "BOSS_NAME_Scientist_LaserRifle": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Scientist_LaserRifle_TextData",
+          "SourceString": "Sequestrador",
+          "LocalizedString": "Sequestrador"
+        }
+      },
+      "BOSS_NAME_Ninja": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Ninja_TextData",
+          "SourceString": "Mestre da Mancada",
+          "LocalizedString": "Mestre da Mancada"
+        }
+      },
+      "BOSS_NAME_NinjaElite": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_NinjaElite_TextData",
+          "SourceString": "Testador de Espadas",
+          "LocalizedString": "Testador de Espadas"
+        }
+      },
+      "BOSS_NAME_Female_Soldier": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Female_Soldier_TextData",
+          "SourceString": "Vigarista",
+          "LocalizedString": "Vigarista"
+        }
+      },
+      "BOSS_NAME_Female_Soldier02": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Female_Soldier02_TextData",
+          "SourceString": "Carente de Aprovação",
+          "LocalizedString": "Carente de Aprovação"
+        }
+      },
+      "BOSS_NAME_Female_Soldier03": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Female_Soldier03_TextData",
+          "SourceString": "Amante de Pizza com Abacaxi",
+          "LocalizedString": "Amante de Pizza com Abacaxi"
+        }
+      },
+      "BOSS_NAME_Female_Soldier04": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Female_Soldier04_TextData",
+          "SourceString": "Ladra de Oferendas",
+          "LocalizedString": "Ladra de Oferendas"
+        }
+      },
+      "BOSS_NAME_Male_Soldier": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Male_Soldier_TextData",
+          "SourceString": "Trambiqueiro",
+          "LocalizedString": "Trambiqueiro"
+        }
+      },
+      "BOSS_NAME_Male_Soldier02": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Male_Soldier02_TextData",
+          "SourceString": "Fumante Ambulante",
+          "LocalizedString": "Fumante Ambulante"
+        }
+      },
+      "BOSS_NAME_Male_Soldier03": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Male_Soldier03_TextData",
+          "SourceString": "Nervoso no Gatilho",
+          "LocalizedString": "Nervoso no Gatilho"
+        }
+      },
+      "BOSS_NAME_Male_Soldier04": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Male_Soldier04_TextData",
+          "SourceString": "Ladrão de Gado",
+          "LocalizedString": "Ladrão de Gado"
+        }
+      },
+      "BOSS_NAME_Female_People": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Female_People_TextData",
+          "SourceString": "Incendiária",
+          "LocalizedString": "Incendiária"
+        }
+      },
+      "BOSS_NAME_Female_People02": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Female_People02_TextData",
+          "SourceString": "Amante em Série",
+          "LocalizedString": "Amante em Série"
+        }
+      },
+      "BOSS_NAME_Female_People03": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Female_People03_TextData",
+          "SourceString": "Caçadora de Caçadores",
+          "LocalizedString": "Caçadora de Caçadores"
+        }
+      },
+      "BOSS_NAME_Male_People": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Male_People_TextData",
+          "SourceString": "Gêmeos Bombardeiros",
+          "LocalizedString": "Gêmeos Bombardeiros"
+        }
+      },
+      "BOSS_NAME_Male_People02": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Male_People02_TextData",
+          "SourceString": "Médico Não Licenciado Bem-Intencionado",
+          "LocalizedString": "Médico Não Licenciado Bem-Intencionado"
+        }
+      },
+      "BOSS_NAME_Male_People03": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Male_People03_TextData",
+          "SourceString": "Come-e-Foge",
+          "LocalizedString": "Come-e-Foge"
+        }
+      },
+      "BOSS_NAME_Male_DesertPeople": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Male_DesertPeople_TextData",
+          "SourceString": "Profissional das Fugas",
+          "LocalizedString": "Profissional das Fugas"
+        }
+      },
+      "BOSS_NAME_Female_DesertPeople": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Female_DesertPeople_TextData",
+          "SourceString": "Contador de Spoilers Inveterado",
+          "LocalizedString": "Contador de Spoilers Inveterado"
+        }
+      },
+      "BOSS_NAME_Viking": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Viking_TextData",
+          "SourceString": "Devorador de Gente",
+          "LocalizedString": "Devorador de Gente"
+        }
+      },
+      "BOSS_NAME_VikingElite": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_VikingElite_TextData",
+          "SourceString": "Colecionador de Humanos",
+          "LocalizedString": "Colecionador de Humanos"
+        }
+      },
+      "BOSS_NAME_Police_Old": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Police_Old_TextData",
+          "SourceString": "Apoderador de Empréstimos",
+          "LocalizedString": "Apoderador de Empréstimos"
+        }
+      },
+      "BOSS_NAME_DarkTrader": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_DarkTrader_TextData",
+          "SourceString": "Invasor Armado",
+          "LocalizedString": "Invasor Armado"
+        }
+      },
+      "BOSS_NAME_Male_Trader01": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Male_Trader01_TextData",
+          "SourceString": "Surrupiador",
+          "LocalizedString": "Surrupiador"
+        }
+      },
+      "BOSS_NAME_Male_Trader02": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Male_Trader02_TextData",
+          "SourceString": "Falsificador de Dinheiro",
+          "LocalizedString": "Falsificador de Dinheiro"
+        }
+      },
+      "BOSS_NAME_Male_Trader03": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Male_Trader03_TextData",
+          "SourceString": "Ladrão de Cavalos",
+          "LocalizedString": "Ladrão de Cavalos"
+        }
+      },
+      "PREDATOR_NAME": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "PREDATOR_NAME_TextData",
+          "SourceString": "Tomado pela Ira",
+          "LocalizedString": "Tomado pela Ira"
+        }
+      },
+      "RAID_NAME_DarkMechaDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "RAID_NAME_DarkMechaDragon_TextData",
+          "SourceString": "Invasor do Espaço",
+          "LocalizedString": "Invasor do Espaço"
+        }
+      },
+      "RAID_NAME_DarkMechaDragon_2": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "RAID_NAME_DarkMechaDragon_2_TextData",
+          "SourceString": "Invasor do Espaço [Supremo]",
+          "LocalizedString": "Invasor do Espaço [Supremo]"
+        }
+      },
+      "BOSS_NAME_SecurityDrone": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SecurityDrone_TextData",
+          "SourceString": "Arma Secreta dos Caçadores Clandestinos",
+          "LocalizedString": "Arma Secreta dos Caçadores Clandestinos"
+        }
+      },
+      "BOSS_NAME_GoldenHorse": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_GoldenHorse_TextData",
+          "SourceString": "Criatura Protetora do Ocaso",
+          "LocalizedString": "Criatura Protetora do Ocaso"
+        }
+      },
+      "BOSS_NAME_BadCatgirl": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BadCatgirl_TextData",
+          "SourceString": "Caçador da Paisagem Noturna",
+          "LocalizedString": "Caçador da Paisagem Noturna"
+        }
+      },
+      "BOSS_NAME_BlueberryFairy": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BlueberryFairy_TextData",
+          "SourceString": "Aia Tingida de Anil",
+          "LocalizedString": "Aia Tingida de Anil"
+        }
+      },
+      "BOSS_NAME_DarkMechaDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_DarkMechaDragon_TextData",
+          "SourceString": "Invasor do Espaço",
+          "LocalizedString": "Invasor do Espaço"
+        }
+      },
+      "BOSS_NAME_GhostRabbit": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_GhostRabbit_TextData",
+          "SourceString": "Coelho Negro das Almas",
+          "LocalizedString": "Coelho Negro das Almas"
+        }
+      },
+      "BOSS_NAME_NightBlueHorse": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_NightBlueHorse_TextData",
+          "SourceString": "Crina de Azul Profundo",
+          "LocalizedString": "Crina de Azul Profundo"
+        }
+      },
+      "BOSS_NAME_WhiteShieldDragon": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_WhiteShieldDragon_TextData",
+          "SourceString": "Dragão Protetor Impérvio",
+          "LocalizedString": "Dragão Protetor Impérvio"
+        }
+      },
+      "BOSS_NAME_BlackPuppy": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BlackPuppy_TextData",
+          "SourceString": "Pequeno Herói de Ébano",
+          "LocalizedString": "Pequeno Herói de Ébano"
+        }
+      },
+      "BOSS_NAME_WhiteDeer": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_WhiteDeer_TextData",
+          "SourceString": "Criatura da Salvação",
+          "LocalizedString": "Criatura da Salvação"
+        }
+      },
+      "BOSS_NAME_MysteryMask": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_MysteryMask_TextData",
+          "SourceString": "Apóstolo Multifacetado",
+          "LocalizedString": "Apóstolo Multifacetado"
+        }
+      },
+      "BOSS_NAME_GrimGirl": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_GrimGirl_TextData",
+          "SourceString": "Talhadora Ensanguentada",
+          "LocalizedString": "Talhadora Ensanguentada"
+        }
+      },
+      "BOSS_NAME_PurpleSpider": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_PurpleSpider_TextData",
+          "SourceString": "Estrategista das Teias",
+          "LocalizedString": "Estrategista das Teias"
+        }
+      },
+      "BOSS_NAME_BlueThunderHorse": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BlueThunderHorse_TextData",
+          "SourceString": "Corcel do Relâmpago Azul",
+          "LocalizedString": "Corcel do Relâmpago Azul"
+        }
+      },
+      "BOSS_NAME_SnowTigerBeastman": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SnowTigerBeastman_TextData",
+          "SourceString": "Rei das Presas Gélidas",
+          "LocalizedString": "Rei das Presas Gélidas"
+        }
+      },
+      "BOSS_NAME_Kitsunebi_Ice": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Kitsunebi_Ice_TextData",
+          "SourceString": "Flor de Gelo Cor das Veredas",
+          "LocalizedString": "Flor de Gelo Cor das Veredas"
+        }
+      },
+      "BOSS_NAME_RaijinDaughter_Water": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_RaijinDaughter_Water_TextData",
+          "SourceString": "Descendente das Nuvens Negras",
+          "LocalizedString": "Descendente das Nuvens Negras"
+        }
+      },
+      "BOSS_NAME_WhiteTiger_Ground": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_WhiteTiger_Ground_TextData",
+          "SourceString": "Predador da Terra",
+          "LocalizedString": "Predador da Terra"
+        }
+      },
+      "BOSS_NAME_FengyunDeeper_Electric": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FengyunDeeper_Electric_TextData",
+          "SourceString": "Relâmpago Flutuante",
+          "LocalizedString": "Relâmpago Flutuante"
+        }
+      },
+      "BOSS_NAME_BerryGoat_Dark": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BerryGoat_Dark_TextData",
+          "SourceString": "Fazenda do Negrume",
+          "LocalizedString": "Fazenda do Negrume"
+        }
+      },
+      "BOSS_NAME_Werewolf_Ice": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Werewolf_Ice_TextData",
+          "SourceString": "Movido pelo Luar Gélido",
+          "LocalizedString": "Movido pelo Luar Gélido"
+        }
+      },
+      "BOSS_NAME_Horus_Water": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Horus_Water_TextData",
+          "SourceString": "Conquistador do Céu de Água",
+          "LocalizedString": "Conquistador do Céu de Água"
+        }
+      },
+      "BOSS_NAME_PinkRabbit_Grass": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_PinkRabbit_Grass_TextData",
+          "SourceString": "Sorriso Cintilante",
+          "LocalizedString": "Sorriso Cintilante"
+        }
+      },
+      "BOSS_NAME_AmaterasuWolf_Dark": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_AmaterasuWolf_Dark_TextData",
+          "SourceString": "Deus Guardião da Chama Escura",
+          "LocalizedString": "Deus Guardião da Chama Escura"
+        }
+      },
+      "BOSS_NAME_TentacleTurtle": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_TentacleTurtle_TextData",
+          "SourceString": "Pequeno Forte",
+          "LocalizedString": "Pequeno Forte"
+        }
+      },
+      "BOSS_NAME_OctopusGirl": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_OctopusGirl_TextData",
+          "SourceString": "Peralta dos Mares",
+          "LocalizedString": "Peralta dos Mares"
+        }
+      },
+      "BOSS_NAME_IceNarwhal": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_IceNarwhal_TextData",
+          "SourceString": "Amável Lança de Gelo",
+          "LocalizedString": "Amável Lança de Gelo"
+        }
+      },
+      "BOSS_NAME_JellyfishFairy": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_JellyfishFairy_TextData",
+          "SourceString": "Fada que Flutua à Luz do Sol",
+          "LocalizedString": "Fada que Flutua à Luz do Sol"
+        }
+      },
+      "BOSS_NAME_JellyfishGhost": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_JellyfishGhost_TextData",
+          "SourceString": "Fada que Flutua à Sombra do Sol",
+          "LocalizedString": "Fada que Flutua à Sombra do Sol"
+        }
+      },
+      "BOSS_NAME_GhostAnglerfish": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_GhostAnglerfish_TextData",
+          "SourceString": "Tentação Luminosa das Profundezas",
+          "LocalizedString": "Tentação Luminosa das Profundezas"
+        }
+      },
+      "BOSS_NAME_IceWitch": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_IceWitch_TextData",
+          "SourceString": "Sorriso Congelante",
+          "LocalizedString": "Sorriso Congelante"
+        }
+      },
+      "BOSS_NAME_LeafMomonga": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_LeafMomonga_TextData",
+          "SourceString": "Pancada Consertadora",
+          "LocalizedString": "Pancada Consertadora"
+        }
+      },
+      "BOSS_NAME_IceCrocodile": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_IceCrocodile_TextData",
+          "SourceString": "Refrigerador Ambulante",
+          "LocalizedString": "Refrigerador Ambulante"
+        }
+      },
+      "BOSS_NAME_StuffedShark": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_StuffedShark_TextData",
+          "SourceString": "Olhos que Espiam do Abismo",
+          "LocalizedString": "Olhos que Espiam do Abismo"
+        }
+      },
+      "BOSS_NAME_IceSeal": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_IceSeal_TextData",
+          "SourceString": "Ídolo sobre o Gelo",
+          "LocalizedString": "Ídolo sobre o Gelo"
+        }
+      },
+      "BOSS_NAME_Plesiosaur": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Plesiosaur_TextData",
+          "SourceString": "Antigo Dragão Florescedor",
+          "LocalizedString": "Antigo Dragão Florescedor"
+        }
+      },
+      "BOSS_NAME_TropicalOstrich": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_TropicalOstrich_TextData",
+          "SourceString": "Dança é Vida",
+          "LocalizedString": "Dança é Vida"
+        }
+      },
+      "BOSS_NAME_SnowPeafowl": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_SnowPeafowl_TextData",
+          "SourceString": "Plumagem do Calendário das Neves",
+          "LocalizedString": "Plumagem do Calendário das Neves"
+        }
+      },
+      "BOSS_NAME_PoseidonOrca": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_PoseidonOrca_TextData",
+          "SourceString": "Lendária Besta Marinha",
+          "LocalizedString": "Lendária Besta Marinha"
+        }
+      },
+      "BOSS_NAME_NegativeOctopus_Neutral": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_NegativeOctopus_Neutral_TextData",
+          "SourceString": "Completamente Desprovido de Emoções",
+          "LocalizedString": "Completamente Desprovido de Emoções"
+        }
+      },
+      "BOSS_NAME_Penguin_Electric": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_Penguin_Electric_TextData",
+          "SourceString": "Beberrão Exagerado",
+          "LocalizedString": "Beberrão Exagerado"
+        }
+      },
+      "BOSS_NAME_CaptainPenguin_Black": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_CaptainPenguin_Black_TextData",
+          "SourceString": "Desbravador de Ébano",
+          "LocalizedString": "Desbravador de Ébano"
+        }
+      },
+      "BOSS_NAME_FlyingManta_Thunder": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_FlyingManta_Thunder_TextData",
+          "SourceString": "Peixe que Ruge nos Céus",
+          "LocalizedString": "Peixe que Ruge nos Céus"
+        }
+      },
+      "BOSS_NAME_BluePlatypus_Fire": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BluePlatypus_Fire_TextData",
+          "SourceString": "Surfistinha Descontrolado",
+          "LocalizedString": "Surfistinha Descontrolado"
+        }
+      },
+      "BOSS_NAME_LazyCatfish_Gold": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_LazyCatfish_Gold_TextData",
+          "SourceString": "Sem Motivo para Motivar-se",
+          "LocalizedString": "Sem Motivo para Motivar-se"
+        }
+      },
+      "BOSS_NAME_TentacleTurtle_Ground": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_TentacleTurtle_Ground_TextData",
+          "SourceString": "Forte Dourado",
+          "LocalizedString": "Forte Dourado"
+        }
+      },
+      "BOSS_NAME_KendoFrog_Dark": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_KendoFrog_Dark_TextData",
+          "SourceString": "Gosto pelo Assassinato",
+          "LocalizedString": "Gosto pelo Assassinato"
+        }
+      },
+      "BOSS_NAME_BlueDragon_Ice": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_BlueDragon_Ice_TextData",
+          "SourceString": "Rainha do Lago de Gelo",
+          "LocalizedString": "Rainha do Lago de Gelo"
+        }
+      },
+      "BOSS_NAME_IceNarwhal_Fire": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_IceNarwhal_Fire_TextData",
+          "SourceString": "Amável Lança Carmesim",
+          "LocalizedString": "Amável Lança Carmesim"
+        }
+      },
+      "BOSS_NAME_GhostAnglerfish_Fire": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_GhostAnglerfish_Fire_TextData",
+          "SourceString": "Tentação Ardente das Profundezas",
+          "LocalizedString": "Tentação Ardente das Profundezas"
+        }
+      },
+      "BOSS_NAME_StuffedShark_Fire": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_StuffedShark_Fire_TextData",
+          "SourceString": "Olhos que Espiam das Chamas",
+          "LocalizedString": "Olhos que Espiam das Chamas"
+        }
+      },
+      "RAID_NAME_YakushimaBoss002_2": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "RAID_NAME_YakushimaBoss002_2_TextData",
+          "SourceString": "[Mestre]",
+          "LocalizedString": "[Mestre]"
+        }
+      },
+      "BOSS_NAME_LegendDeer": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "BOSS_NAME_LegendDeer_TextData",
+          "SourceString": "Rei da Salvação",
+          "LocalizedString": "Rei da Salvação"
+        }
+      },
+      "RAID_NAME_LegendDeer": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "RAID_NAME_LegendDeer_TextData",
+          "SourceString": "Rei da Salvação",
+          "LocalizedString": "Rei da Salvação"
+        }
+      },
+      "RAID_NAME_LegendDeer_2": {
+        "TextData": {
+          "Namespace": "DT_NamePrefixText_Common",
+          "Key": "RAID_NAME_LegendDeer_2_TextData",
+          "SourceString": "Rei da Salvação [Supremo]",
+          "LocalizedString": "Rei da Salvação [Supremo]"
+        }
+      }
+    }
+  }
+]

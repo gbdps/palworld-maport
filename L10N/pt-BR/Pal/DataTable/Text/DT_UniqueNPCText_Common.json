@@ -1,0 +1,1017 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_UniqueNPCText_Common",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "Pal/Content/L10N/pt-BR/Pal/DataTable/Text/DT_UniqueNPCText_Common",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalLocalizedTextData'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "NAME_JOHNSON": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_JOHNSON_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "NAME_BOBBY": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_BOBBY_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "NAME_UNIQUE002": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_UNIQUE002_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "NAME_C": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_C_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "NAME_D": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_D_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "NAME_E": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_E_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "NAME_F": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_F_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "NAME_G": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_G_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "NAME_H": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_H_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "NAME_VILLAGELEADER01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_VILLAGELEADER01_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "NAME_NOVICEPALTIMER": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_NOVICEPALTIMER_TextData",
+          "SourceString": "Exploradora sobrevivente",
+          "LocalizedString": "Exploradora sobrevivente"
+        }
+      },
+      "Vigilante_lackey": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Vigilante_lackey_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "Head_of_Village": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Head_of_Village_TextData",
+          "SourceString": "Chefe da colônia",
+          "LocalizedString": "Chefe da colônia"
+        }
+      },
+      "Police_dependable": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Police_dependable_TextData",
+          "SourceString": "Miliciano de confiança",
+          "LocalizedString": "Miliciano de confiança"
+        }
+      },
+      "InnkeeperA": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "InnkeeperA_TextData",
+          "SourceString": "Estalajadeira",
+          "LocalizedString": "Estalajadeira"
+        }
+      },
+      "Rumor-loving_villagers": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Rumor-loving_villagers_TextData",
+          "SourceString": "Aldeã fuxiqueira",
+          "LocalizedString": "Aldeã fuxiqueira"
+        }
+      },
+      "Research-oriented_scholar": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Research-oriented_scholar_TextData",
+          "SourceString": "Aldeão apaixonado pela ciência",
+          "LocalizedString": "Aldeão apaixonado pela ciência"
+        }
+      },
+      "People_cant_leave": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "People_cant_leave_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "Sweaty_paltimer": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Sweaty_paltimer_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "Shabby_looking_merchant": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Shabby_looking_merchant_TextData",
+          "SourceString": "pt-BR_Text",
+          "LocalizedString": "pt-BR_Text"
+        }
+      },
+      "SKILLED_PALTAMIER": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "SKILLED_PALTAMIER_TextData",
+          "SourceString": "Ilhéu de habilidade",
+          "LocalizedString": "Ilhéu de habilidade"
+        }
+      },
+      "NAME_DarkTrader": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_DarkTrader_TextData",
+          "SourceString": "Comerciante furtivo",
+          "LocalizedString": "Comerciante furtivo"
+        }
+      },
+      "BOSSNAME_DEMO_PLAIN_LEADER": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_PLAIN_LEADER_TextData",
+          "SourceString": "ZOE",
+          "LocalizedString": "ZOE"
+        }
+      },
+      "BOSSNAME_DEMO_PLAIN_LEADER_PAL": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_PLAIN_LEADER_PAL_TextData",
+          "SourceString": "GRIZZBOLT",
+          "LocalizedString": "GRIZZBOLT"
+        }
+      },
+      "BOSSNAME_DEMO_VOLCANO_LEADER": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_VOLCANO_LEADER_TextData",
+          "SourceString": "AXEL",
+          "LocalizedString": "AXEL"
+        }
+      },
+      "BOSSNAME_DEMO_VOLCANO_LEADER_PAL": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_VOLCANO_LEADER_PAL_TextData",
+          "SourceString": "ORSERK",
+          "LocalizedString": "ORSERK"
+        }
+      },
+      "BOSSNAME_DEMO_FOREST_LEADER": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_FOREST_LEADER_TextData",
+          "SourceString": "LILY",
+          "LocalizedString": "LILY"
+        }
+      },
+      "BOSSNAME_DEMO_FOREST_LEADER_PAL": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_FOREST_LEADER_PAL_TextData",
+          "SourceString": "LYLEEN",
+          "LocalizedString": "LYLEEN"
+        }
+      },
+      "BOSSNAME_DEMO_DESERT_LEADER": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_DESERT_LEADER_TextData",
+          "SourceString": "MARCUS",
+          "LocalizedString": "MARCUS"
+        }
+      },
+      "BOSSNAME_DEMO_DESERT_LEADER_PAL": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_DESERT_LEADER_PAL_TextData",
+          "SourceString": "FALERIS",
+          "LocalizedString": "FALERIS"
+        }
+      },
+      "BOSSNAME_DEMO_SNOWYMOUNTAIN_LEADER": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_SNOWYMOUNTAIN_LEADER_TextData",
+          "SourceString": "VICTOR",
+          "LocalizedString": "VICTOR"
+        }
+      },
+      "BOSSNAME_DEMO_SNOWYMOUNTAIN_LEADER_PAL": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_SNOWYMOUNTAIN_LEADER_PAL_TextData",
+          "SourceString": "SHADOWBEAK",
+          "LocalizedString": "SHADOWBEAK"
+        }
+      },
+      "DesertVillage001": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "DesertVillage001_TextData",
+          "SourceString": "Habitante friorento do deserto",
+          "LocalizedString": "Habitante friorento do deserto"
+        }
+      },
+      "DesertVillage002": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "DesertVillage002_TextData",
+          "SourceString": "Habitante simpática do deserto",
+          "LocalizedString": "Habitante simpática do deserto"
+        }
+      },
+      "DesertVillage003": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "DesertVillage003_TextData",
+          "SourceString": "Habitante medroso do deserto",
+          "LocalizedString": "Habitante medroso do deserto"
+        }
+      },
+      "DesertPolice001": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "DesertPolice001_TextData",
+          "SourceString": "Subordinado da Milícia Popular",
+          "LocalizedString": "Subordinado da Milícia Popular"
+        }
+      },
+      "DesertPolice002": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "DesertPolice002_TextData",
+          "SourceString": "Miliciano obediente",
+          "LocalizedString": "Miliciano obediente"
+        }
+      },
+      "DesertPolice003": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "DesertPolice003_TextData",
+          "SourceString": "Miliciano que adora fogueiras",
+          "LocalizedString": "Miliciano que adora fogueiras"
+        }
+      },
+      "Police001": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Police001_TextData",
+          "SourceString": "Senhor renascido",
+          "LocalizedString": "Senhor renascido"
+        }
+      },
+      "VolcanoVillage001": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "VolcanoVillage001_TextData",
+          "SourceString": "Aldeão que adora pescaria",
+          "LocalizedString": "Aldeão que adora pescaria"
+        }
+      },
+      "VolcanoVillage002": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "VolcanoVillage002_TextData",
+          "SourceString": "Aldeã prestativa",
+          "LocalizedString": "Aldeã prestativa"
+        }
+      },
+      "VolcanoVillage003": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "VolcanoVillage003_TextData",
+          "SourceString": "Aldeão que adora estrelas",
+          "LocalizedString": "Aldeão que adora estrelas"
+        }
+      },
+      "VolcanoVillage004": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "VolcanoVillage004_TextData",
+          "SourceString": "Aldeã que crê no fogo",
+          "LocalizedString": "Aldeã que crê no fogo"
+        }
+      },
+      "VolcanoPolice001": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "VolcanoPolice001_TextData",
+          "SourceString": "Miliciano irresponsável",
+          "LocalizedString": "Miliciano irresponsável"
+        }
+      },
+      "VolcanoPolice002": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "VolcanoPolice002_TextData",
+          "SourceString": "Miliciano de bom faro",
+          "LocalizedString": "Miliciano de bom faro"
+        }
+      },
+      "RandomBattle_PalTamer": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "RandomBattle_PalTamer_TextData",
+          "SourceString": "Mercenário vigoroso",
+          "LocalizedString": "Mercenário vigoroso"
+        }
+      },
+      "RandomBattle_Police": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "RandomBattle_Police_TextData",
+          "SourceString": "Miliciano vigoroso",
+          "LocalizedString": "Miliciano vigoroso"
+        }
+      },
+      "PvPVillage001": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "PvPVillage001_TextData",
+          "SourceString": "Fugitivo do deserto",
+          "LocalizedString": "Fugitivo do deserto"
+        }
+      },
+      "PvPVillage002": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "PvPVillage002_TextData",
+          "SourceString": "Desafiador andarilho",
+          "LocalizedString": "Desafiador andarilho"
+        }
+      },
+      "PvPVillage003": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "PvPVillage003_TextData",
+          "SourceString": "Ex-mercenária com um joelho ruim",
+          "LocalizedString": "Ex-mercenária com um joelho ruim"
+        }
+      },
+      "PvPVillage004": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "PvPVillage004_TextData",
+          "SourceString": "Refugiado medroso",
+          "LocalizedString": "Refugiado medroso"
+        }
+      },
+      "PvPVillage005": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "PvPVillage005_TextData",
+          "SourceString": "Ilhoa acanhada",
+          "LocalizedString": "Ilhoa acanhada"
+        }
+      },
+      "PvPVillage006": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "PvPVillage006_TextData",
+          "SourceString": "Ilhoa conformada",
+          "LocalizedString": "Ilhoa conformada"
+        }
+      },
+      "BattlePaltamer001": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BattlePaltamer001_TextData",
+          "SourceString": "Domador Inexperiente",
+          "LocalizedString": "Domador Inexperiente"
+        }
+      },
+      "BattlePaltamer002": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BattlePaltamer002_TextData",
+          "SourceString": "Domadora em Ascensão",
+          "LocalizedString": "Domadora em Ascensão"
+        }
+      },
+      "BattlePaltamer003": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BattlePaltamer003_TextData",
+          "SourceString": "Domador Insensível",
+          "LocalizedString": "Domador Insensível"
+        }
+      },
+      "BattlePaltamer004": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BattlePaltamer004_TextData",
+          "SourceString": "Domadora Veterana",
+          "LocalizedString": "Domadora Veterana"
+        }
+      },
+      "BattlePaltamer005": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BattlePaltamer005_TextData",
+          "SourceString": "Domador Aguerrido",
+          "LocalizedString": "Domador Aguerrido"
+        }
+      },
+      "BattlePaltamer006": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BattlePaltamer006_TextData",
+          "SourceString": "Domadora Proficiente",
+          "LocalizedString": "Domadora Proficiente"
+        }
+      },
+      "MerchantwithPAL": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "MerchantwithPAL_TextData",
+          "SourceString": "Comerciante de Pals Mal-Encarado",
+          "LocalizedString": "Comerciante de Pals Mal-Encarado"
+        }
+      },
+      "Assassin001": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Assassin001_TextData",
+          "SourceString": "Comerciante Sorridente Demais",
+          "LocalizedString": "Comerciante Sorridente Demais"
+        }
+      },
+      "Assassin002": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Assassin002_TextData",
+          "SourceString": "Comerciante que Parece Honesto",
+          "LocalizedString": "Comerciante que Parece Honesto"
+        }
+      },
+      "Assassin003": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Assassin003_TextData",
+          "SourceString": "Comerciante de Olhar Penetrante",
+          "LocalizedString": "Comerciante de Olhar Penetrante"
+        }
+      },
+      "MedalTrader": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "MedalTrader_TextData",
+          "SourceString": "Comerciante de Medalhas",
+          "LocalizedString": "Comerciante de Medalhas"
+        }
+      },
+      "BOSSNAME_DEMO_SAKURAJIMA_LEADER": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_SAKURAJIMA_LEADER_TextData",
+          "SourceString": "SAYA",
+          "LocalizedString": "SAYA"
+        }
+      },
+      "BOSSNAME_DEMO_SAKURAJIMA_LEADER_PAL": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_SAKURAJIMA_LEADER_PAL_TextData",
+          "SourceString": "SELYNE",
+          "LocalizedString": "SELYNE"
+        }
+      },
+      "Police_WarningOilrig": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Police_WarningOilrig_TextData",
+          "SourceString": "Milícia Vigilante",
+          "LocalizedString": "Milícia Vigilante"
+        }
+      },
+      "BOSSNAME_DEMO_VIKING_LEADER": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_VIKING_LEADER_TextData",
+          "SourceString": "BJÖRN",
+          "LocalizedString": "BJÖRN"
+        }
+      },
+      "BOSSNAME_DEMO_VIKING_LEADER_PAL": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BOSSNAME_DEMO_VIKING_LEADER_PAL_TextData",
+          "SourceString": "BASTIGOR",
+          "LocalizedString": "BASTIGOR"
+        }
+      },
+      "BountyNavigator": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BountyNavigator_TextData",
+          "SourceString": "Informante de recompensas",
+          "LocalizedString": "Informante de recompensas"
+        }
+      },
+      "Presenter001": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Presenter001_TextData",
+          "SourceString": "Domador simpático",
+          "LocalizedString": "Domador simpático"
+        }
+      },
+      "BountyTrader": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "BountyTrader_TextData",
+          "SourceString": "Miliciano pagador de recompensas",
+          "LocalizedString": "Miliciano pagador de recompensas"
+        }
+      },
+      "Yamishima_guide1": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Yamishima_guide1_TextData",
+          "SourceString": "Geólogo erudito",
+          "LocalizedString": "Geólogo erudito"
+        }
+      },
+      "Yamishima_guide2": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Yamishima_guide2_TextData",
+          "SourceString": "Cientista de Pals exultante",
+          "LocalizedString": "Cientista de Pals exultante"
+        }
+      },
+      "Yamishima_guide3": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Yamishima_guide3_TextData",
+          "SourceString": "Mineralogista empolgado",
+          "LocalizedString": "Mineralogista empolgado"
+        }
+      },
+      "Yamishima_guide4": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Yamishima_guide4_TextData",
+          "SourceString": "Comerciante desiludido",
+          "LocalizedString": "Comerciante desiludido"
+        }
+      },
+      "Yamishima_guide5": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "Yamishima_guide5_TextData",
+          "SourceString": "Desertor do Exército Decaído",
+          "LocalizedString": "Desertor do Exército Decaído"
+        }
+      },
+      "NAME_PalPassive_Doctor": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_PalPassive_Doctor_TextData",
+          "SourceString": "Doutor Brawn",
+          "LocalizedString": "Doutor Brawn"
+        }
+      },
+      "NAME_Reward_Food": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Reward_Food_TextData",
+          "SourceString": "Degustador presunçoso",
+          "LocalizedString": "Degustador presunçoso"
+        }
+      },
+      "NAME_Reward_Paldex": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Reward_Paldex_TextData",
+          "SourceString": "Biólogo de Pals",
+          "LocalizedString": "Biólogo de Pals"
+        }
+      },
+      "NAME_Reward_BossDefeat": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Reward_BossDefeat_TextData",
+          "SourceString": "Caçador veterano",
+          "LocalizedString": "Caçador veterano"
+        }
+      },
+      "NAME_Reward_PalCaptureCount": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Reward_PalCaptureCount_TextData",
+          "SourceString": "Caçador esperto",
+          "LocalizedString": "Caçador esperto"
+        }
+      },
+      "NAME_Reward_Emote_A_01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Reward_Emote_A_01_TextData",
+          "SourceString": "Missionário do amor",
+          "LocalizedString": "Missionário do amor"
+        }
+      },
+      "NAME_Reward_PalDisplay": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_Reward_PalDisplay_TextData",
+          "SourceString": "Avaliador de Pals insolente",
+          "LocalizedString": "Avaliador de Pals insolente"
+        }
+      },
+      "ArenaShop": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "ArenaShop_TextData",
+          "SourceString": "Comerciante do Coliseu",
+          "LocalizedString": "Comerciante do Coliseu"
+        }
+      },
+      "NAME_QUEST_FARMER01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_FARMER01_TextData",
+          "SourceString": "Fazendeira Aflita",
+          "LocalizedString": "Fazendeira Aflita"
+        }
+      },
+      "NAME_QUEST_FARMER02": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_FARMER02_TextData",
+          "SourceString": "Fazendeira Gourmet",
+          "LocalizedString": "Fazendeira Gourmet"
+        }
+      },
+      "NAME_QUEST_FARMER03": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_FARMER03_TextData",
+          "SourceString": "Fazendeira Atenciosa",
+          "LocalizedString": "Fazendeira Atenciosa"
+        }
+      },
+      "NAME_QUEST_FARMER04": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_FARMER04_TextData",
+          "SourceString": "Fazendeira Amante de Pals",
+          "LocalizedString": "Fazendeira Amante de Pals"
+        }
+      },
+      "NAME_QUEST_SCHOLAR01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_SCHOLAR01_TextData",
+          "SourceString": "Pesquisador em Busca de Lendas",
+          "LocalizedString": "Pesquisador em Busca de Lendas"
+        }
+      },
+      "NAME_QUEST_SCHOLAR02": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_SCHOLAR02_TextData",
+          "SourceString": "Pesquisador da Civilização Antiga",
+          "LocalizedString": "Pesquisador da Civilização Antiga"
+        }
+      },
+      "NAME_QUEST_SCHOLAR03": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_SCHOLAR03_TextData",
+          "SourceString": "Pesquisador Fissurado em Fuacks",
+          "LocalizedString": "Pesquisador Fissurado em Fuacks"
+        }
+      },
+      "NAME_QUEST_SCHOLAR04": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_SCHOLAR04_TextData",
+          "SourceString": "Pesquisador Louco por Pedrinhas",
+          "LocalizedString": "Pesquisador Louco por Pedrinhas"
+        }
+      },
+      "NAME_QUEST_BREEDER01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_BREEDER01_TextData",
+          "SourceString": "Criador de Pals Iniciante",
+          "LocalizedString": "Criador de Pals Iniciante"
+        }
+      },
+      "NAME_QUEST_BREEDER02": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_BREEDER02_TextData",
+          "SourceString": "Criador Companheiro",
+          "LocalizedString": "Criador Companheiro"
+        }
+      },
+      "NAME_QUEST_BREEDER03": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_BREEDER03_TextData",
+          "SourceString": "Criador Acrofóbico",
+          "LocalizedString": "Criador Acrofóbico"
+        }
+      },
+      "NAME_QUEST_BREEDER04": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_BREEDER04_TextData",
+          "SourceString": "Criador Apaixonado pela Reprodução dos Pals",
+          "LocalizedString": "Criador Apaixonado pela Reprodução dos Pals"
+        }
+      },
+      "NAME_QUEST_RANGER01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_RANGER01_TextData",
+          "SourceString": "Caçadora que Caça Todos os Dias",
+          "LocalizedString": "Caçadora que Caça Todos os Dias"
+        }
+      },
+      "NAME_QUEST_RANGER02": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_RANGER02_TextData",
+          "SourceString": "Caçadora com Forte Senso de Justiça",
+          "LocalizedString": "Caçadora com Forte Senso de Justiça"
+        }
+      },
+      "NAME_QUEST_RANGER03": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_RANGER03_TextData",
+          "SourceString": "Caçadora de Presas Valiosas",
+          "LocalizedString": "Caçadora de Presas Valiosas"
+        }
+      },
+      "NAME_QUEST_RANGER04": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_RANGER04_TextData",
+          "SourceString": "Caçadora Perfumada",
+          "LocalizedString": "Caçadora Perfumada"
+        }
+      },
+      "NAME_QUEST_NOMAD01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_NOMAD01_TextData",
+          "SourceString": "Andarilha que Só Pensa na Ida",
+          "LocalizedString": "Andarilha que Só Pensa na Ida"
+        }
+      },
+      "NAME_QUEST_NOMAD02": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_NOMAD02_TextData",
+          "SourceString": "Andarilha Incansável em Busca de Brilhos",
+          "LocalizedString": "Andarilha Incansável em Busca de Brilhos"
+        }
+      },
+      "NAME_QUEST_NOMAD03": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_NOMAD03_TextData",
+          "SourceString": "Andarilha que Prefere Aventura a Comer",
+          "LocalizedString": "Andarilha que Prefere Aventura a Comer"
+        }
+      },
+      "NAME_QUEST_NOMAD04": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_NOMAD04_TextData",
+          "SourceString": "Andarilha que Vai Aonde o Vento Soprar",
+          "LocalizedString": "Andarilha que Vai Aonde o Vento Soprar"
+        }
+      },
+      "NAME_QUEST_ANGLER01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_ANGLER01_TextData",
+          "SourceString": "Pescador Curtindo a Vida Pacata",
+          "LocalizedString": "Pescador Curtindo a Vida Pacata"
+        }
+      },
+      "CampPolice001": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice001_TextData",
+          "SourceString": "Miliciano de vigia",
+          "LocalizedString": "Miliciano de vigia"
+        }
+      },
+      "CampPolice002": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice002_TextData",
+          "SourceString": "Miliciano saindo do trabalho",
+          "LocalizedString": "Miliciano saindo do trabalho"
+        }
+      },
+      "CampPolice003": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice003_TextData",
+          "SourceString": "Miliciano apreciador de bebidas",
+          "LocalizedString": "Miliciano apreciador de bebidas"
+        }
+      },
+      "CampPolice004": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice004_TextData",
+          "SourceString": "Miliciano sarcástico",
+          "LocalizedString": "Miliciano sarcástico"
+        }
+      },
+      "CampPolice005": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice005_TextData",
+          "SourceString": "Miliciano no banheiro",
+          "LocalizedString": "Miliciano no banheiro"
+        }
+      },
+      "CampPolice006": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice006_TextData",
+          "SourceString": "Miliciano responsável",
+          "LocalizedString": "Miliciano responsável"
+        }
+      },
+      "CampPolice007": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice007_TextData",
+          "SourceString": "Delegado desmotivado",
+          "LocalizedString": "Delegado desmotivado"
+        }
+      },
+      "CampPolice008": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice008_TextData",
+          "SourceString": "Miliciano medroso",
+          "LocalizedString": "Miliciano medroso"
+        }
+      },
+      "CampPolice009": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice009_TextData",
+          "SourceString": "Miliciano comunicativo",
+          "LocalizedString": "Miliciano comunicativo"
+        }
+      },
+      "CampPolice010": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice010_TextData",
+          "SourceString": "Miliciano fleumático",
+          "LocalizedString": "Miliciano fleumático"
+        }
+      },
+      "CampPolice011": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice011_TextData",
+          "SourceString": "Miliciano protetor de tesouros",
+          "LocalizedString": "Miliciano protetor de tesouros"
+        }
+      },
+      "CampPolice012": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice012_TextData",
+          "SourceString": "Miliciano no intervalo",
+          "LocalizedString": "Miliciano no intervalo"
+        }
+      },
+      "CampPolice013": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice013_TextData",
+          "SourceString": "Miliciano degenerado",
+          "LocalizedString": "Miliciano degenerado"
+        }
+      },
+      "CampPolice014": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice014_TextData",
+          "SourceString": "Miliciano cochilador",
+          "LocalizedString": "Miliciano cochilador"
+        }
+      },
+      "CampPolice015": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice015_TextData",
+          "SourceString": "Miliciano embriagado",
+          "LocalizedString": "Miliciano embriagado"
+        }
+      },
+      "CampPolice016": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice016_TextData",
+          "SourceString": "Miliciano com sede",
+          "LocalizedString": "Miliciano com sede"
+        }
+      },
+      "CampPolice017": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "CampPolice017_TextData",
+          "SourceString": "Miliciano desconfiado",
+          "LocalizedString": "Miliciano desconfiado"
+        }
+      },
+      "NAME_GrassBoss": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_GrassBoss_TextData",
+          "SourceString": "Zoe",
+          "LocalizedString": "Zoe"
+        }
+      },
+      "NAME_QUEST_KIGURUMI01": {
+        "TextData": {
+          "Namespace": "DT_UniqueNPCText_Common",
+          "Key": "NAME_QUEST_KIGURUMI01_TextData",
+          "SourceString": "Ilhéu que sonha em ser Depresso",
+          "LocalizedString": "Ilhéu que sonha em ser Depresso"
+        }
+      }
+    }
+  }
+]
