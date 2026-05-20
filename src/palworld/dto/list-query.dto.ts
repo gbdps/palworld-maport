@@ -4,13 +4,14 @@ export class ListQueryDto {
   limit = 50;
   offset = 0;
   search?: string;
+  level?: number;
 }
 
 @Injectable()
 export class ListQueryPipe implements PipeTransform<Record<string, unknown>, ListQueryDto> {
   transform(value: Record<string, unknown>) {
     const query = new ListQueryDto();
-    query.limit = this.parseInteger(value.limit, 'limit', 50, 1, 500);
+    query.limit = this.parseInteger(value.limit, 'limit', 50, 1, 5000);
     query.offset = this.parseInteger(value.offset, 'offset', 0, 0, Number.MAX_SAFE_INTEGER);
 
     if (value.search !== undefined) {
@@ -24,6 +25,9 @@ export class ListQueryPipe implements PipeTransform<Record<string, unknown>, Lis
       }
 
       if (search.length > 0) query.search = search;
+    }
+    if (value.level !== undefined) {
+      query.level = this.parseInteger(value.level, 'level', 1, 1, 100);
     }
 
     return query;

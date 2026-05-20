@@ -8,6 +8,13 @@ export interface PalDocument {
   description: string;
   icon: string | null;
   model: string | null;
+  elements: string[];
+  minLevel: number | null;
+  maxLevel: number | null;
+  rarity: number | null;
+  zukanIndex: number | null;
+  zukanIndexSuffix: string;
+  isBoss: boolean;
 }
 
 export interface ItemDocument {
@@ -21,4 +28,5 @@ export interface ListQuery {
   limit?: number;
   offset?: number;
   search?: string;
+  level?: number;
 }

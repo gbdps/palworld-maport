@@ -9,6 +9,15 @@ type TextIndex = {
   exact: TextMap;
   lower: TextMap;
 };
+type PalParameterRow = {
+  palId: string;
+  sourceId: string;
+  elements: string[];
+  rarity: number | null;
+  zukanIndex: number | null;
+  zukanIndexSuffix: string;
+  isBoss: boolean;
+};
 
 const ROOT = resolve(__dirname, '..', '..');
 
@@ -39,25 +48,37 @@ export class PalworldRepository {
       ...this.readIconRows('DataTable/Character/DT_PalCharacterIconDataTable_SkinOverride_Common.json'),
     };
     const palModels = this.readModelRows('DataTable/Character/DT_PalBPClass_Common.json');
+    const palLevels = this.readPalLevelRows('DataTable/Character/DT_CapturedCagePal.json');
+    const palParameters = this.readPalParameterRows('DataTable/Character/DT_PalMonsterParameter_Common.json');
     const itemIcons = this.readIconRows('DataTable/Item/DT_ItemIconDataTable_Common.json');
     const itemRows = this.readRows('DataTable/Item/DT_ItemDataTable_Common.json');
 
-    this.pals = new Map(
-      Object.keys({ ...palIcons, ...palModels }).map((palId) => {
+    const palEntries: Array<[string, PalDocument]> = [];
+    for (const parameter of palParameters) {
+        const palId = parameter.palId;
         const description = this.resolvePalText(palDescriptions, palId) ?? '';
+        const icon = this.resolvePalIcon(palIcons, palId);
+        if (!icon) continue;
 
-        return [
+        palEntries.push([
           palId,
           {
             palId,
             name: this.resolvePalText(palNames, palId) ?? palId,
             description: this.resolveTextReferences(description, palNames, itemNames),
-            icon: palIcons[palId] ?? null,
+            icon,
             model: palModels[palId] ?? null,
+            elements: parameter.elements,
+            minLevel: palLevels[palId]?.minLevel ?? null,
+            maxLevel: palLevels[palId]?.maxLevel ?? null,
+            rarity: parameter.rarity,
+            zukanIndex: parameter.zukanIndex,
+            zukanIndexSuffix: parameter.zukanIndexSuffix,
+            isBoss: parameter.isBoss,
           },
-        ];
-      }),
-    );
+        ]);
+      }
+    this.pals = new Map(palEntries);
 
     this.items = new Map(
       Object.entries(itemRows).map(([itemId, row]) => {
@@ -116,13 +137,17 @@ export class PalworldRepository {
     return item;
   }
 
-  private filter<T extends { name: string }>(documents: T[], query: ListQuery) {
+  private filter<T extends { name: string; minLevel?: unknown; maxLevel?: unknown }>(documents: T[], query: ListQuery) {
     const offset = query.offset ?? 0;
     const limit = query.limit ?? 50;
     const search = query.search?.trim().toLowerCase();
-    const filtered = search
+    const searchable = search
       ? documents.filter((document) => JSON.stringify(document).toLowerCase().includes(search))
       : documents;
+    const filtered =
+      typeof query.level === 'number'
+        ? searchable.filter((document) => this.documentMatchesLevel(document, query.level ?? 1))
+        : searchable;
 
     return {
       total: filtered.length,
@@ -130,6 +155,11 @@ export class PalworldRepository {
       limit,
       data: filtered.sort((a, b) => a.name.localeCompare(b.name, 'pt-BR')).slice(offset, offset + limit),
     };
+  }
+
+  private documentMatchesLevel(document: { minLevel?: unknown; maxLevel?: unknown }, level: number) {
+    if (typeof document.minLevel !== 'number' || typeof document.maxLevel !== 'number') return false;
+    return document.minLevel <= level && document.maxLevel >= level;
   }
 
   private readTextTable(relativePath: string, prefix: string): TextIndex {
@@ -171,15 +201,47 @@ export class PalworldRepository {
   }
 
   private palTextCandidates(palId: string) {
-    const withoutBoss = palId.replace(/^(BOSS_|Boss_)/, '');
-    const withoutSkin = withoutBoss.replace(/_Skin\d+$/i, '');
+    const withoutPrefix = palId.replace(/^(BOSS_|Boss_|PREDATOR_|Predator_|RAID_|Raid_)/, '');
+    const withoutSkin = withoutPrefix.replace(/_Skin\d+$/i, '');
     const withoutEventSuffix = withoutSkin.replace(/_Oilrig$/i, '');
     const progressiveBaseIds = withoutEventSuffix
       .split('_')
       .map((_, index, parts) => parts.slice(0, parts.length - index).join('_'))
       .filter(Boolean);
 
-    return [...new Set([palId, withoutBoss, withoutSkin, withoutEventSuffix, ...progressiveBaseIds])];
+    return [...new Set([palId, withoutPrefix, withoutSkin, withoutEventSuffix, ...progressiveBaseIds])];
+  }
+
+  private resolvePalIcon(palIcons: Record<string, string>, palId: string) {
+    for (const candidate of this.palTextCandidates(palId)) {
+      const tableIcon = palIcons[candidate];
+      if (tableIcon) return tableIcon;
+
+      const normalIcon = this.palIconFileToUrl('Normal', candidate);
+      if (normalIcon) return normalIcon;
+
+      const npcIcon = this.palIconFileToUrl('NPC', candidate);
+      if (npcIcon) return npcIcon;
+    }
+
+    return null;
+  }
+
+  private palIconFileToUrl(folder: string, palId: string) {
+    const fileNames = [
+      `T_${palId}_icon_normal.png`,
+      `T_${palId}_Icon_Normal.png`,
+      `T_${palId}.png`,
+    ];
+
+    for (const fileName of fileNames) {
+      const relativePath = join('Pal', 'Texture', 'PalIcon', folder, fileName);
+      if (existsSync(join(ROOT, 'Game', relativePath))) {
+        return `/api/assets/${relativePath.replace(/\\/g, '/')}`;
+      }
+    }
+
+    return null;
   }
 
   private readIconRows(relativePath: string): Record<string, string> {
@@ -196,6 +258,87 @@ export class PalworldRepository {
         .map(([id, row]) => [id, this.getAssetPath(row.BPClass)])
         .filter((entry): entry is [string, string] => typeof entry[1] === 'string'),
     );
+  }
+
+  private readPalLevelRows(relativePath: string): Record<string, { minLevel: number; maxLevel: number }> {
+    const levels: Record<string, { minLevel: number; maxLevel: number }> = {};
+
+    for (const row of Object.values(this.readRows(relativePath))) {
+      const palId = typeof row.PalId === 'string' ? row.PalId : null;
+      const minLevel = typeof row.MinLevel === 'number' ? row.MinLevel : null;
+      const maxLevel = typeof row.MaxLevel === 'number' ? row.MaxLevel : null;
+      if (!palId || minLevel === null || maxLevel === null) continue;
+
+      const current = levels[palId];
+      levels[palId] = current
+        ? {
+            minLevel: Math.min(current.minLevel, minLevel),
+            maxLevel: Math.max(current.maxLevel, maxLevel),
+          }
+        : { minLevel, maxLevel };
+    }
+
+    return levels;
+  }
+
+  private readPalParameterRows(relativePath: string): PalParameterRow[] {
+    const byPalId = new Map<string, PalParameterRow>();
+
+    for (const [sourceId, row] of Object.entries(this.readRows(relativePath))) {
+      if (row.IsPal !== true) continue;
+      if (this.hasTechnicalPrefix(sourceId)) continue;
+      if (sourceId.includes('_')) continue;
+
+      const palId = this.canonicalPalId(sourceId);
+      if (!palId || palId.startsWith('NPC_') || palId.startsWith('Human_')) continue;
+
+      const parameter: PalParameterRow = {
+        palId,
+        sourceId,
+        elements: this.readPalElements(row),
+        rarity: typeof row.Rarity === 'number' ? row.Rarity : null,
+        zukanIndex: typeof row.ZukanIndex === 'number' ? row.ZukanIndex : null,
+        zukanIndexSuffix: typeof row.ZukanIndexSuffix === 'string' ? row.ZukanIndexSuffix : '',
+        isBoss: row.IsBoss === true,
+      };
+      const current = byPalId.get(palId);
+      if (!current || this.palParameterPriority(parameter) > this.palParameterPriority(current)) {
+        byPalId.set(palId, parameter);
+      }
+    }
+
+    return [...byPalId.values()].sort((left, right) => {
+      const leftIndex = left.zukanIndex ?? Number.MAX_SAFE_INTEGER;
+      const rightIndex = right.zukanIndex ?? Number.MAX_SAFE_INTEGER;
+      if (leftIndex !== rightIndex) return leftIndex - rightIndex;
+      if (left.zukanIndexSuffix !== right.zukanIndexSuffix) {
+        return left.zukanIndexSuffix.localeCompare(right.zukanIndexSuffix);
+      }
+      return left.palId.localeCompare(right.palId);
+    });
+  }
+
+  private palParameterPriority(row: PalParameterRow) {
+    let priority = 0;
+    if (!row.isBoss) priority += 10;
+    if ((row.zukanIndex ?? -1) > 0) priority += 5;
+    if (!row.sourceId.includes('_')) priority += 2;
+    return priority;
+  }
+
+  private readPalElements(row: Record<string, unknown>) {
+    return [row.ElementType1, row.ElementType2]
+      .map((value) => (typeof value === 'string' ? value.replace(/^EPalElementType::/, '') : null))
+      .filter((value): value is string => Boolean(value && value !== 'None'));
+  }
+
+  private canonicalPalId(value: string) {
+    const withoutPrefix = value.replace(/^(BOSS_|Boss_|PREDATOR_|Predator_|RAID_|Raid_)/, '');
+    return withoutPrefix.split('_')[0];
+  }
+
+  private hasTechnicalPrefix(value: string) {
+    return /^(BOSS_|Boss_|PREDATOR_|Predator_|RAID_|Raid_)/.test(value);
   }
 
   private readRows(relativePath: string): Rows {
