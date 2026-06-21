@@ -21,6 +21,56 @@ type PalParameterRow = {
 
 const ROOT = resolve(__dirname, '..', '..');
 
+// ---------------------------------------------------------------------------
+// Mapeamentos pt-BR para tags inline sem DataTable fonte (portado do paldium).
+// ---------------------------------------------------------------------------
+const UI_COMMON: Record<string, string> = {
+  COMMON_ELEMENT_NAME_Fire: 'Fogo',
+  COMMON_ELEMENT_NAME_Aqua: 'Água',
+  COMMON_ELEMENT_NAME_Electricity: 'Eletricidade',
+  COMMON_ELEMENT_NAME_Ice: 'Gelo',
+  COMMON_ELEMENT_NAME_Earth: 'Terra',
+  COMMON_ELEMENT_NAME_Dark: 'Trevas',
+  COMMON_ELEMENT_NAME_Dragon: 'Dragão',
+  COMMON_ELEMENT_NAME_Grass: 'Planta',
+  COMMON_ELEMENT_NAME_Normal: 'Normal',
+  COMMON_CONDITION_NAME_Cold: 'Resfriado',
+  COMMON_CONDITION_NAME_Sprain: 'Entorse',
+  COMMON_CONDITION_NAME_Bulimia: 'Bulimia',
+  COMMON_CONDITION_NAME_GastricUlcer: 'Úlcera Gástrica',
+  COMMON_CONDITION_NAME_Fracture: 'Fratura',
+  COMMON_CONDITION_NAME_Weakness: 'Fraqueza',
+  COMMON_CONDITION_NAME_DepressionSprain: 'Depressão',
+  COMMON_STATUS_RANGE_ATTACK: 'Ataque a Distância',
+  COMMON_STATUS_MELEE_ATTACK: 'Ataque Corpo a Corpo',
+  COMMON_STATUS_DEFENCE: 'Defesa',
+  COMMON_STATUS_HP: 'PV',
+  RARITY_COMMON: 'Comum',
+  RARITY_UNCOMMON: 'Incomum',
+  RARITY_RARE: 'Raro',
+  RARITY_EPIC: 'Épico',
+  RARITY_LEGENDARY: 'Lendário',
+};
+
+const MAP_OBJECTS: Record<string, string> = {
+  WorkBench: 'Bancada de Trabalho',
+  Furnace: 'Fornalha',
+  Campfire: 'Fogueira',
+  CookingPot: 'Panela',
+  Mill: 'Moinho',
+};
+
+// Nomes placeholder que nao sao traducoes reais (en_text, pt-BR_Text, etc).
+const PLACEHOLDER_NAME = /^(?:en_text|pt-br_text|ja_text|ko_text|zh-hans_text|zh-hant_text|xx_text)$/i;
+
+function camelToReadable(code: string): string {
+  return code.replace(/([a-z])([A-Z])/g, '$1 $2').replace(/_/g, ' ');
+}
+
+function isPlaceholderName(name: string): boolean {
+  return PLACEHOLDER_NAME.test(name);
+}
+
 @Injectable()
 export class PalworldRepository {
   private pals = new Map<string, PalDocument>();
@@ -60,11 +110,14 @@ export class PalworldRepository {
         const icon = this.resolvePalIcon(palIcons, palId);
         if (!icon) continue;
 
+        const name = this.resolvePalText(palNames, palId) ?? palId;
+        if (isPlaceholderName(name)) continue;
+
         palEntries.push([
           palId,
           {
             palId,
-            name: this.resolvePalText(palNames, palId) ?? palId,
+            name,
             description: this.resolveTextReferences(description, palNames, itemNames),
             icon,
             model: palModels[palId] ?? null,
@@ -81,7 +134,7 @@ export class PalworldRepository {
     this.pals = new Map(palEntries);
 
     this.items = new Map(
-      Object.entries(itemRows).map(([itemId, row]) => {
+      Object.entries(itemRows).flatMap(([itemId, row]): Array<[string, ItemDocument]> => {
         const iconId = typeof row.IconName === 'string' && row.IconName !== 'None' ? row.IconName : itemId;
         const nameKey = typeof row.OverrideName === 'string' && row.OverrideName !== 'None' ? row.OverrideName : itemId;
         const descKey =
@@ -89,18 +142,23 @@ export class PalworldRepository {
             ? row.OverrideDescription.replace(/^ITEM_DESC_/, '')
             : itemId;
 
+        const name = this.resolveItemText(itemNames, nameKey.replace(/^ITEM_NAME_/, '')) ?? itemId;
+        if (isPlaceholderName(name)) return [];
+
         return [
-          itemId,
-          {
+          [
             itemId,
-            name: this.resolveItemText(itemNames, nameKey.replace(/^ITEM_NAME_/, '')) ?? itemId,
-            icon: itemIcons[iconId] ?? itemIcons[itemId] ?? null,
-            description: this.resolveTextReferences(
-              this.resolveItemText(itemDescriptions, descKey) ?? '',
-              palNames,
-              itemNames,
-            ),
-          },
+            {
+              itemId,
+              name,
+              icon: itemIcons[iconId] ?? itemIcons[itemId] ?? null,
+              description: this.resolveTextReferences(
+                this.resolveItemText(itemDescriptions, descKey) ?? '',
+                palNames,
+                itemNames,
+              ),
+            },
+          ],
         ];
       }),
     );
@@ -195,9 +253,20 @@ export class PalworldRepository {
   }
 
   private resolveTextReferences(value: string, palNames: TextIndex, itemNames: TextIndex) {
-    return value
-      .replace(/<characterName id=\|([^|]+)\|\/>/g, (_, palId: string) => this.resolvePalText(palNames, palId) ?? palId)
-      .replace(/<itemName id=\|([^|]+)\|\/>/g, (_, itemId: string) => this.resolveItemText(itemNames, itemId) ?? itemId);
+    if (!value) return '';
+    return (
+      value
+        .replace(/<characterName id=\|([^|]+)\|\/>/g, (_, palId: string) => this.resolvePalText(palNames, palId) ?? palId)
+        .replace(/<itemName id=\|([^|]+)\|\/>/g, (_, itemId: string) => this.resolveItemText(itemNames, itemId) ?? itemId)
+        .replace(/<uiCommon id=\|([^|]+)\|\/>/g, (_, code: string) => UI_COMMON[code] ?? camelToReadable(code))
+        .replace(/<[Mm]apObjectName id=\|([^|]+)\|\/>/g, (_, code: string) => MAP_OBJECTS[code] ?? camelToReadable(code))
+        // Fallback generico: qualquer tag inline restante (<activeSkillName>, etc).
+        .replace(
+          /<[a-zA-Z]+ id=\|([^|]+)\|\/>/g,
+          (_, code: string) => this.resolveItemText(itemNames, code) ?? this.resolvePalText(palNames, code) ?? camelToReadable(code),
+        )
+        .replace(/\r\n/g, '\n')
+    );
   }
 
   private palTextCandidates(palId: string) {
