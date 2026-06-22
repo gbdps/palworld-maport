@@ -99,7 +99,10 @@ export class PalworldRepository {
     };
     const palModels = this.readModelRows('DataTable/Character/DT_PalBPClass_Common.json');
     const palLevels = this.readPalLevelRows('DataTable/Character/DT_CapturedCagePal.json');
-    const palParameters = this.readPalParameterRows('DataTable/Character/DT_PalMonsterParameter_Common.json');
+    const palParameters = this.readPalParameterRows(
+      'DataTable/Character/DT_PalMonsterParameter_Common.json',
+      new Set(palNames.exact.keys()),
+    );
     const itemIcons = this.readIconRows('DataTable/Item/DT_ItemIconDataTable_Common.json');
     const itemRows = this.readRows('DataTable/Item/DT_ItemDataTable_Common.json');
 
@@ -350,16 +353,19 @@ export class PalworldRepository {
     return levels;
   }
 
-  private readPalParameterRows(relativePath: string): PalParameterRow[] {
+  private readPalParameterRows(relativePath: string, nameCodes: Set<string>): PalParameterRow[] {
     const byPalId = new Map<string, PalParameterRow>();
 
     for (const [sourceId, row] of Object.entries(this.readRows(relativePath))) {
       if (row.IsPal !== true) continue;
       if (this.hasTechnicalPrefix(sourceId)) continue;
-      if (sourceId.includes('_')) continue;
+      if (sourceId.startsWith('NPC_') || sourceId.startsWith('Human_')) continue;
+      // Variantes elementais tem id com '_' (ex.: CaptainPenguin_Black = "Penking
+      // Lux") e SAO pals distintos: incluimos quando possuem nome proprio. Id com
+      // '_' sem nome proprio e forma tecnica/alternativa -> ignora.
+      if (sourceId.includes('_') && !nameCodes.has(sourceId)) continue;
 
-      const palId = this.canonicalPalId(sourceId);
-      if (!palId || palId.startsWith('NPC_') || palId.startsWith('Human_')) continue;
+      const palId = sourceId;
 
       const parameter: PalParameterRow = {
         palId,
@@ -399,11 +405,6 @@ export class PalworldRepository {
     return [row.ElementType1, row.ElementType2]
       .map((value) => (typeof value === 'string' ? value.replace(/^EPalElementType::/, '') : null))
       .filter((value): value is string => Boolean(value && value !== 'None'));
-  }
-
-  private canonicalPalId(value: string) {
-    const withoutPrefix = value.replace(/^(BOSS_|Boss_|PREDATOR_|Predator_|RAID_|Raid_)/, '');
-    return withoutPrefix.split('_')[0];
   }
 
   private hasTechnicalPrefix(value: string) {
